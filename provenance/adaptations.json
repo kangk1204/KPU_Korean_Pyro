@@ -7,5 +7,27 @@
       "reason": "Use actual final public RESTORE_CATALOG.json and shared validated path/checksum restore routine"
     }
   ],
-  "numerical_algorithms_modified": false
+  "numerical_algorithms_modified": false,
+  "public_validation_revision": {
+    "reason": "Bounded-REML floating-point objective sensitivity; original statistical sources and canonical aggregate inputs preserved",
+    "observed_linux_q_absolute_difference": 2.1348251e-09,
+    "files": [
+      {
+        "path": "reproduce.py",
+        "public_sha256": "2bdeb102509b36251936011e501cddaf0de4748fcc75ca9e7e8c56f91c0ff870"
+      },
+      {
+        "path": "tests/test_reproduction.py",
+        "public_sha256": "cc69acee9d308d089a0008bf430308d58f717a6dcce4f84a180d46b757093c06"
+      },
+      {
+        "path": ".github/workflows/reproducibility.yml",
+        "public_sha256": "782cba67e298410719b9f500f9ea6dca41fd41c82b56d641e1750169f9c1afea"
+      },
+      {
+        "path": "docs/portable_validation.md",
+        "public_sha256": "bc46714b95313c51b4c148e06e330f1821979c0ec08644db172d590b711d6a22"
+      }
+    ]
+  }
 }

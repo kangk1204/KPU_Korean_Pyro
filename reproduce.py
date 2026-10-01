@@ -77,9 +77,80 @@ def compare_tsv(expected,actual,key_columns=()):
             try:x,y=float(old[c]),float(new[c])
             except ValueError:raise ValueError('Changed label '+c+': '+repr((old[c],new[c])))
             if math.isnan(x) and math.isnan(y):continue
-            require(math.isclose(x,y,rel_tol=1e-9,abs_tol=1e-10),'Changed numeric value '+c+': '+repr((x,y)))
+            require(math.isclose(x,y,rel_tol=1e-12,abs_tol=1e-12),'Changed numeric value '+c+': '+repr((x,y)))
             max_error=max(max_error,abs(x-y))
     return {'rows':len(a),'columns':len(fields),'maximum_absolute_error':max_error,'byte_identical':digest(expected)==digest(actual)}
+
+# Bounded REML has a sqrt(machine-epsilon) relative stopping term in addition
+# to xatol. One-ULP objective probes showed up to 4.83e-8 relative tau^2
+# variation; use a 1e-7 relative gate only for solver-dependent quantities.
+META_TOLERANCES = {
+    **{c: {'relative':1e-7,'absolute':1e-8,'unit':'percentage points'}
+       for c in ('effect_pp','se_pp','ci_low_pp','ci_high_pp')},
+    **{c: {'relative':1e-7,'absolute':0.,'unit':'probability'}
+       for c in ('p','p_for_bh','q_BH_contrast_77')},
+    'tau2_pp2': {'relative':1e-7,'absolute':1e-8,'unit':'squared percentage points'},
+    'hk_scale': {'relative':1e-7,'absolute':1e-8,'unit':'dimensionless'},
+    'I2_percent': {'relative':1e-10,'absolute':1e-10,'unit':'percent'},
+    'heterogeneity_Q': {'relative':1e-10,'absolute':1e-10,'unit':'dimensionless'},
+}
+
+
+def sign(value):
+    return (value>0)-(value<0)
+
+
+def compare_meta_tsv(expected,actual,raise_on_failure=True):
+    """Compare all results with exact scientific decisions and unit-specific gates."""
+    fields,a=read_tsv(expected);newfields,b=read_tsv(actual)
+    require(fields==newfields and len(a)==len(b),'Changed meta schema/row count')
+    require(set(META_TOLERANCES).issubset(fields),'Missing expected numerical meta columns')
+    key=lambda row:(row['contrast'],row['probe'])
+    require(len({key(row) for row in a})==len(a) and len({key(row) for row in b})==len(b),'Duplicated meta keys')
+    require({key(row) for row in a}=={key(row) for row in b},'Changed planned meta keys')
+    a=sorted(a,key=key);b=sorted(b,key=key)
+    metrics={c:{'maximum_absolute_error':0.,'maximum_relative_error':0.,
+                'nonzero_at_reference_zero':0,**tol} for c,tol in META_TOLERANCES.items()}
+    violations=[]
+    def reject(row,column,reason,old,new):
+        violations.append({'key':list(key(row)),'column':column,'reason':reason,
+                           'expected':old,'actual':new})
+    for old,new in zip(a,b):
+        for column in fields:
+            xtext,ytext=old[column],new[column]
+            if column not in META_TOLERANCES:
+                if xtext!=ytext:reject(old,column,'exact label/count mismatch',xtext,ytext)
+                continue
+            missing={'','nan','NaN'}
+            if xtext in missing or ytext in missing:
+                if (xtext in missing)!=(ytext in missing):reject(old,column,'missing-value mask changed',xtext,ytext)
+                continue
+            x,y=float(xtext),float(ytext)
+            if not (math.isfinite(x) and math.isfinite(y)):
+                reject(old,column,'nonfinite numerical result',xtext,ytext);continue
+            delta=abs(x-y);m=metrics[column];m['maximum_absolute_error']=max(m['maximum_absolute_error'],delta)
+            if x!=0:m['maximum_relative_error']=max(m['maximum_relative_error'],delta/abs(x))
+            elif y!=0:m['nonzero_at_reference_zero']+=1
+            if not math.isclose(x,y,rel_tol=m['relative'],abs_tol=m['absolute']):
+                reject(old,column,'numerical tolerance exceeded',x,y)
+            # No tolerance may change a reported inferential decision or boundary.
+            if column in ('p','p_for_bh','q_BH_contrast_77'):
+                if not (0<=y<=1):reject(old,column,'probability out of bounds',x,y)
+                if (x<.05)!=(y<.05):reject(old,column,'0.05 significance decision changed',x,y)
+            if column in ('effect_pp','ci_low_pp','ci_high_pp') and sign(x)!=sign(y):
+                reject(old,column,'effect/CI endpoint direction changed',x,y)
+            if column=='tau2_pp2' and ((x==0)!=(y==0) or y<0):
+                reject(old,column,'tau^2 zero boundary changed',x,y)
+            if column=='se_pp' and y<=0:reject(old,column,'nonpositive standard error',x,y)
+    result={'rows':len(a),'columns':len(fields),'column_diagnostics':metrics,
+            'all_labels_counts_keys_and_missing_masks_checked':True,
+            'significance_direction_interval_and_tau_boundary_checked':True,
+            'byte_identical':digest(expected)==digest(actual),'all_pass':not violations,
+            'violations':violations}
+    if violations and raise_on_failure:
+        raise ValueError('Meta validation failed: '+json.dumps(result,sort_keys=True))
+    return result
+
 
 def rebuild_meta(outdir):
     """Execute original REML/Hartung-Knapp pooling on retained CpG estimates."""
@@ -92,7 +163,12 @@ def rebuild_meta(outdir):
     for name,min_pairs in zip(META_NAMES,(module.MIN_PAIRS_PRIMARY,module.MIN_PAIRS_SENSITIVITY)):
         target=outdir/'meta_analysis'/name;target.parent.mkdir(parents=True,exist_ok=True)
         frame=module.build_meta(contrasts,min_pairs=min_pairs);frame.to_csv(target,sep='\t',index=False)
-        result[name]=compare_tsv(AGG/'results/public_contrasts'/name,target,('contrast','probe'))
+        result[name]=compare_meta_tsv(AGG/'results/public_contrasts'/name,target,raise_on_failure=False)
+    # Both pools are diagnosed before failure, so a different platform supplies
+    # complete error evidence rather than only the first mismatching field.
+    (outdir/'meta_analysis/diagnostics.json').write_text(json.dumps(result,indent=2)+'\n')
+    print('META_DIAGNOSTICS '+json.dumps(result,sort_keys=True),flush=True)
+    require(all(r['all_pass'] for r in result.values()),'Meta validation failed; see meta_analysis/diagnostics.json')
     return result
 
 def rebuild_bh_and_source_exports(outdir):

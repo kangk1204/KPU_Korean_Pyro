@@ -52,3 +52,47 @@ def test_compare_numeric_results_rejects_changed_estimate(tmp_path):
     expected.write_text('probe\teffect_pp\ncg00000001\t2.5\n')
     actual.write_text('probe\teffect_pp\ncg00000001\t2.6\n')
     with pytest.raises(ValueError,match='Changed numeric'):r.compare_tsv(expected,actual,('probe',))
+
+def meta_fixture(tmp_path,changes):
+    fields=['contrast','family','gene','probe','k','cohorts','status','reason','p_for_bh','effect_pp','se_pp','ci_low_pp','ci_high_pp','p','tau2_pp2','I2_percent','heterogeneity_Q','hk_scale','method','q_BH_contrast_77']
+    row=dict(zip(fields,['N-H','healthy_reference','EYA4','cg00000001','3','A;B;C','estimated','',.275221,.390750,.262655,-.739365,1.520865,.275221,.855097,29.787302,2.848488,1.320908,'REML_modified_Hartung_Knapp',.553558795779051]))
+    expected=tmp_path/'meta_expected.tsv';actual=tmp_path/'meta_actual.tsv'
+    r.write_tsv(expected,fields,[row]);new={**row,**changes};r.write_tsv(actual,fields,[new])
+    return expected,actual
+
+def test_portable_meta_accepts_observed_ci_q_roundoff(tmp_path):
+    expected,actual=meta_fixture(tmp_path,{'q_BH_contrast_77':.5535587979138761})
+    report=r.compare_meta_tsv(expected,actual)
+    assert report['all_pass']
+    assert report['column_diagnostics']['q_BH_contrast_77']['maximum_absolute_error']==pytest.approx(2.1348251e-9,rel=1e-6)
+    assert report['column_diagnostics']['q_BH_contrast_77']['absolute']==0
+
+@pytest.mark.parametrize('change,reason',[
+    ({'effect_pp':.4},'numerical tolerance exceeded'),
+    ({'k':4},'exact label/count mismatch'),
+    ({'cohorts':'A;B;D'},'exact label/count mismatch'),
+    ({'ci_low_pp':''},'missing-value mask changed'),
+    ({'I2_percent':29.787303},'numerical tolerance exceeded'),
+])
+def test_portable_meta_rejects_material_or_contract_changes(tmp_path,change,reason):
+    expected,actual=meta_fixture(tmp_path,change)
+    with pytest.raises(ValueError,match=reason):r.compare_meta_tsv(expected,actual)
+
+@pytest.mark.parametrize('column,old,new,reason',[
+    ('q_BH_contrast_77',.0499999999,.0500000001,'significance decision changed'),
+    ('effect_pp',-1e-10,1e-10,'direction changed'),
+    ('ci_low_pp',-1e-10,1e-10,'direction changed'),
+    ('tau2_pp2',0.,1e-10,'zero boundary changed'),
+    ('p',1e-20,1e-19,'numerical tolerance exceeded'),
+])
+def test_portable_meta_never_tolerates_changed_inference_or_tiny_p_orders(tmp_path,column,old,new,reason):
+    expected,actual=meta_fixture(tmp_path,{column:new})
+    fields,rows=r.read_tsv(expected);rows[0][column]=old;r.write_tsv(expected,fields,rows)
+    with pytest.raises(ValueError,match=reason):r.compare_meta_tsv(expected,actual)
+
+def test_portable_meta_reports_all_column_diagnostics_before_failure(tmp_path):
+    expected,actual=meta_fixture(tmp_path,{'effect_pp':2.,'q_BH_contrast_77':.03})
+    report=r.compare_meta_tsv(expected,actual,raise_on_failure=False)
+    assert not report['all_pass']
+    assert set(report['column_diagnostics'])==set(r.META_TOLERANCES)
+    assert {v['column'] for v in report['violations']}=={'effect_pp','q_BH_contrast_77'}

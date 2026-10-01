@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 669,
-      "sha256": "45dbe4842b22aebd85188cf1a035378d30cbad8557d07e10a30c1d5ba128bb7e"
+      "bytes": 935,
+      "sha256": "782cba67e298410719b9f500f9ea6dca41fd41c82b56d641e1750169f9c1afea"
     },
     {
       "path": ".gitignore",
@@ -13,13 +13,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4671,
-      "sha256": "2f12df475d1f4d923557c123f17305a06f8961f04d2100b94ca0c38cf814fb77"
+      "bytes": 4959,
+      "sha256": "d633c6cad809720dd0ef6c60aedb02ca3b1090fd68a84e6391341b6fc87c17a1"
     },
     {
       "path": "RELEASE_VERIFICATION.md",
-      "bytes": 2255,
-      "sha256": "f48092aa35ffb127619e9ba9e35d81bca5430fad044dccc62ea58ac17a204eda"
+      "bytes": 2670,
+      "sha256": "5ae45fe917dfc3695a4710ded5bbe465788c00ec4a99c65b185f35642c77d5b7"
     },
     {
       "path": "analysis/workspace/113_DataDriven_20260905/requirements-lock.txt",
@@ -3112,14 +3112,19 @@
       "sha256": "540a3faf3836d807b31da0ba96f8ceec5ea20d0e795616fec71df52752d435b8"
     },
     {
+      "path": "docs/portable_validation.md",
+      "bytes": 3394,
+      "sha256": "bc46714b95313c51b4c148e06e330f1821979c0ec08644db172d590b711d6a22"
+    },
+    {
       "path": "provenance/PUBLIC_ADAPTATIONS.md",
-      "bytes": 2034,
-      "sha256": "8d42fafb5da7b1710789603ef8d5736e8f7df929aedcaf2cb71f1c68e84cd418"
+      "bytes": 2617,
+      "sha256": "3685eb8eb2d938e9f323cbbf6e0af214ee7c834fab7ad0707a9fb3e576ae591b"
     },
     {
       "path": "provenance/adaptations.json",
-      "bytes": 501,
-      "sha256": "1c6dc27601c897e99c9efcaaaada3e823c9b9c2d3aae95ce1a07c8701ba750a1"
+      "bytes": 1375,
+      "sha256": "f3ab34e4c5d81c63397d4b1b7d4cee50726fefa8fedf4ddb960ae1e2a44ca441"
     },
     {
       "path": "provenance/sources.json",
@@ -3128,8 +3133,8 @@
     },
     {
       "path": "reproduce.py",
-      "bytes": 10984,
-      "sha256": "062a6a7e6d8ef74811e0606e8ecefb56aeeb2bed1b3acc46b54d31c77babbeda"
+      "bytes": 15661,
+      "sha256": "2bdeb102509b36251936011e501cddaf0de4748fcc75ca9e7e8c56f91c0ff870"
     },
     {
       "path": "requirements.txt",
@@ -3143,8 +3148,8 @@
     },
     {
       "path": "tests/test_reproduction.py",
-      "bytes": 3049,
-      "sha256": "1b97567e565bb8e8246a025e03578f0cc4b1ea09b5b8b28fa8a901540c6f9f4a"
+      "bytes": 5809,
+      "sha256": "cc69acee9d308d089a0008bf430308d58f717a6dcce4f84a180d46b757093c06"
     },
     {
       "path": "tests/test_tissue_synthetic.py",
