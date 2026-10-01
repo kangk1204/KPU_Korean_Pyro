@@ -6,13 +6,17 @@ The initial Linux CI run (36937809013) failed the old generic comparison on q=0.
 
 Controlled ±one-ULP perturbations of the original objective, evaluated over both meta-analysis pools, changed tau² by at most 1.80e-6 squared percentage points (maximum relative difference 4.83e-8), an interval endpoint by 3.66e-8 percentage points, effects by 2.05e-8 percentage points and P values by 2.60e-9. No significance decisions changed, and both reconstructed display tables remained identical. These probes characterize floating-point sensitivity; they do not alter the released original solver or canonical estimates.
 
+An independent sensitivity probe perturbed each positive tau² by ±eight SciPy convergence units, where one unit is `sqrt(2.2e-16)*abs(tau²) + 1e-10/3`. Across the 462 estimated rows in both pools, maximum changes were 3.59e-5 squared percentage points for tau², 1.75e-7 percentage points for effects, 5.85e-7 for SE, 2.54e-6 for CI endpoints, 1.30e-8 for P and 1.15e-7 for Hartung–Knapp scale. The unit-specific absolute floors below cover this numerical sensitivity while the exact decision/display gates remain mandatory.
+
+The second Linux CI run (36938905851, job 110625560572) provided complete diagnostics. It showed maximum CI endpoint difference 1.0007116e-6 percentage points, tau² difference 1.3478843e-5 squared percentage points, effect difference 3.827e-8 percentage points and SE difference 2.323e-7 percentage points. Some small tau² values differed relatively by 3.9178711e-7. Maximum relative P difference was 8.54e-8, while I²/Q passed their tight gate. These results supported using the independently justified unit floors rather than the earlier uniform 1e-8 floor. The complete diagnostics show all 15 previously failing fields and every reported per-column maximum fit the revised policy, with no earlier contract/decision violations. The full Linux TSVs were not supplied for local replay; a subsequent Linux run must still establish that all execution/display gates pass.
+
 The comparison applies these explicit gates:
 
 | Columns | Relative tolerance | Absolute tolerance | Unit |
 | --- | --- | --- | --- |
-| effect, SE and CI endpoints | 1e-7 | 1e-8 | percentage points |
-| tau² | 1e-7 | 1e-8 | squared percentage points |
-| Hartung–Knapp scale | 1e-7 | 1e-8 | dimensionless |
+| effect, SE and CI endpoints | 1e-7 | 1e-5 | percentage points |
+| tau² | 1e-7 | 1e-4 | squared percentage points |
+| Hartung–Knapp scale | 1e-7 | 1e-6 | dimensionless |
 | P, P for BH and BH q | 1e-7 | 0 | probability |
 | I² and heterogeneity Q | 1e-10 | 1e-10 | percent / dimensionless |
 

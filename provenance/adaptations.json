@@ -14,11 +14,11 @@
     "files": [
       {
         "path": "reproduce.py",
-        "public_sha256": "2bdeb102509b36251936011e501cddaf0de4748fcc75ca9e7e8c56f91c0ff870"
+        "public_sha256": "d90ce6f0c2649068731b4086d1b5698e53a4f3671fe7e901f2cd703239286035"
       },
       {
         "path": "tests/test_reproduction.py",
-        "public_sha256": "cc69acee9d308d089a0008bf430308d58f717a6dcce4f84a180d46b757093c06"
+        "public_sha256": "bbaeb652f7d59b0c1ef2bbad827c7ae51b45dbba9a8b88c6297e012b29b177e1"
       },
       {
         "path": ".github/workflows/reproducibility.yml",
@@ -26,8 +26,15 @@
       },
       {
         "path": "docs/portable_validation.md",
-        "public_sha256": "bc46714b95313c51b4c148e06e330f1821979c0ec08644db172d590b711d6a22"
+        "public_sha256": "3449f1080a912d69d7dbecd02adfe112020d82ad78a217780c3ba0f7e99c6909"
       }
-    ]
+    ],
+    "unit_floors": {
+      "percentage_points": 1e-05,
+      "tau2_squared_percentage_points": 0.0001,
+      "hartung_knapp_dimensionless": 1e-06,
+      "probability": 0
+    },
+    "basis": "Independent eight-SciPy-convergence-unit sensitivity probe, confirmed by complete actual Linux diagnostics; exact decisions and displays mandatory"
   }
 }

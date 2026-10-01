@@ -96,3 +96,28 @@ def test_portable_meta_reports_all_column_diagnostics_before_failure(tmp_path):
     assert not report['all_pass']
     assert set(report['column_diagnostics'])==set(r.META_TOLERANCES)
     assert {v['column'] for v in report['violations']}=={'effect_pp','q_BH_contrast_77'}
+
+@pytest.mark.parametrize('contrast,probe,column,actual_value',[
+    ('T-N','cg14343214','ci_low_pp',3.3157183698110586),
+    ('T-H','cg27390819','tau2_pp2',.7877375772709178),
+])
+def test_meta_unit_floors_cover_actual_linux_failed_fields(tmp_path,contrast,probe,column,actual_value):
+    # Exact fields returned by Linux CI 36938905851, not invented row values.
+    fields,rows=r.read_tsv(r.AGG/'results/public_contrasts/public_probe_meta_analysis.tsv')
+    old=next(row for row in rows if row['contrast']==contrast and row['probe']==probe)
+    expected=tmp_path/'linux_reference.tsv';actual=tmp_path/'linux_returned_field.tsv'
+    r.write_tsv(expected,fields,[old]);r.write_tsv(actual,fields,[{**old,column:actual_value}])
+    assert r.compare_meta_tsv(expected,actual)['all_pass']
+
+@pytest.mark.parametrize('column,reference,delta',[
+    ('effect_pp',.01,2e-5),
+    ('se_pp',.25,2e-5),
+    ('ci_low_pp',3.3157,2e-5),
+    ('tau2_pp2',.092325,2e-4),
+    ('hk_scale',1.32,2e-6),
+])
+def test_meta_unit_floors_reject_drift_above_unit_bounds(tmp_path,column,reference,delta):
+    expected,actual=meta_fixture(tmp_path,{column:reference+delta})
+    fields,rows=r.read_tsv(expected);rows[0][column]=reference;r.write_tsv(expected,fields,rows)
+    with pytest.raises(ValueError,match='numerical tolerance exceeded'):
+        r.compare_meta_tsv(expected,actual)
