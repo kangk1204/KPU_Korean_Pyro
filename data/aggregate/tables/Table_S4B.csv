@@ -1,0 +1,4 @@
+Cohort,Pairs,Paired difference rho,Tumor-only rho,Adjacent-only rho,Median Var(adjacent)/Var(difference)
+CMCBSN,103,0.6606,0.6588,0.4611,0.076
+SNUH,142,0.5675,0.5808,0.3930,0.047
+ASAN,128,0.6713,0.6535,0.3456,0.056

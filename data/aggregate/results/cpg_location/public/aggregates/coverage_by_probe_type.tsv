@@ -1,0 +1,13 @@
+cohort	selection	probe_type	n_registered	n_present	n_absent	n_masked_registered	n_annotation_unmasked_registered	n_masked_present	n_estimable	n_inferential_eligible
+CMCBSN	selected	cg	77	56	21	2	75	2	56	54
+CMCBSN	selected	ch	0	0	0	0	0	0	0	0
+CMCBSN	unselected	cg	311	225	86	16	295	10	225	215
+CMCBSN	unselected	ch	3	1	2	0	3	0	1	0
+SNUH	selected	cg	77	56	21	2	75	2	56	54
+SNUH	selected	ch	0	0	0	0	0	0	0	0
+SNUH	unselected	cg	311	225	86	16	295	10	225	215
+SNUH	unselected	ch	3	1	2	0	3	0	1	0
+ASAN	selected	cg	77	56	21	2	75	2	56	54
+ASAN	selected	ch	0	0	0	0	0	0	0	0
+ASAN	unselected	cg	311	225	86	16	295	10	225	215
+ASAN	unselected	ch	3	1	2	0	3	0	1	0

@@ -1,0 +1,158 @@
+{
+  "allowed_aggregation": "verified technical replicates may be collapsed only within the same CpG, patient, and tissue",
+  "analysis_unit": "individual CpG probe",
+  "bh_family_size": 77,
+  "bootstrap_draws": 5000,
+  "created_by": "scripts/analyze_public_cpg_context.py",
+  "downstream_metadata": [
+    {
+      "path": "results/public_context/run_summary.json",
+      "role": "records the current contract hash; excluded from contract output hashes to avoid circular self-reference"
+    }
+  ],
+  "execution_status": {
+    "completed_outputs": [
+      "results/public_context/fixed77_cpg_annotation.tsv",
+      "results/public_context/expression_cpg_associations.tsv",
+      "results/public_context/GSE101764_same_cpg_technical_replicate_audit.tsv",
+      "results/public_context/colonomics_cpg_context.tsv",
+      "results/public_context/match_cms_cpg_contrasts.tsv",
+      "results/public_context/all_public_cpg_context.tsv"
+    ],
+    "n_bootstrap_requested": 5000,
+    "numeric_results_scope": "unchanged by metadata cleanup",
+    "result_rows": 539,
+    "state": "completed"
+  },
+  "fixed_cpg_count": 77,
+  "forbidden_aggregation": [
+    "score_beta gene mean",
+    "panel_mean",
+    "cross-CpG methylation averaging",
+    "80% gene coverage score"
+  ],
+  "freeze_history": {
+    "pre_execution_contract_role": "frozen before individual-CpG public context computation",
+    "pre_execution_status": "frozen_before_individual_cpg_public_context_computation",
+    "retrospective_history_preserved": true
+  },
+  "gene_counts": {
+    "ADHFE1": 8,
+    "BEND5": 4,
+    "EYA4": 17,
+    "GFRA1": 6,
+    "HOXA2": 8,
+    "RALYL": 5,
+    "SFMBT2": 8,
+    "UNC5C": 5,
+    "ZNF568": 8,
+    "ZNF793": 8
+  },
+  "inputs": [
+    {
+      "bytes": 1387,
+      "path": "121_Korean_Beta_Validation_20260908/registry/fixed_probes.json",
+      "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+    },
+    {
+      "bytes": 15726,
+      "path": "119_Figure1_ABC_Revision_20260908/registry/reviewer/probe_context.tsv",
+      "sha256": "527237c93c643dca2049680cffcac145fbb2d23d9975511f1f2f15fa83ed89e7"
+    },
+    {
+      "bytes": 42173,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/Colonomics_beta.tsv.gz",
+      "sha256": "44377c19e58f4973d93f03a6824ab12e59098d75ccf89fc26f16fa74f1dee0f3"
+    },
+    {
+      "bytes": 30616,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/Colonomics_samples.tsv",
+      "sha256": "1905aad1fb510d467f2cfe762e5bfb176bb38d7498afef2554a94d649d5fbe5f"
+    },
+    {
+      "bytes": 23883,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/expression_Colonomics_gene.tsv",
+      "sha256": "178b1f28b74c57780548fabdd0d3461b0f8a93c97cb95a829ac32b65789d27d1"
+    },
+    {
+      "bytes": 18312,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/expression_Colonomics_samples.tsv",
+      "sha256": "d3afd1ff97c7f85a22a31fff8a8dbb9fcb71318353406fa4d8f01d95b53d8c67"
+    },
+    {
+      "bytes": 165887,
+      "path": "119_Figure1_ABC_Revision_20260908/data/raw/GSE101764_fixed77_beta.tsv.gz",
+      "sha256": "353bc2df1af63387b207638278ee04c30945d0306d71a1d3eddf995cccafdc1e"
+    },
+    {
+      "bytes": 11336,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/expression_GSE101764_samples_raw.tsv",
+      "sha256": "4001670ab122fc1dd99f57c5ad6604245bf46bc458ed6a00e5f9ac246cf13747"
+    },
+    {
+      "bytes": 27704,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/expression_GSE106582_gene.tsv",
+      "sha256": "5994c6a3be5c7d821f78eda4d57d4950fe5ff2d5dad519ca02a7579aa8e762b9"
+    },
+    {
+      "bytes": 8465,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/expression_GSE106582_samples.tsv",
+      "sha256": "2e93e6422f6617f231fb8668f753929ac3f7c6266d8c3ec6beee553726ccc3fe"
+    },
+    {
+      "bytes": 56936,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/GSE164811_beta.tsv.gz",
+      "sha256": "b75939d9be913316890c9171bd4877fef7689c1daa82a8fd5f157688aa741f3c"
+    },
+    {
+      "bytes": 21166,
+      "path": "119_Figure1_ABC_Revision_20260908/data/derived/GSE164811_samples.tsv",
+      "sha256": "6240cd6c472bd263a9aae157473d5a9e96d2ee8db6c53ed82f452afc526090c9"
+    },
+    {
+      "bytes": 21032,
+      "path": "115_Public_Biology_20260905/data/raw/Colonomics_CLX_ClinicalData.tab",
+      "sha256": "8af1b62ac44c3e6f9d47d302b368393e33e414bc0e3b0da987d801801e82547a"
+    }
+  ],
+  "metadata_cleanup": {
+    "corrected_at_utc": "2026-09-08T09:52:50.727036+00:00",
+    "numeric_results_rerun": false,
+    "reason": "Clarify that the originally frozen pre-computation contract now has completed execution outputs."
+  },
+  "outputs": [
+    {
+      "bytes": 2346,
+      "path": "results/public_context/fixed77_cpg_annotation.tsv",
+      "sha256": "28c1fdfeda7470a850d4a9de027fb3e17ab0650194b73c111f09fde2c2a632d5"
+    },
+    {
+      "bytes": 52172,
+      "path": "results/public_context/expression_cpg_associations.tsv",
+      "sha256": "d81a3788abc707c31fb0085bd5170996837ca9eebb67a1a1b706ae5a21ed3b31"
+    },
+    {
+      "bytes": 9404,
+      "path": "results/public_context/GSE101764_same_cpg_technical_replicate_audit.tsv",
+      "sha256": "98eee91ccb8fd8cecc546af82cab9dfb6ea3aef7097202c4b4444a098b02acd2"
+    },
+    {
+      "bytes": 28176,
+      "path": "results/public_context/colonomics_cpg_context.tsv",
+      "sha256": "75d3bd45ba2a8e9e7cd769fac1440ecbe13799c10e4d948c5587cf55ad690632"
+    },
+    {
+      "bytes": 36569,
+      "path": "results/public_context/match_cms_cpg_contrasts.tsv",
+      "sha256": "35259d542287faa2b7401171dcf45f627d8054ac5de63b8c0c521c8169474585"
+    },
+    {
+      "bytes": 118257,
+      "path": "results/public_context/all_public_cpg_context.tsv",
+      "sha256": "dd9e87aabb19f83a5267a71effa5ac516b78f153314526528474c161b8445ed2"
+    }
+  ],
+  "promoter_cpg_count": 44,
+  "seed": 20260908,
+  "status": "execution_complete"
+}

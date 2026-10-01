@@ -1,0 +1,71 @@
+{
+  "time_utc": "2026-09-14T04:20:22.194471+00:00",
+  "plan_sha256": "c180a1bf0f96cfae9a8856a55536e8933e38e6fe4520499da60734fd13effc9f",
+  "script_sha256": "965ea1c1bf23cf7f6faa6b4f982a7bf08c016e9b9c66fa11f9c6ce27e11b9d25",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "cohort": "ASAN",
+  "source_selection_freeze_sha256": "e292be1d60df2e464139175ecc225fb039db488c7e5c0ccf0f8697fdb8b5a361",
+  "pairs": 128,
+  "frozen_sets": 5000,
+  "evaluable_sets": 5000,
+  "adequate_distribution_count": true,
+  "complete_control_regions": 200,
+  "frozen_control_regions": 200,
+  "unique_probes_evaluated": 1021,
+  "primary_gene_pair_balanced": {
+    "candidate": 0.6713285112616739,
+    "background_median": 0.5625743911371546,
+    "background_q025": 0.4468503937007876,
+    "background_q975": 0.6441612971525361,
+    "candidate_minus_background_median": 0.10875412012451935,
+    "fraction_background_ge_candidate": 0.0056,
+    "candidate_midrank_percentile": 99.44
+  },
+  "sensitivity_probe_pair_median": {
+    "candidate": 0.6750766800952208,
+    "background_median": 0.5566116553744735,
+    "background_q025": 0.4210780134132943,
+    "background_q975": 0.6459285158395899,
+    "candidate_minus_background_median": 0.11846502472074727,
+    "fraction_background_ge_candidate": 0.0042,
+    "candidate_midrank_percentile": 99.58
+  },
+  "patient_bootstrap": {
+    "n_resamples": 500,
+    "background_reference_sets": 256,
+    "reference_subset_median_point": 0.5567060748947079,
+    "difference_to_reference_subset_point": 0.11462243636696601,
+    "candidate_ci": [
+      0.6101590247131637,
+      0.7334017631174228
+    ],
+    "background_subset_median_ci": [
+      0.4970198868213316,
+      0.6137277943084537
+    ],
+    "difference_ci": [
+      0.06736636846616127,
+      0.16237059483661545
+    ],
+    "bootstrap_seconds": 13.400511980056763,
+    "unit": "paired patient vector, shared indices across all probe/region vectors; ranks recalculated"
+  },
+  "empirical_position_is_formal_p_value": false,
+  "sensitivity_exclude_mask_general": {
+    "candidate": 0.6803470060428491,
+    "background_median": 0.563973516755173,
+    "background_q025": 0.4500628032869438,
+    "background_q975": 0.6479832848837207,
+    "candidate_minus_background_median": 0.1163734892876761,
+    "fraction_background_ge_candidate": 0.0038,
+    "candidate_midrank_percentile": 99.62,
+    "candidate_probes": 54,
+    "evaluable_sets": 5000,
+    "candidate_removed_probes": [
+      "cg20680720",
+      "cg04481096"
+    ]
+  }
+}

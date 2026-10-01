@@ -1,0 +1,11 @@
+cohort	gene	n_target_cpgs	n_measured_cpgs	n_positive_delta	n_positive_q77_lt_005	n_negative_q77_lt_005	min_delta_pp	max_delta_pp	summary_type
+SNUH	EYA4	17	12	12	12	0	23.588368838037525	34.01793493434229	descriptive counts, not a gene-level hypothesis test
+SNUH	ZNF568	8	6	6	6	0	25.49770977740905	34.80908969812615	descriptive counts, not a gene-level hypothesis test
+SNUH	ZNF793	8	5	5	5	0	20.634857336423956	31.564264219676097	descriptive counts, not a gene-level hypothesis test
+SNUH	SFMBT2	8	6	6	6	0	28.2107995098279	38.25659078747727	descriptive counts, not a gene-level hypothesis test
+SNUH	ADHFE1	8	5	5	5	0	31.21863257383709	43.024462008374456	descriptive counts, not a gene-level hypothesis test
+SNUH	HOXA2	8	6	6	6	0	25.51839124750232	35.31433627392031	descriptive counts, not a gene-level hypothesis test
+SNUH	GFRA1	6	6	6	6	0	23.474977042450256	35.254207043673055	descriptive counts, not a gene-level hypothesis test
+SNUH	UNC5C	5	4	4	4	0	23.444946431992886	31.71419198404053	descriptive counts, not a gene-level hypothesis test
+SNUH	RALYL	5	2	2	2	0	21.73985552054521	25.058449223752877	descriptive counts, not a gene-level hypothesis test
+SNUH	BEND5	4	4	4	4	0	27.17535983918336	41.644761150110476	descriptive counts, not a gene-level hypothesis test

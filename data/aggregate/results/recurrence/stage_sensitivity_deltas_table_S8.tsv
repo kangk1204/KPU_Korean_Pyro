@@ -1,0 +1,10 @@
+stage_definition	contrast	metric	estimate	ci_low	ci_high	bootstrap_n	n_estimable	status
+provider	provider_combined_minus_provider_clinical	delta_uno_c	0.0228177278073606	-0.171331917041086	0.193742335722988	2000	2000	estimable
+provider	provider_combined_minus_provider_clinical	delta_auc	0.0120040290852281	-0.0510231436574226	0.0702585137656307	2000	2000	estimable
+provider	provider_combined_minus_provider_clinical	delta_brier	5.57047509568975e-05	-0.00060139055864384	0.000755981321650786	2000	2000	estimable
+tnm	tnm_combined_minus_tnm_clinical	delta_uno_c	-0.0138451960031812	-0.165472704007494	0.11911036766232	2000	2000	estimable
+tnm	tnm_combined_minus_tnm_clinical	delta_auc	0.00860859038324291	-0.0516055432553005	0.064877861781116	2000	2000	estimable
+tnm	tnm_combined_minus_tnm_clinical	delta_brier	0.000158604709810745	-0.00085800806222636	0.00124878492797181	2000	2000	estimable
+nostage	nostage_combined_minus_nostage_clinical	delta_uno_c	0.0182243422442461	-0.188287173277817	0.223519166201542	2000	2000	estimable
+nostage	nostage_combined_minus_nostage_clinical	delta_auc	0.0160384574883519	-0.0491661124043196	0.0796240695367877	2000	2000	estimable
+nostage	nostage_combined_minus_nostage_clinical	delta_brier	1.63492013261768e-05	-0.000728147041003976	0.000736312775517867	2000	2000	estimable

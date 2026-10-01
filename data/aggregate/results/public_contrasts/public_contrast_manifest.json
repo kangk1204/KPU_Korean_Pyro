@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "contrast_rows": 1155,
+  "expected_contrast_rows": 1155,
+  "estimated_contrast_rows": 1136,
+  "probe_absent_rows": 19,
+  "meta_rows": 385,
+  "estimated_meta_rows": 231,
+  "estimated_meta_leave_gse77954_out_sensitivity_rows": 231,
+  "korean_only_meta_rows": 77,
+  "estimated_korean_only_meta_rows": 56,
+  "family_sizes": {
+    "healthy_reference": 462,
+    "lesion": 231,
+    "tissue_replication": 462
+  },
+  "outputs": {
+    "public_probe_contrasts.tsv": "346797c1a3836d5a0a008a55f4fc7fb0308de7ce12b497f372813bee9a4cba81",
+    "public_probe_meta_analysis.tsv": "56dafd9c0fa7a7d11cb57c44c1715320ed7612c645e37487d3d81f4ea39cd2b9",
+    "public_probe_coverage.tsv": "f8bc742bdb504bc559b6ca9f1c4c8cbf774d04f8931c3e6800c678b69397843f",
+    "public_cohort_counts.tsv": "ca81b2958493aa00a1b9ccc8260cf76f248f680077f39d4ef0328f96725326eb",
+    "GSE77954_T-N_13T4N_unpaired_sensitivity_not_primary.tsv": "55c89f0a382a56351b423c6b3b7cdef7797279499189cb49c7f3b91d13014e5e",
+    "korean_only_meta.tsv": "e135d651ea3fc80cb4e264547cfce89c9de8b72dcfbe954e95ed7cab489bdb00",
+    "korean_only_meta_input_with_se.tsv": "1620c5bce0b31781912e8d18431a4633e29056643ab388e0148451336b409549",
+    "public_probe_meta_analysis_all_paired_cohorts_sensitivity.tsv": "47e80606f78ada17844a836cbfa62170ac6b9db672152d25e3b11a2c9a13fbfb"
+  },
+  "contract_sha256": "54dce289e7f3954a1760a57354934b6d7aca7edf983ff22c38b6b99d39de4307",
+  "estimated_meta_all_paired_cohorts_sensitivity_rows": 231,
+  "meta_primary_rule": "paired cohorts with >= 20 pairs",
+  "meta_sensitivity_rule": "paired cohorts with >= 3 pairs",
+  "meta_primary_amendment": "2026-09-09: after the GSE77954 pairing correction left that cohort with four source-defined pairs, the primary tumor-adjacent meta-analysis pool was restricted to paired cohorts with at least 20 pairs (Colonomics, GSE42752, GSE193535, GSE77718). This restriction was adopted after inspecting the five-cohort result; the five-cohort pool (all paired cohorts with >=3 pairs) is written as a sensitivity analysis. Both files are produced from the same contrast table.",
+  "meta_rebuilt_utc": "2026-09-09T14:32:11.067123Z"
+}

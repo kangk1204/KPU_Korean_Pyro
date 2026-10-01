@@ -1,0 +1,3 @@
+probeID	MASK_mapping	MASK_snp5_common	MASK_snp5_GMAF1p	MASK_extBase	MASK_general
+cg04481096	True	False	False	False	True
+cg20680720	False	True	True	False	True

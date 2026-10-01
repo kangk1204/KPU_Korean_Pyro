@@ -1,0 +1,11 @@
+Gene	Reported amplicon bp	Reference inferred amplicon bp	Representative read hg19 span	Displayed representative CpGs	Overlapping CpGs among fixed 77	Overlapping CpGs among measured Korean 56	Representative QC and primer notes
+EYA4	213	213	chr6:133562245-133562284 (+)	5	2	2	all_patient_run_exports_and_original_design_file_missing
+ZNF568	221	221	chr19:37407089-37407138 (+)	7	0	0	all_patient_run_exports_and_original_design_file_missing
+ZNF793	210	210	chr19:37997791-37997887 (+)	10	2	1	all_patient_run_exports_and_original_design_file_missing
+SFMBT2	244	245	chr10:7453650-7453699 (-)	6	0	0	reported_and_reference_inferred_amplicon_length_disagree
+ADHFE1	148	150	chr8:67344638-67344699 (+)	9	3	0	reported_and_reference_inferred_amplicon_length_disagree
+HOXA2	233	233	chr7:27142629-27142718 (-)	9	1	0	nonblue_representative_CpG_quality_call
+GFRA1	222	not_resolved	chr10:118032833-118032909 (-)	8	1	1	no_exact_reverse_PCR_primer_match;sequencing_primer_mismatch;representative_report_states_analysis_parameters_edited
+UNC5C	229	229	chr4:96470559-96470632 (-)	8	1	1	representative_report_states_analysis_parameters_edited
+RALYL	270	270	chr8:85095418-85095470 (-)	6	0	0	nonblue_representative_CpG_quality_call;representative_report_states_analysis_parameters_edited
+BEND5	256	256	chr1:49242559-49242619 (-)	8	0	0	all_patient_run_exports_and_original_design_file_missing

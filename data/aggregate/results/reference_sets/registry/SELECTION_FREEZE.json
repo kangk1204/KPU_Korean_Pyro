@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-09-14T04:19:26.250674+00:00",
+  "plan_sha256": "c180a1bf0f96cfae9a8856a55536e8933e38e6fe4520499da60734fd13effc9f",
+  "script_sha256": "965ea1c1bf23cf7f6faa6b4f982a7bf08c016e9b9c66fa11f9c6ce27e11b9d25",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "seed": 2026091401,
+  "sets": 5000,
+  "draws": 5855,
+  "files": {
+    "candidate_regions.tsv": "736e00f677c17c3860d50be278b73de2894f1b7f78cad73ef17b1dc4ce1b988c",
+    "control_region_pool.tsv": "58582d2b188c60a55ecbce5d0545b1ff8c41e492feea2ef78f556f612b7df75b",
+    "matching_eligibility.tsv": "519ca1e7cd05467e0b44814fb0dda2aa0130c3d4c8d974adb4019c9147c6acb3",
+    "frozen_control_sets.tsv": "4a8763316d210dc6b1b8bff709e5390802b8f6369cc5d9ec035244af0e0ac793"
+  },
+  "source_descriptor_sha256": "2ff1f955f9e55d90197f64bfb5dbc582360b23b47c079acc99ebb92d1682d903",
+  "target_outcomes_read": false,
+  "target_ids_or_beta_used_in_matching": false,
+  "selection_scope": "source marginal moments and geometry only; never covariance or target data"
+}

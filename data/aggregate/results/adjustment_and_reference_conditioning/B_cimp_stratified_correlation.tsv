@@ -1,0 +1,9 @@
+cohort	stratification	stratum	patients	balanced_median	raw_all_patients	note
+ASAN	index_top_quintile	high	26	0.5805128205128205	0.6713285112616739	
+ASAN	index_top_quintile	low	102	0.6293998903031367	0.6713285112616739	
+ASAN	tumor_beta_0.30_ge3	high	17			fewer than 20 patients
+ASAN	tumor_beta_0.30_ge3	low	111	0.6648034398034401	0.6713285112616739	
+SNUH	index_top_quintile	high	29	0.5731527093596059	0.5674541221439633	
+SNUH	index_top_quintile	low	113	0.4858980970124426	0.5674541221439633	
+SNUH	tumor_beta_0.30_ge3	high	30	0.5085650723025585	0.5674541221439633	
+SNUH	tumor_beta_0.30_ge3	low	112	0.5031221170601702	0.5674541221439633	

@@ -1,0 +1,4 @@
+"Stage definition (79 patients, 14 events)",Clinical Uno C (95% CI),Clinical + methylation Uno C (95% CI),Difference (95% CI)
+Recorded stage,0.577 (0.395 to 0.770),0.600 (0.469 to 0.728),0.023 (−0.171 to 0.194)
+Stage derived from TNM categories,0.646 (0.478 to 0.810),0.632 (0.500 to 0.761),−0.014 (−0.165 to 0.119)
+Stage omitted,0.604 (0.424 to 0.780),0.622 (0.494 to 0.744),0.018 (−0.188 to 0.224)

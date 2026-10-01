@@ -1,0 +1,4 @@
+Analysis,Pairs,Median rho,Rho range,Positive correlations,BH q<0.05,PC1 variance (%),Ridge AUC (95% CI)
+Original cohort,87,0.485,0.176–0.708,45/45,43/45,52.25,0.968 (0.932–0.998)
+Two flagged patients excluded,85,0.467,0.160–0.709,45/45,42/45,51.70,0.967 (0.930–0.998)
+Discordant adjacent sample excluded,86,0.469,0.152–0.701,45/45,42/45,51.17,0.976 (0.943–0.999)

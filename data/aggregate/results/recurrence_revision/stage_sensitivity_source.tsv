@@ -1,0 +1,8 @@
+panel	plot_order	label	block	model	metric	point	ci_low	ci_high	reference_line	decision
+A_primary_uno_c	1	Clinical	clinical	ridge	uno_c_5y	0.587067869761299	0.404929836821022	0.776905935198938	0.5	primary
+A_primary_uno_c	2	Tumor methylation	tumor10	ridge	uno_c_5y	0.584085758572547	0.439415192771475	0.714587711535335	0.5	primary
+A_primary_uno_c	3	Clinical + methylation	combined	ridge	uno_c_5y	0.595783280937434	0.472567747812073	0.718575659302538	0.5	primary
+B_incremental_delta_uno_c	1	Clinical + methylation minus clinical	combined_minus_clinical	ridge	delta_uno_c_5y	0.0087154111761351	-0.178857242080781	0.183703579719918	0.0	primary_delta
+C_brier_null_benchmark	1	Clinical	clinical	ridge	ipcw_brier_5y	0.13028421561291	0.0738615519075351	0.195391767306654	0.130295246094213	secondary_with_null_benchmark
+C_brier_null_benchmark	2	Tumor methylation	tumor10	ridge	ipcw_brier_5y	0.130416281522014	0.074031876956237	0.195508776178028	0.130295246094213	secondary_with_null_benchmark
+C_brier_null_benchmark	3	Clinical + methylation	combined	ridge	ipcw_brier_5y	0.13043711316752	0.0740465560304949	0.195562162737222	0.130295246094213	secondary_with_null_benchmark

@@ -1,0 +1,4 @@
+cohort	scope	n_complete_pairs	n_available_cpgs	n_genes	n_between_gene_pairs	n_positive_between_gene_pairs	median_between_gene_rho_54	original_median_between_gene_rho_56	median_change_54_minus_56	full_ci_or_p_recomputed
+CMCBSN	exclude cg20680720 and cg04481096; median and sign recomputed only; no full bootstrap/permutation rerun	103	54	10	1282	1282	0.6672615648201028	0.6613912928875808	0.0058702719325219865	False
+SNUH	exclude cg20680720 and cg04481096; median and sign recomputed only; no full bootstrap/permutation rerun	142	54	10	1282	1282	0.574036392136482	0.5685040162115379	0.005532375924944155	False
+ASAN	exclude cg20680720 and cg04481096; median and sign recomputed only; no full bootstrap/permutation rerun	128	54	10	1282	1282	0.6837346639809558	0.6750766800952206	0.008657983885735243	False

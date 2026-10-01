@@ -1,0 +1,66 @@
+{
+  "status": "original-source-supported; historical screen not recomputed",
+  "sources": [
+    {
+      "original_workspace_path": "101_Manuscript_20260902/Figure1_scheme.jpg",
+      "path": "data/raw/original_discovery/Figure1_original.jpg",
+      "sha256": "6f96f26e012bb5f2a0245c944446b54f87a817be7619ae044911f4c34b56a20f"
+    },
+    {
+      "original_workspace_path": "101_Manuscript_20260902/v260706ACS-CRC-manuscript.docx",
+      "path": "data/raw/original_discovery/Manuscript_original.docx",
+      "sha256": "575f0db17617b88723f749734a5ffe772d3c277df0bf0c63fd392d2b1bbc8a07"
+    },
+    {
+      "original_workspace_path": "101_Manuscript_20260902/v260706_ACS-CRC-Supplementary.docx",
+      "path": "data/raw/original_discovery/Supplement_original.docx",
+      "sha256": "0c2074c626260f2e6af61fb9b80f46160864b3b898abf171f798bdb978cd9a98"
+    },
+    {
+      "original_workspace_path": "100_Manuscript/prof.SYP_genelist_research.xlsx",
+      "path": "data/raw/original_discovery/Literature_review_original.xlsx",
+      "sha256": "f7f2827dd24e7fc1a89d4d0277d98446a937b39693122173a47e0c836b526ee9"
+    }
+  ],
+  "discovery": {
+    "platform": "Illumina HumanMethylation450",
+    "datasets": [
+      "GSE139404",
+      "GSE129364",
+      "GSE101764",
+      "GSE68838"
+    ],
+    "tissue_groups": [
+      "non-cancerous mucosa",
+      "adenoma",
+      "colorectal cancer"
+    ],
+    "software": "minfi",
+    "q_cutoff_exclusive": 0.001,
+    "hypermethylation_delta_beta_exclusive": 0.3,
+    "hypomethylation_delta_beta_exclusive": -0.3,
+    "hypermethylated_cpgs": 1088,
+    "hypomethylated_cpgs": 345,
+    "genes_annotated_to_hypermethylated_cpgs": 390,
+    "prioritisation": "literature review for relevance to colorectal cancer",
+    "selected_genes": [
+      "EYA4",
+      "ZNF568",
+      "ZNF793",
+      "SFMBT2",
+      "ADHFE1",
+      "HOXA2",
+      "BEND5",
+      "UNC5C",
+      "RALYL",
+      "GFRA1"
+    ],
+    "recurrence_used_for_selection": false
+  },
+  "evidence_limits": [
+    "The original manuscript and Figure 1A agree on the 1088 to 390 to 10 sequence.",
+    "The preserved original manuscript cites the 390-gene list as Supplementary Table 2, whereas a later manuscript version refers to Table 3. The supplied original supplement contains clinical information and primers in two tables, but no complete 390-gene list.",
+    "The historical whole-array screen and exact 390-to-10 decision rule were not independently recomputed. Literature review is reported as the original prioritisation step; a quantitative ranking rule is not documented.",
+    "Figure 1B retains the original pooled tumor and normal TCGA methylation-expression plots as supporting context. These are distinct from the tumor-only analyses in Figure 10 and are not independent tumor-only expression evidence."
+  ]
+}

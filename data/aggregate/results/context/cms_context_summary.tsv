@@ -1,0 +1,2 @@
+analysis	planned_cpgs	observed_cpgs	missing_cpgs	matched_assigned_cms_tumors	CMS1	CMS2	CMS3	CMS4	status
+per_cpg_CMS_context	77	56	21	141	18	39	37	47	estimated

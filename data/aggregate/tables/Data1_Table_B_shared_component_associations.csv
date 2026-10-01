@@ -1,0 +1,28 @@
+Cohort,Component,Comparison,Groups (n),Effect (95% CI),P,BH q,Family
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,BRAF V600E mutant vs wild-type,Yes = 3; No = 89,2.55 (descriptive only),not tested (n<5),not tested (n<5),pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,KRAS mutated vs wild-type,Yes = 26; No = 66,5.63 (-0.04 to 7.65),0.0048,0.016,pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,CMS (four groups),CMS1 = 5; CMS2 = 29; CMS3 = 20; CMS4 = 25,ε² = 0.12 (0.02 to 0.35),0.0070,0.016,pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,CMS1 vs CMS2-4,CMS1 = 5; CMS2-4 = 74,1.50 (-18.31 to 8.26),0.91,0.91,pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,right- vs left-sided tumor,Right = 36; Left = 56,2.43 (-1.98 to 5.19),0.18,0.25,pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,male vs female,M = 68; F = 24,-3.86 (-6.15 to -0.02),0.056,0.099,pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,age at diagnosis (years),n = 92,ρ = -0.13 (-0.35 to 0.09),0.23,0.27,pre-specified
+Colonomics,Δ PC1; n = 92 pairs; 77 CpGs; PC1 64.7%,ESTIMATE-style stromal score,n = 90,ρ = -0.43 (-0.59 to -0.25),2.5e-05,1.8e-04,pre-specified
+MATCH (GSE164811),tumor PC1; n = 146 tumors; 75 CpGs; PC1 41.3%,CMS3 vs CMS2,CMS3 = 22; CMS2 = 124,6.42 (1.97 to 8.30),1.8e-05,3.6e-05,pre-specified
+MATCH (GSE164811),tumor PC1; n = 146 tumors; 75 CpGs; PC1 41.3%,right- vs left-sided tumor,Right = 54; Left = 92,3.55 (1.24 to 5.89),2.2e-04,2.9e-04,pre-specified
+MATCH (GSE164811),tumor PC1; n = 146 tumors; 75 CpGs; PC1 41.3%,male vs female,M = 87; F = 59,1.37 (-1.43 to 3.30),0.41,0.41,pre-specified
+CMCBSN,Δ PC1; n = 103 pairs; 56 CpGs; PC1 69.7%,CMS (four groups),CMS1 = 5; CMS2 = 23; CMS3 = 9; CMS4 = 29,ε² = -0.03 (-0.04 to 0.16),0.75,0.75,pre-specified
+CMCBSN,Δ PC1; n = 103 pairs; 56 CpGs; PC1 69.7%,CMS1 vs CMS2-4,CMS1 = 5; CMS2-4 = 61,-0.41 (-2.64 to 10.66),0.36,0.71,pre-specified
+CMCBSN,Δ PC1; n = 103 pairs; 56 CpGs; PC1 69.7%,right- vs left-sided tumor,Right = 18; Left = 70,2.36 (-0.41 to 7.52),0.028,0.14,secondary
+CMCBSN,Δ PC1; n = 103 pairs; 56 CpGs; PC1 69.7%,MSI-H vs MSS/MSI-L,MSI-H = 3; MSS/MSI-L = 86,-3.07 (descriptive only),not tested (n<5),not tested (n<5),secondary
+CMCBSN,tumor PC1; n = 228 tumors; 56 CpGs; PC1 67.5%,CMS (four groups),CMS1 = 18; CMS2 = 39; CMS3 = 37; CMS4 = 47,ε² = 0.01 (-0.01 to 0.10),0.20,0.24,secondary
+CMCBSN,tumor PC1; n = 228 tumors; 56 CpGs; PC1 67.5%,CMS1 vs CMS2-4,CMS1 = 18; CMS2-4 = 123,2.12 (-0.57 to 4.31),0.056,0.14,secondary
+CMCBSN,tumor PC1; n = 228 tumors; 56 CpGs; PC1 67.5%,right- vs left-sided tumor,Right = 45; Left = 144,1.67 (-1.90 to 3.83),0.092,0.15,secondary
+CMCBSN,tumor PC1; n = 228 tumors; 56 CpGs; PC1 67.5%,MSI-H vs MSS/MSI-L,MSI-H = 14; MSS/MSI-L = 177,-0.54 (-4.05 to 5.19),0.82,0.82,secondary
+TCGA-COADREAD,tumor PC1; n = 393 tumors; 65 CpGs; PC1 45.1%,MSI-positive vs MSI-negative,MSI-positive = 11; MSI-negative = 99,2.03 (-1.33 to 4.04),0.20,0.29,pre-specified
+TCGA-COADREAD,tumor PC1; n = 393 tumors; 65 CpGs; PC1 45.1%,BRAF abnormal vs normal,BRAF abnormal = 3; BRAF normal = 32,2.39 (descriptive only),not tested (n<5),not tested (n<5),pre-specified
+TCGA-COADREAD,tumor PC1; n = 393 tumors; 65 CpGs; PC1 45.1%,KRAS mutated vs wild-type,KRAS mutated = 28; KRAS wild-type = 29,0.34 (-4.04 to 2.97),0.90,0.90,pre-specified
+TCGA-COADREAD,tumor PC1; n = 393 tumors; 65 CpGs; PC1 45.1%,right- vs left-sided tumor,Right = 94; Left = 52,2.64 (0.50 to 4.64),0.0018,0.0054,pre-specified
+TCGA-COADREAD,tumor PC1; n = 393 tumors; 65 CpGs; PC1 45.1%,male vs female,M = 211; F = 180,0.56 (-0.83 to 1.83),0.32,0.32,secondary
+TCGA-COADREAD,tumor PC1; n = 393 tumors; 65 CpGs; PC1 45.1%,age at diagnosis (years),n = 391,ρ = 0.23 (0.13 to 0.32),5.4e-06,1.6e-05,secondary
+GSE48684,tumor PC1; n = 64 tumors; 71 CpGs; PC1 63.1%,right- vs left-sided tumor,Right = 28; Left = 31,1.90 (-2.11 to 6.53),0.23,0.23,pre-specified
+GSE77718,Δ PC1; n = 95 pairs; 51 CpGs; PC1 65.3%,right- vs left-sided tumor,Right = 42; Left = 29,1.46 (-1.09 to 6.83),0.067,0.067,pre-specified

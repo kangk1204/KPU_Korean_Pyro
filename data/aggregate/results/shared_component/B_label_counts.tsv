@@ -1,0 +1,125 @@
+cohort	axis_role	label	level	n
+Colonomics	delta_axis (coordination axis)	BRAF_V600E	No	89
+Colonomics	delta_axis (coordination axis)	BRAF_V600E	Yes	3
+Colonomics	delta_axis (coordination axis)	BRAF_V600E	missing	0
+Colonomics	delta_axis (coordination axis)	KRAS_mutated	No	66
+Colonomics	delta_axis (coordination axis)	KRAS_mutated	Yes	26
+Colonomics	delta_axis (coordination axis)	KRAS_mutated	missing	0
+Colonomics	delta_axis (coordination axis)	cms	CMS2	29
+Colonomics	delta_axis (coordination axis)	cms	CMS4	25
+Colonomics	delta_axis (coordination axis)	cms	CMS3	20
+Colonomics	delta_axis (coordination axis)	cms	CMS1	5
+Colonomics	delta_axis (coordination axis)	cms	missing	13
+Colonomics	delta_axis (coordination axis)	site2	Left	56
+Colonomics	delta_axis (coordination axis)	site2	Right	36
+Colonomics	delta_axis (coordination axis)	site2	missing	0
+Colonomics	delta_axis (coordination axis)	stage2	I-II	92
+Colonomics	delta_axis (coordination axis)	stage2	missing	0
+Colonomics	delta_axis (coordination axis)	sex	M	68
+Colonomics	delta_axis (coordination axis)	sex	F	24
+Colonomics	delta_axis (coordination axis)	sex	missing	0
+Colonomics	delta_axis (coordination axis)	age	n_non_missing	92
+Colonomics	delta_axis (coordination axis)	stromal_score	n_non_missing	90
+GSE164811 (MATCH)	tumor_axis (coordination axis)	cms	CMS2	124
+GSE164811 (MATCH)	tumor_axis (coordination axis)	cms	CMS3	22
+GSE164811 (MATCH)	tumor_axis (coordination axis)	cms	missing	0
+GSE164811 (MATCH)	tumor_axis (coordination axis)	site2	Left	92
+GSE164811 (MATCH)	tumor_axis (coordination axis)	site2	Right	54
+GSE164811 (MATCH)	tumor_axis (coordination axis)	site2	missing	0
+GSE164811 (MATCH)	tumor_axis (coordination axis)	stage2	I-II	103
+GSE164811 (MATCH)	tumor_axis (coordination axis)	stage2	III-IV	43
+GSE164811 (MATCH)	tumor_axis (coordination axis)	stage2	missing	0
+GSE164811 (MATCH)	tumor_axis (coordination axis)	sex	M	87
+GSE164811 (MATCH)	tumor_axis (coordination axis)	sex	F	59
+GSE164811 (MATCH)	tumor_axis (coordination axis)	sex	missing	0
+CMCBSN	delta_axis (coordination axis)	cms	CMS4	29
+CMCBSN	delta_axis (coordination axis)	cms	CMS2	23
+CMCBSN	delta_axis (coordination axis)	cms	CMS3	9
+CMCBSN	delta_axis (coordination axis)	cms	CMS1	5
+CMCBSN	delta_axis (coordination axis)	cms	missing	37
+CMCBSN	delta_axis (coordination axis)	site2	Left	70
+CMCBSN	delta_axis (coordination axis)	site2	Right	18
+CMCBSN	delta_axis (coordination axis)	site2	missing	15
+CMCBSN	delta_axis (coordination axis)	stage2	III-IV	50
+CMCBSN	delta_axis (coordination axis)	stage2	I-II	39
+CMCBSN	delta_axis (coordination axis)	stage2	missing	14
+CMCBSN	delta_axis (coordination axis)	sex	M	52
+CMCBSN	delta_axis (coordination axis)	sex	F	37
+CMCBSN	delta_axis (coordination axis)	sex	missing	14
+CMCBSN	delta_axis (coordination axis)	age	n_non_missing	89
+CMCBSN	delta_axis (coordination axis)	msi2	MSS/MSI-L	86
+CMCBSN	delta_axis (coordination axis)	msi2	MSI-H	3
+CMCBSN	delta_axis (coordination axis)	msi2	missing	14
+CMCBSN	tumor_axis (all tumors)	cms	CMS4	47
+CMCBSN	tumor_axis (all tumors)	cms	CMS2	39
+CMCBSN	tumor_axis (all tumors)	cms	CMS3	37
+CMCBSN	tumor_axis (all tumors)	cms	CMS1	18
+CMCBSN	tumor_axis (all tumors)	cms	missing	87
+CMCBSN	tumor_axis (all tumors)	site2	Left	144
+CMCBSN	tumor_axis (all tumors)	site2	Right	45
+CMCBSN	tumor_axis (all tumors)	site2	missing	39
+CMCBSN	tumor_axis (all tumors)	stage2	III-IV	126
+CMCBSN	tumor_axis (all tumors)	stage2	I-II	65
+CMCBSN	tumor_axis (all tumors)	stage2	missing	37
+CMCBSN	tumor_axis (all tumors)	sex	M	114
+CMCBSN	tumor_axis (all tumors)	sex	F	77
+CMCBSN	tumor_axis (all tumors)	sex	missing	37
+CMCBSN	tumor_axis (all tumors)	age	n_non_missing	191
+CMCBSN	tumor_axis (all tumors)	msi2	MSS/MSI-L	177
+CMCBSN	tumor_axis (all tumors)	msi2	MSI-H	14
+CMCBSN	tumor_axis (all tumors)	msi2	missing	37
+GSE48684	tumor_axis (coordination axis)	site2	Left	31
+GSE48684	tumor_axis (coordination axis)	site2	Right	28
+GSE48684	tumor_axis (coordination axis)	site2	missing	5
+GSE48684	tumor_axis (coordination axis)	stage2	III-IV	43
+GSE48684	tumor_axis (coordination axis)	stage2	I-II	21
+GSE48684	tumor_axis (coordination axis)	stage2	missing	0
+GSE48684	tumor_axis (coordination axis)	sex	F	41
+GSE48684	tumor_axis (coordination axis)	sex	M	23
+GSE48684	tumor_axis (coordination axis)	sex	missing	0
+GSE48684	tumor_axis (coordination axis)	age	n_non_missing	0
+GSE77954	tumor_axis (coordination axis)	site2	Left	6
+GSE77954	tumor_axis (coordination axis)	site2	Right	1
+GSE77954	tumor_axis (coordination axis)	site2	missing	6
+GSE77954	tumor_axis (coordination axis)	stage2	n_non_missing	0
+GSE77954	tumor_axis (coordination axis)	sex	M	8
+GSE77954	tumor_axis (coordination axis)	sex	F	5
+GSE77954	tumor_axis (coordination axis)	sex	missing	0
+GSE77954	tumor_axis (coordination axis)	age	n_non_missing	13
+GSE193535	delta_axis (coordination axis)	site2	n_non_missing	0
+GSE193535	delta_axis (coordination axis)	stage2	n_non_missing	0
+GSE193535	delta_axis (coordination axis)	sex	F	32
+GSE193535	delta_axis (coordination axis)	sex	M	22
+GSE193535	delta_axis (coordination axis)	sex	missing	0
+GSE193535	delta_axis (coordination axis)	age	n_non_missing	0
+GSE77718	delta_axis (coordination axis)	site2	Right	42
+GSE77718	delta_axis (coordination axis)	site2	Left	29
+GSE77718	delta_axis (coordination axis)	site2	missing	24
+GSE77718	delta_axis (coordination axis)	stage2	n_non_missing	0
+GSE77718	delta_axis (coordination axis)	sex	M	49
+GSE77718	delta_axis (coordination axis)	sex	F	44
+GSE77718	delta_axis (coordination axis)	sex	missing	2
+GSE77718	delta_axis (coordination axis)	age	n_non_missing	0
+GSE42752	delta_axis (coordination axis)	site2	n_non_missing	0
+GSE42752	delta_axis (coordination axis)	stage2	n_non_missing	0
+GSE42752	delta_axis (coordination axis)	sex	n_non_missing	0
+GSE42752	delta_axis (coordination axis)	age	n_non_missing	0
+TCGA-COADREAD	tumor_axis (coordination axis)	msi	MSI-negative	99
+TCGA-COADREAD	tumor_axis (coordination axis)	msi	MSI-positive	11
+TCGA-COADREAD	tumor_axis (coordination axis)	msi	missing	283
+TCGA-COADREAD	tumor_axis (coordination axis)	braf	BRAF normal	32
+TCGA-COADREAD	tumor_axis (coordination axis)	braf	BRAF abnormal	3
+TCGA-COADREAD	tumor_axis (coordination axis)	braf	missing	358
+TCGA-COADREAD	tumor_axis (coordination axis)	kras	KRAS wild-type	29
+TCGA-COADREAD	tumor_axis (coordination axis)	kras	KRAS mutated	28
+TCGA-COADREAD	tumor_axis (coordination axis)	kras	missing	336
+TCGA-COADREAD	tumor_axis (coordination axis)	sex	M	211
+TCGA-COADREAD	tumor_axis (coordination axis)	sex	F	180
+TCGA-COADREAD	tumor_axis (coordination axis)	sex	missing	2
+TCGA-COADREAD	tumor_axis (coordination axis)	site2	Right	94
+TCGA-COADREAD	tumor_axis (coordination axis)	site2	Left	52
+TCGA-COADREAD	tumor_axis (coordination axis)	site2	missing	247
+TCGA-COADREAD	tumor_axis (coordination axis)	stage2	I-II	200
+TCGA-COADREAD	tumor_axis (coordination axis)	stage2	III-IV	178
+TCGA-COADREAD	tumor_axis (coordination axis)	stage2	missing	15
+TCGA-COADREAD	tumor_axis (coordination axis)	age	n_non_missing	391

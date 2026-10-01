@@ -1,0 +1,72 @@
+{
+  "genes": [
+    "EYA4",
+    "ZNF568",
+    "ZNF793",
+    "SFMBT2",
+    "ADHFE1",
+    "HOXA2",
+    "BEND5",
+    "UNC5C",
+    "RALYL",
+    "GFRA1"
+  ],
+  "selection": {
+    "method": "Original public methylome screen and literature review",
+    "platform": "Illumina HumanMethylation450",
+    "datasets": [
+      "GSE139404",
+      "GSE129364",
+      "GSE101764",
+      "GSE68838"
+    ],
+    "recurrence_used_for_selection": false,
+    "status": "Original selection counts and complete ranking were not independently reconstructed."
+  },
+  "local": {
+    "genes": 10,
+    "patients": 87,
+    "specimens": 174,
+    "recurrence_cv": {
+      "outer_folds": 4,
+      "outer_repeats": 25
+    },
+    "recurrence_events": 14,
+    "recurrence_patients": 82,
+    "tissue_cv": {
+      "outer_folds": 5,
+      "outer_repeats": 20
+    }
+  },
+  "public": {
+    "classifier_cohorts": 2,
+    "colonomics_pairs": 92,
+    "expression_resources": 2,
+    "gse119526_pairs": 48,
+    "methylation_cohorts": 7,
+    "source_candidate_cpgs": 77,
+    "measured_korean_cpgs": 56,
+    "lesion_cohorts": 6,
+    "korean_pairs": {
+      "CMCBSN": 103,
+      "SNUH": 142,
+      "ASAN": 128
+    }
+  },
+  "source_records": [
+    {
+      "file": "selection_source.json",
+      "sha256": "00b142837b7787c32b2edfd25becef78cf082a1253502aec950aa991466d5cf3"
+    },
+    {
+      "file": "local_flow_source.json",
+      "sha256": "ef5ec1fb4ca4d531ca0d25fa9dd8293e41eafc38f6e04908bc560ef8c7a7f19a"
+    },
+    {
+      "file": "korean_cohort_flow_source.tsv",
+      "sha256": "1bc4ccb12d04ad98970af2d945e16b63d24a89d090dd7a60bbb318dfd4b2f31c"
+    }
+  ],
+  "coverage_source": "Table 3 of the baseline manuscript",
+  "lesion_count_source": "Figure 1 legend of the baseline manuscript"
+}

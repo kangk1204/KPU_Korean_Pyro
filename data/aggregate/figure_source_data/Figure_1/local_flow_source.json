@@ -1,0 +1,31 @@
+{
+  "korean": {
+    "genes": 10,
+    "patients": 87,
+    "specimens": 174
+  },
+  "local_analyses": {
+    "recurrence_cv": {
+      "outer_folds": 4,
+      "outer_repeats": 25
+    },
+    "recurrence_events": 14,
+    "recurrence_patients": 82,
+    "tissue_cv": {
+      "outer_folds": 5,
+      "outer_repeats": 20
+    }
+  },
+  "public": {
+    "classifier_cohorts": 2,
+    "colonomics_pairs": 92,
+    "expression_resources": 2,
+    "gse119526_pairs": 48,
+    "methylation_cohorts": 7
+  },
+  "schema_version": "1.0",
+  "selection": {
+    "recurrence_used_for_gene_selection": false
+  },
+  "source": "frozen aggregate counts extracted from current analysis metadata"
+}

@@ -1,0 +1,13 @@
+{
+  "fixed77": 77,
+  "epic_annotation_present": 71,
+  "epic_annotation_absent": 6,
+  "processed_present_all_three": 56,
+  "processed_absent_all_three": 21,
+  "epic_annotated_but_absent_processed": 15,
+  "technical_mask_ids": [
+    "cg20680720",
+    "cg04481096"
+  ],
+  "interpretation_limit": "6 fixed probes lack EPIC annotation and 15 are EPIC-annotated but absent from the deposited processed Korean matrices; this registry does not assign an upstream processing cause."
+}

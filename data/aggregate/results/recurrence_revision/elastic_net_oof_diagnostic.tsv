@@ -1,0 +1,4 @@
+block	model	n_repeats	min_unique_risk_score_per_repeat	max_unique_risk_score_per_repeat	median_risk_score_sd_per_repeat	min_unique_risk_1825_per_repeat	max_unique_risk_1825_per_repeat	median_risk_1825_sd_per_repeat	interpretation
+clinical	elastic_net	25	1	1	0.0	4	4	0.012284913139586802	constant_linear_predictor
+combined	elastic_net	25	1	21	0.0	4	23	0.012757410787064995	mostly_near_null_with_some_nonconstant_repeats
+tumor10	elastic_net	25	1	22	0.0	4	24	0.012757410787064995	mostly_near_null_with_some_nonconstant_repeats

@@ -1,0 +1,14 @@
+{
+  "unit": "individual CpG",
+  "purpose": "replace historical gene-average paired tissue comparison",
+  "n_boot": 5000,
+  "seed": 20260908,
+  "family": 77,
+  "multiple_testing": "BH77, absent tests p1 only inside family",
+  "interval": "patient-paired BCa bootstrap",
+  "posthoc_scope": "retrospective CpG unit amendment; effects not independently preregistered",
+  "input_sources": {
+    "signals": "PROJECT_ROOT/114_ML_DataDriven_20260905/data/public/processed/gse119526_table1_signal_intensities.tsv.gz",
+    "samples": "PROJECT_ROOT/114_ML_DataDriven_20260905/data/public/processed/gse119526_sample_metadata.tsv"
+  }
+}

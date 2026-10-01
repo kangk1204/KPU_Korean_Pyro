@@ -1,0 +1,11 @@
+cohort	gene	n_target_cpgs	n_measured_cpgs	n_positive_delta	n_positive_q77_lt_005	n_negative_q77_lt_005	min_delta_pp	max_delta_pp	summary_type
+ASAN	EYA4	17	12	12	12	0	17.261713928351917	26.015270339431577	descriptive counts, not a gene-level hypothesis test
+ASAN	ZNF568	8	6	6	6	0	18.75582520265904	24.093378839508862	descriptive counts, not a gene-level hypothesis test
+ASAN	ZNF793	8	5	5	5	0	17.087036588142716	22.297966836579945	descriptive counts, not a gene-level hypothesis test
+ASAN	SFMBT2	8	6	6	6	0	17.88595328353491	26.472069652165448	descriptive counts, not a gene-level hypothesis test
+ASAN	ADHFE1	8	5	5	5	0	23.75966754158354	34.34581724312007	descriptive counts, not a gene-level hypothesis test
+ASAN	HOXA2	8	6	6	6	0	20.60598396952364	25.29706927170138	descriptive counts, not a gene-level hypothesis test
+ASAN	GFRA1	6	6	6	6	0	14.449218226705785	24.725153217398336	descriptive counts, not a gene-level hypothesis test
+ASAN	UNC5C	5	4	4	4	0	17.495144601686626	22.184169573038336	descriptive counts, not a gene-level hypothesis test
+ASAN	RALYL	5	2	2	2	0	16.01376184462099	21.069287699109747	descriptive counts, not a gene-level hypothesis test
+ASAN	BEND5	4	4	4	4	0	20.3407092341674	31.324552178178845	descriptive counts, not a gene-level hypothesis test

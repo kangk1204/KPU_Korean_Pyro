@@ -1,0 +1,12 @@
+Cohort,Analysis,Tumors,CpGs estimated / planned,CpGs with BH q<0.05,"Positive / negative, significant"
+Colonomics,Expression,94,77 / 77,15,0 / 15
+Colonomics,"Expression, adjusted",94,77 / 77,8,0 / 8
+ColoCare,Expression,77,77 / 77,20,1 / 19
+Colonomics,Stromal score,94,77 / 77,75,0 / 75
+Colonomics,"CMS, four groups",83,77 / 77,61,—
+MATCH,CMS3 minus CMS2,146,75 / 77,59,59 / 0
+MATCH,"CMS3 minus CMS2, adjusted",146,75 / 77,58,58 / 0
+CMCBSN,Expression,165,54 / 77,28,0 / 28
+CMCBSN,"Expression, adjusted",165,54 / 77,25,0 / 25
+CMCBSN,CMS3 minus CMS2,76,56 / 77,0,0 / 0
+CMCBSN,"CMS, four groups",141,56 / 77,0,—

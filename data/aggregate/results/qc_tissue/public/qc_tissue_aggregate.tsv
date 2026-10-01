@@ -1,0 +1,3 @@
+analysis	model	patients	specimens	tumour_specimens	normal_specimens	auc	ci_low	ci_high	bootstrap_replicates
+original_primary	ridge	87	174	87	87	0.9680737217598097	0.9319751618443652	0.9981117056414324	2000
+posthoc_exclusion_two_flagged_patient_pairs	ridge	85	170	85	85	0.9672179930795849	0.930193079584775	0.9984301038062282	2000

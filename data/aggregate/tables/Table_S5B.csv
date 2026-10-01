@@ -1,0 +1,5 @@
+Cohort,CIMP stratum,Patients,Balanced median rho,All patients in cohort
+ASAN,CIMP-high,17,not estimated (n<20),0.6713
+ASAN,CIMP-low,111,0.6648,0.6713
+SNUH,CIMP-high,30,0.5086,0.5675
+SNUH,CIMP-low,112,0.5031,0.5675

@@ -1,0 +1,77 @@
+{
+  "cohorts": {
+    "colonomics": {
+      "bootstrap_replicates": 2000,
+      "cohort": "colonomics",
+      "data_sha256": "007592061e104293227f2069eb96f11f7d492536ded7ffee31896f3158481fe0",
+      "features_nonmissing_any": 77,
+      "features_requested": 77,
+      "fixed_probe_sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155",
+      "inner_folds": 4,
+      "logistic_C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "model": "ridge_all_cpg",
+      "outer_folds": 5,
+      "outer_repeats": 20,
+      "outputs": {
+        "bootstrap_ci.tsv": "6259fd14105f2b563dc0a6371dc14e07758d5a79320c86b81a603f9763d124cd",
+        "bootstrap_draws.tsv.gz": "bf370d98bb5189a7d09f279fe8df42142d8c243481b9c27c4b9c5c5636d35240",
+        "candidate_results.tsv.gz": "baa06a2fc577eb04a76a844fbcc881628fbb9175a6fdc0ce0c0ae4a92234ffbe",
+        "feature_qc.tsv": "407b9b5243f5b7a1ff0761810996b9fcc9898af081d23dc632b6c9509bd25008",
+        "fold_audit.tsv": "49739b1b7c478f2977e6dc68423c17852ec49bc853db68e3fbdf5ef20b50e493",
+        "metrics.tsv": "9aea751bca6fd6aa26c8d28311f6e1e00c959b7bc66e2db2cf412255e315d7c1",
+        "model_states.tsv.gz": "a290c4892304ad25027221c269319032bd370c6b157cb876fa11a1e731a2f6ee",
+        "oof_predictions.tsv.gz": "7820b0db19d0c933b7eeb75e2e6c93d398e295631788a17de6cc38117a60f9d1"
+      },
+      "patient_fold_overlap_max": 0,
+      "patients": 92,
+      "rows": 184,
+      "script_sha256": "2cd9b5691569f6a39c8124a08554df600f3243f5fb2220d53c51f24dea079497",
+      "seed": 20260908,
+      "status": "complete"
+    },
+    "gse119526": {
+      "bootstrap_replicates": 2000,
+      "cohort": "gse119526",
+      "data_sha256": "d53727a652aaab4d12fa46f4a853f11faad6c8a8cb2cff11bf2ac4b7c246e086",
+      "features_nonmissing_any": 71,
+      "features_requested": 77,
+      "fixed_probe_sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155",
+      "inner_folds": 4,
+      "logistic_C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "model": "ridge_all_cpg",
+      "outer_folds": 5,
+      "outer_repeats": 20,
+      "outputs": {
+        "bootstrap_ci.tsv": "a48580e3d0a83cb37ef1cc15d38868bffb20a2d9f951b5c2eff08660aeb6cf48",
+        "bootstrap_draws.tsv.gz": "70f07ae5c1905c6bf921e1264693edee78e612dfff59e22026294805bfeef704",
+        "candidate_results.tsv.gz": "93f5a13d04fdb5a2c2449c7896dd845343716773918dac3eaf20b6d14380d250",
+        "feature_qc.tsv": "c9a12b22ce51fc21e3941e93c3e4631cee5360947d962accf805b5884bff688e",
+        "fold_audit.tsv": "b9f439aa2c0f5042852b38b14b71d7de3462d85c8c28727977ba31a00cf37f48",
+        "metrics.tsv": "a8c424fdd57ea8732dfb9fb7dbcdc3e56ff0e332709068423bd95f24d2461b1f",
+        "model_states.tsv.gz": "7674b3a002e195c604b0925c246b72facdb66dd10190368ed893369938701d1d",
+        "oof_predictions.tsv.gz": "172ee18caea37bee9b0f757868f420bb324ea6a2a1254b24aba78a8a554d72c9"
+      },
+      "patient_fold_overlap_max": 0,
+      "patients": 48,
+      "rows": 96,
+      "script_sha256": "2cd9b5691569f6a39c8124a08554df600f3243f5fb2220d53c51f24dea079497",
+      "seed": 20260908,
+      "status": "complete"
+    }
+  },
+  "contract_sha256": "1a78a706404296959c23896458f42b88d3545101e86e8490c571af3d6bb5751e",
+  "script_sha256": "2cd9b5691569f6a39c8124a08554df600f3243f5fb2220d53c51f24dea079497",
+  "status": "complete"
+}

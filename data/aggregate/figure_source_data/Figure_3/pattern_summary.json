@@ -1,0 +1,12 @@
+{
+  "n_pairs": 87,
+  "n_genes": 10,
+  "spearman_pairs": 45,
+  "pca_explained_variance_ratio": {
+    "PC1": 0.5224781074768814,
+    "PC2": 0.1090307515528429
+  },
+  "pca_standardization": "tumor-minus-normal differences standardized by gene with sklearn StandardScaler",
+  "pca_sign_rule": "each component flipped so the largest absolute loading is positive",
+  "correlation_multiplicity_family": "45 pairwise Spearman correlations among fixed genes"
+}

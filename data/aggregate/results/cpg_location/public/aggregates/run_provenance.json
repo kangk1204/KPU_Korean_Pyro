@@ -1,0 +1,106 @@
+{
+  "analysis": "post-hoc annotation-defined CpG scope",
+  "plan_sha256": "1c1ddebc19137e978ea84db2b0dbdcab0b1658aeada1716fda560b31c84e2c96",
+  "registry_manifest_sha256": "35a387b84ccb4e9a018e5d8cab9e1d88458d62284b10437b6d963ac6c6ac11bc",
+  "annotation_type_manifest_sha256": "4828699292d678a3a94134127b8248725a4c80b29bd4b28956b47466d62bf73b",
+  "annotation_type_correction_sha256": "354529eb3d007b8b7bc30b1726eaa337d8f2367ba7d5c8b1e9e9968b2fda6881",
+  "n_boot": 2000,
+  "family_size": 391,
+  "environment": {
+    "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "cohorts": {
+    "CMCBSN": {
+      "raw": {
+        "sha256": "23fc22f1ffd8978283b8e826c3d35d42de95ca08eca7d83d38a5f0d2461db241",
+        "bytes": 3652282903,
+        "source_probe_rows": 609046,
+        "n_samples": 333,
+        "n_registered_present": 282,
+        "n_registered_absent": 109,
+        "extracted_sha256": "e349d77c8a20238ba4edb03132255cd00c6c0ce17986ca65e0afff5ce6c04bd9",
+        "structure_scope": "all rows; numeric/range checks only on retained registered probes"
+      },
+      "input_sha256": {
+        "pair_metadata": "66916f3a5225472e377939439a54ca254f9dcd18c41c1a9aea8749b1199c82d1",
+        "selected_beta": "917c7cf42d430d630e357417b44f21a0943e2cee0e743c1c30cf60cd43c1787c"
+      },
+      "n_pairs": 103,
+      "seed": 2026091501,
+      "selected_paired_values_exact_match": true,
+      "n_selected_measured": 56,
+      "n_universe_measured": 282,
+      "n_cpg_measured": 281,
+      "n_non_cpg_measured": 1,
+      "n_tested": 269
+    },
+    "SNUH": {
+      "raw": {
+        "sha256": "9fd75cbc950dbb197ee3afa74819b79d8c53d3868b8d70473f134434bf2e9faf",
+        "bytes": 4849869650,
+        "source_probe_rows": 616162,
+        "n_samples": 437,
+        "n_registered_present": 282,
+        "n_registered_absent": 109,
+        "extracted_sha256": "991da05c7937a25d4e87fafe79f9f749be214e35727d8ecece27fb260a891ec8",
+        "structure_scope": "all rows; numeric/range checks only on retained registered probes"
+      },
+      "input_sha256": {
+        "pair_metadata": "31e2084d21e7b7eadf5b2dbc69dd9d65c61bca69c8d929ec45c3bcebd1219ea5",
+        "selected_beta": "83b38e675e0d753bb889ea7e2f82c06b0ce88dbfe55dca0399d3a4099ee49965"
+      },
+      "n_pairs": 142,
+      "seed": 2026091502,
+      "selected_paired_values_exact_match": true,
+      "n_selected_measured": 56,
+      "n_universe_measured": 282,
+      "n_cpg_measured": 281,
+      "n_non_cpg_measured": 1,
+      "n_tested": 269
+    },
+    "ASAN": {
+      "raw": {
+        "sha256": "756da7d1d7c0489bc141e64a2f48d6db874e6b5c60865cb983ea111db2e7fac7",
+        "bytes": 3299286688,
+        "source_probe_rows": 610674,
+        "n_samples": 300,
+        "n_registered_present": 282,
+        "n_registered_absent": 109,
+        "extracted_sha256": "3ed99927466335de07090c626209d35c764c06180cd1379c990ff72c7f19a0b6",
+        "structure_scope": "all rows; numeric/range checks only on retained registered probes"
+      },
+      "input_sha256": {
+        "pair_metadata": "31897ebe7e05d6cb50ceb2b4bf87022fec0e94ecfa05fa3b3a1eb5e037f75e7e",
+        "selected_beta": "af40ae553749c187c41d577a99df3bff350733d1a3b190ff11dd7df6e84f8bb9"
+      },
+      "n_pairs": 128,
+      "seed": 2026091503,
+      "selected_paired_values_exact_match": true,
+      "n_selected_measured": 56,
+      "n_universe_measured": 282,
+      "n_cpg_measured": 281,
+      "n_non_cpg_measured": 1,
+      "n_tested": 269
+    }
+  },
+  "output_sha256": {
+    "coverage_and_pooled_summary.tsv": "b07265de81b03cdfe7793c7038cf00ea063fd77d8617cefc2ba7d4fb035757aa",
+    "coverage_by_probe_type.tsv": "f1091403a796a19d54d0939ae47a3440b82f650da1ca3b94237df5aa927e667b",
+    "group_distributions.tsv": "69628c9649b281f1a856f720f9f0e61fb9cc7114bc53763939aec4ddd2398acd",
+    "pooled_group_bootstrap.tsv": "a3ec9f575edb2fe11fc0904ecc25288ccbc0a34558ac479074e9184713873ac9",
+    "probe_effects.tsv": "87466c48d2c75e812a3d13653c391c3c05b660dccedd814e007af588eb9980a0"
+  },
+  "code_sha256": {
+    "build_tables.py": "343c801d96a9221886add04314a4bcd836f07ac0759695e8aff21e6e616ebdf2",
+    "cpg_scope.py": "74c40921ba35692fd59d73e6dc317d90dcd93bf234afe8fda2f26c285a298c33",
+    "freeze_registry.py": "a1b6cbe746bb69d503ea1678c47b7eedd76c22544d1148386594fe8f42f0ea08",
+    "register_probe_types.py": "7db79ee7f4d1f8488a2cb0934ad3b0ba0431e31f6ec1cb34a7dc6bb226611cf5",
+    "test_cpg_scope.py": "a60a6bbbf198aff8f60d246f471f9e85570bc64af850fcba854d4d480ea9c8eb"
+  },
+  "regeneration_mode": "verified_private_extractions",
+  "prior_raw_audit_provenance_sha256": "121ead552cd5014d99ecddc453cec9e49095774f9425b1c6ee7d2119133b1d96"
+}

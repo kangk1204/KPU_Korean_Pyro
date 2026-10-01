@@ -1,0 +1,9 @@
+cohort	n_pairs	n_specimens	n_cpgs_available	pct_missing_values	n_cpg_EYA4	n_cpg_ZNF568	n_cpg_ZNF793	n_cpg_SFMBT2	n_cpg_ADHFE1	n_cpg_HOXA2	n_cpg_BEND5	n_cpg_UNC5C	n_cpg_RALYL	n_cpg_GFRA1
+Colonomics	92	184	56	0.0	12	6	5	6	5	6	4	4	2	6
+CMCBSN	103	206	56	0.0	12	6	5	6	5	6	4	4	2	6
+SNUH	142	284	56	0.0	12	6	5	6	5	6	4	4	2	6
+ASAN	128	256	56	0.0	12	6	5	6	5	6	4	4	2	6
+GSE119526	48	96	56	0.0	12	6	5	6	5	6	4	4	2	6
+GSE193535	54	108	54	0.0	12	5	5	6	5	5	4	4	2	6
+GSE77718	95	190	43	0.122	8	5	4	4	5	6	2	4	1	4
+GSE42752	22	44	56	0.081	12	6	5	6	5	6	4	4	2	6

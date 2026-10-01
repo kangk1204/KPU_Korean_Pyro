@@ -1,0 +1,6 @@
+field	n	n_match	all_match
+BRAF_V600E	92	92	True
+KRAS_mutated	92	92	True
+CMS	92	92	True
+stromal_score	92	92	True
+age	92	92	True

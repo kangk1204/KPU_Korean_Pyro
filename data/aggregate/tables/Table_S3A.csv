@@ -1,0 +1,9 @@
+Cohort,Adjustment,Candidate,Reference median (central 95% of sets),Reference minimum to maximum,"Sets at or above candidate, n/5,000"
+ASAN (128 pairs),None,0.6713 (0.6102 to 0.7334),0.5626 (0.4469 to 0.6442),0.2755 to 0.7111,28
+ASAN (128 pairs),Open-sea methylation score,0.5855,0.5032 (0.3990 to 0.5819),0.2071 to 0.6465,101
+ASAN (128 pairs),"Common score, own genes left out",0.0877 (0.0276 to 0.1460),0.0065 (−0.0228 to 0.0433),−0.0559 to 0.0895,2
+ASAN (128 pairs),"Common score, all 151 genes",0.0877 (0.0276 to 0.1460),0.0001 (−0.0287 to 0.0351),−0.0625 to 0.0792,0
+SNUH (142 pairs),None,0.5675 (0.4853 to 0.6299),0.4167 (0.3182 to 0.4876),0.2107 to 0.5345,0
+SNUH (142 pairs),Open-sea methylation score,0.4714,0.3868 (0.2934 to 0.4564),0.2023 to 0.5106,33
+SNUH (142 pairs),"Common score, own genes left out",0.1239 (0.0569 to 0.1814),0.0080 (−0.0198 to 0.0429),−0.0465 to 0.0810,0
+SNUH (142 pairs),"Common score, all 151 genes",0.1239 (0.0569 to 0.1814),0.0014 (−0.0256 to 0.0334),−0.0495 to 0.0696,0

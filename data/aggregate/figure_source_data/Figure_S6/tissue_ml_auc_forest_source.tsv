@@ -1,0 +1,9 @@
+cohort	feature_unit	model	auc	ci_low	ci_high	source_file	source_model	analysis_scope	plot_label	metric	note
+Local PSQ, 87 patients	PSQ gene-level	ridge	0.9680737217598095	0.9319751618443652	0.9981117056414324	PROJECT_ROOT/114_ML_DataDriven_20260905/figures/source_data/F6_tissue_local_metrics_source_data.tsv	ridge	cohort-local nested CV tissue classification	"Local PSQ, 87 patients
+PSQ gene-level; ridge"	AUC	Not external model validation; each row is cohort-specific nested cross-validation.
+Local PSQ, 87 patients	PSQ gene-level	inner-selected single gene	0.9428028801691108	0.9014867386708943	0.978272146254459	PROJECT_ROOT/114_ML_DataDriven_20260905/figures/source_data/F6_tissue_local_metrics_source_data.tsv	best_single_gene	cohort-local nested CV tissue classification	"Local PSQ, 87 patients
+PSQ gene-level; inner-selected single gene"	AUC	Not external model validation; each row is cohort-specific nested cross-validation.
+Colonomics, 92 patients	array individual-CpG	ridge	0.976547731568998	0.9505211779300567	0.9959423735822308	PROJECT_ROOT/124_Integrated_Revision_20260909/results/public_ml/colonomics/bootstrap_ci.tsv	ridge_all_cpg	cohort-local nested CV tissue classification	"Colonomics, 92 patients
+array individual-CpG; ridge"	AUC	Not external model validation; each row is cohort-specific nested cross-validation.
+GSE119526, 48 patients	array individual-CpG	ridge	0.9910590277777775	0.9767567274305556	1.0	PROJECT_ROOT/124_Integrated_Revision_20260909/results/public_ml/gse119526/bootstrap_ci.tsv	ridge_all_cpg	cohort-local nested CV tissue classification	"GSE119526, 48 patients
+array individual-CpG; ridge"	AUC	Not external model validation; each row is cohort-specific nested cross-validation.

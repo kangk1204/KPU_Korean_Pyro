@@ -1,0 +1,12 @@
+Resource,Accession or source identifier,Role in this study
+Candidate adenoma datasets,GSE139404 [12]; GSE129364 [13],Original candidate screening
+ColoCare,GSE101764 [14]; GSE106582 [30],Candidate-screen methylation and supportive tumor expression associations
+TCGA-COAD,GSE68838; archived TCGA case-matched HumanMethylation450 files [15],Candidate-screen overlap and supportive paired CpG analysis
+Colonomics,GSE131013; GSE44076; GSE166427,"Tissue comparisons, expression, stromal and CMS analyses, and tissue classification in one cohort"
+Public tissue/lesion cohorts,GSE48684; GSE42752; GSE193535; GSE77718; GSE77954,Tissue comparisons and CpG-specific meta-analyses
+MATCH,GSE164811,Comparison of tumors classified as CMS3 or CMS2
+Paired tissue classification cohort (MethylationEPIC),GSE119526 [37],Supporting CpG comparisons and tissue classification within the cohort
+CMCBSN methylation (Uijeongbu St. Mary’s and Seoul National University Bundang hospitals),KAP240422; PRJKA2086326,Korean paired tissue replication and expression and CMS analyses
+SNUH methylation (Seoul National University Hospital),KAP240419; PRJKA2086323,Korean paired tissue replication
+ASAN methylation (Asan Medical Center),KAP240421; PRJKA2086325,Korean paired tissue replication
+CMCBSN RNA and CMS data,Zenodo 8333650 and companion RNA study [33],Gene expression measurements and CMS classifications from the original study

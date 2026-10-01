@@ -1,0 +1,2 @@
+cohort	scope	n_complete_pairs	n_available_cpgs	n_genes	median_between_gene_rho	ci_low	ci_high	permutation_p	n_boot	n_permutation	status	n_between_gene_pairs	n_positive_between_gene_pairs	valid_bootstraps
+SNUH	individual CpGs, between-gene correlations; no methylation averaging	142	56	10	0.5685040162115379	0.4954800608252005	0.6326625933082926	9.999000099990002e-05	5000	10000	estimated	1381	1381	5000

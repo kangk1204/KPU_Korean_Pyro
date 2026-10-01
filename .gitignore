@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+reproduced/
+*.pyc
+.DS_Store
+private/
+private_run/
+*.docx
+*.pdf
+*.idat
+*.IDAT

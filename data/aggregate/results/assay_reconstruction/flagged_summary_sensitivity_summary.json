@@ -1,0 +1,10 @@
+{
+  "source": "original workbooks; 1740 values exactly agree between PSQ and clinical workbooks",
+  "method": "paired t and two-sided Wilcoxon (zero_method=wilcox); BH family=10 genes separately per scenario and test; BCa patient-bootstrap 5000; seed 20260905",
+  "scope": "post hoc sensitivity for only the two representative summaries with nonblue numerical result labels; all unobserved run QC remains unknown",
+  "all_scenarios_all_genes_positive_mean": true,
+  "all_scenarios_all_genes_positive_BCa_lower": true,
+  "all_scenarios_all_genes_t_BH_below_0_05": true,
+  "all_scenarios_all_genes_wilcoxon_BH_below_0_05": true,
+  "max_absolute_mean_change_pp": 0.6032589587559194
+}

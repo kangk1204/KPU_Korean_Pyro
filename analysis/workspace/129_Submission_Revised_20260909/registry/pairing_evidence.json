@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-09",
+  "scope": "provenance-only; regenerated in 124 integrated revision",
+  "summary": {
+    "title_header_gate": "pass",
+    "notes": [
+      "Public browse inventories encode human-readable sample titles; terminal sample IDs match deposited matrix header IDs exactly.",
+      "pair_verified counts are row counts in data/derived/*_samples.tsv under source-label semantics, not genotype-based identity confirmation."
+    ]
+  },
+  "cohorts": {
+    "CMCBSN": {
+      "registry_accession": "PRJKA2086326",
+      "browse_accession": "KAP240422",
+      "secondary_accession": "zenodo:8333650",
+      "institution": "Uijeongbu St Mary; Seoul National University Bundang",
+      "platform": "EPIC",
+      "header_count": 333,
+      "browse_title_count": 333,
+      "exact_header_title_matches": 333,
+      "header_only_ids": [],
+      "browse_only_ids": [],
+      "paired_patient_count": 103,
+      "unpaired_patient_count": 127,
+      "paired_sample_count": 206,
+      "unpaired_sample_count": 127,
+      "pair_verified_true_rows": 206,
+      "pair_verified_false_rows": 127,
+      "pair_verification_semantics": "source-label verified tumor/nontumor pair from exact matrix-column to KBDS sample-title join; not genotype-confirmed identity",
+      "sample_title_source": "120_Korean_External_Validation_20260908/data/derived/CMCBSN_browse_sample_titles.tsv",
+      "header_source": "000_CMCBSN_catholic_beta/processed_beta.txt"
+    },
+    "SNUH": {
+      "registry_accession": "PRJKA2086323",
+      "browse_accession": "KAP240419",
+      "secondary_accession": NaN,
+      "institution": "Seoul National University Hospital",
+      "platform": "EPIC",
+      "header_count": 437,
+      "browse_title_count": 437,
+      "exact_header_title_matches": 437,
+      "header_only_ids": [],
+      "browse_only_ids": [],
+      "paired_patient_count": 142,
+      "unpaired_patient_count": 153,
+      "paired_sample_count": 284,
+      "unpaired_sample_count": 153,
+      "pair_verified_true_rows": 284,
+      "pair_verified_false_rows": 153,
+      "pair_verification_semantics": "source-label verified tumor/nontumor pair from exact matrix-column to KBDS sample-title join; not genotype-confirmed identity",
+      "sample_title_source": "120_Korean_External_Validation_20260908/data/derived/SNUH_browse_sample_titles.tsv",
+      "header_source": "000_SNUH_seoul_beta/processed_beta.txt"
+    },
+    "ASAN": {
+      "registry_accession": "PRJKA2086325",
+      "browse_accession": "KAP240421",
+      "secondary_accession": NaN,
+      "institution": "Asan Medical Center",
+      "platform": "EPIC",
+      "header_count": 300,
+      "browse_title_count": 300,
+      "exact_header_title_matches": 300,
+      "header_only_ids": [],
+      "browse_only_ids": [],
+      "paired_patient_count": 128,
+      "unpaired_patient_count": 44,
+      "paired_sample_count": 256,
+      "unpaired_sample_count": 44,
+      "pair_verified_true_rows": 256,
+      "pair_verified_false_rows": 44,
+      "pair_verification_semantics": "source-label verified tumor/nontumor pair from exact matrix-column to KBDS sample-title join; not genotype-confirmed identity",
+      "sample_title_source": "120_Korean_External_Validation_20260908/data/derived/ASAN_browse_sample_titles.tsv",
+      "header_source": "000_ASAN_seoul_beta/processed_beta.txt"
+    }
+  },
+  "pairwise_header_overlap": {
+    "CMCBSN_vs_SNUH": {
+      "exact_sample_id_overlap": 0,
+      "exact_patient_id_overlap": 0,
+      "scope": "exact public source identifier check; does not prove absence of reidentified patients"
+    },
+    "CMCBSN_vs_ASAN": {
+      "exact_sample_id_overlap": 0,
+      "exact_patient_id_overlap": 0,
+      "scope": "exact public source identifier check; does not prove absence of reidentified patients"
+    },
+    "SNUH_vs_ASAN": {
+      "exact_sample_id_overlap": 0,
+      "exact_patient_id_overlap": 0,
+      "scope": "exact public source identifier check; does not prove absence of reidentified patients"
+    }
+  },
+  "evidence_limits": [
+    "Header/title identity is exact at sample-ID level, but source labels do not provide genotype fingerprinting.",
+    "Pairing uses public sample title, patient code, and explicit tumor/nontumor label.",
+    "No panel outcome, CIMP call, or downstream biological claim is derived from this provenance registry."
+  ],
+  "source_files": [
+    "000_ASAN_seoul_beta/processed_beta.txt",
+    "000_CMCBSN_catholic_beta/processed_beta.txt",
+    "000_SNUH_seoul_beta/processed_beta.txt",
+    "120_Korean_External_Validation_20260908/data/derived/ASAN_browse_sample_titles.tsv",
+    "120_Korean_External_Validation_20260908/data/derived/CMCBSN_browse_sample_titles.tsv",
+    "120_Korean_External_Validation_20260908/data/derived/SNUH_browse_sample_titles.tsv",
+    "120_Korean_External_Validation_20260908/registry/cohort_manifest.tsv"
+  ]
+}

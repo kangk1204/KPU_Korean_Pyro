@@ -1,0 +1,48 @@
+{
+  "frozen_at_utc": "2026-09-08T05:42:36.534801+00:00",
+  "status": "frozen_before_new_panel_outcomes",
+  "genes": [
+    "EYA4",
+    "ZNF568",
+    "ZNF793",
+    "SFMBT2",
+    "ADHFE1",
+    "HOXA2",
+    "GFRA1",
+    "UNC5C",
+    "RALYL",
+    "BEND5"
+  ],
+  "fixed_probe_sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155",
+  "min_valid": {
+    "EYA4": 14,
+    "ZNF568": 7,
+    "ZNF793": 7,
+    "SFMBT2": 7,
+    "ADHFE1": 7,
+    "HOXA2": 7,
+    "GFRA1": 5,
+    "UNC5C": 4,
+    "RALYL": 4,
+    "BEND5": 4
+  },
+  "panel": "equal mean, all ten genes required",
+  "seed": 20260908,
+  "n_boot": 5000,
+  "n_permutation": 10000,
+  "primary_paired_test": "two-sided paired t; BCa mean CI; Wilcoxon sensitivity",
+  "primary_coordination": "median Spearman among 45 paired-delta correlations; positive-direction global permutation",
+  "families": {
+    "paired_genes": 10,
+    "delta_correlations": 45,
+    "CMS3_CMS2": 11,
+    "CMS_omnibus": 11,
+    "expression_each_model": 10,
+    "stroma": 11
+  },
+  "missing_test_handling": "p=1 internally, NA externally",
+  "ML": "conditional, training-only preprocessing and locked array model; not PSQ external validation",
+  "recurrence": "conditional on actual event dates, not required",
+  "source_inspection": "Published general results and previous manuscript inspected; new Korean 77-probe outcomes not yet calculated",
+  "approved_plan_sha256": "9ee32ddfaaf38a710e1017fd0f3f4b32323785d47a055a6c7b3f605d7319a4af"
+}

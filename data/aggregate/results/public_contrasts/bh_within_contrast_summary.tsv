@@ -1,0 +1,16 @@
+contrast	cohort	n_tests	n_estimable	sig_q_BH_family	sig_q_BH_within_contrast	sig_negative_q_BH_family	sig_negative_q_BH_within_contrast
+A-H	GSE48684	77	77	77	77	0	0
+N-H	Colonomics	77	77	5	0	3	0
+N-H	GSE42752	77	77	17	3	3	0
+N-H	GSE48684	77	77	6	0	0	0
+T-A	GSE48684	77	77	1	0	1	0
+T-A	GSE77954	77	77	9	0	9	0
+T-H	Colonomics	77	77	77	77	0	0
+T-H	GSE42752	77	77	77	77	0	0
+T-H	GSE48684	77	77	77	77	0	0
+T-N	Colonomics	77	77	77	77	0	0
+T-N	GSE193535	77	75	75	75	0	0
+T-N	GSE42752	77	77	77	77	0	0
+T-N	GSE48684	77	77	77	77	0	0
+T-N	GSE77718	77	60	60	60	0	0
+T-N	GSE77954	77	77	2	2	0	0

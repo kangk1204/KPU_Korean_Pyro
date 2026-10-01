@@ -1,0 +1,4 @@
+cohort_a	cohort_b	exact_sample_id_overlap	exact_patient_id_overlap	scope
+CMCBSN	SNUH	0	0	exact source identifier check; does not prove absence of reidentified patients
+CMCBSN	ASAN	0	0	exact source identifier check; does not prove absence of reidentified patients
+SNUH	ASAN	0	0	exact source identifier check; does not prove absence of reidentified patients

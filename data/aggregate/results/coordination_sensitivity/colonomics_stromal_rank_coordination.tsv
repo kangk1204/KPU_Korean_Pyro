@@ -1,0 +1,2 @@
+cohort	analysis	n_paired_patients_with_tumor_stromal_score	n_cpgs	n_between_gene_pairs	median_between_gene_rho_unadjusted	median_between_gene_rho_stromal_rank_adjusted	median_change_adjusted_minus_unadjusted	interpretation_limit
+Colonomics	paired CpG delta between-gene coordination with tumor stromal-score rank adjustment	90	77	2609	0.5993686437415201	0.5570551568884964	-0.04231348685302372	Stromal-rank adjustment attenuates but does not remove coordination; this is not a causal purity decomposition and CIMP labels are not treated as available for a primary CIMP analysis.

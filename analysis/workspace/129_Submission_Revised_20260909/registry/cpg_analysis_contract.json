@@ -1,0 +1,20 @@
+{
+  "status": "user_amended_before_CpG_outcome_estimation",
+  "reason": "User explicitly requires individual CpG analysis across new and existing public arrays; no cross-CpG methylation averages",
+  "fixed_targets": "77originalCpGs mapped to10genes; preserve original registry hash",
+  "primary_unit": "patient; one tumor-minus-normal difference perpatient perCpG",
+  "coverage": "Individual available CpG measurements; no80percentgenecoveragecondition; missingtargetsNA",
+  "primary_test": "paired two-sided t, Wilcoxon sensitivity; mean paired difference*100percentagepoints, BCa95%CI5000patientbootstrap",
+  "paired_family": 77,
+  "missing_tests": "p=1inside BH;NAoutside;77plannedrows percohort",
+  "coordination": "IndividualCpGpaired-deltaSpearman correlations. SeparateBHfamilies forwithin/betweengene pairs fromfixed77registry; no averagingCpGvalues",
+  "global_coordination": "medianbetween-geneCpGcorrelation acrossavailableCpGs; patientvectorbootstrap5000rerank;10000gene-blockpermutations preservewithin-geneCpGdependence",
+  "interpretation": "Retrospective protocol amendment after observingcoverage and historicalgene-levelresults; not preregistered confirmatory protocol. No KoreanCpG-specificeffectresults inspected beforeamendment.",
+  "seed": 20260908,
+  "n_boot": 5000,
+  "n_permutation": 10000,
+  "secondary_context_family": 77,
+  "original_gene_mean_contract": "reference only; superseded forcurrentarrayanalyses",
+  "ML": "Publicarrays mustuseindividualCpGfeatures ifrerun; nooldgene-meanAUCclaimed asupdated",
+  "PSQ": "Assay-source resolution audited separately; no invented sitevalues"
+}

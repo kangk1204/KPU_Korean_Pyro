@@ -1,0 +1,4 @@
+cohort	n_paired_patients	n_cpgs	pc1_explained_variance_fraction
+CMCBSN	103	56	0.6972509611120057
+SNUH	142	56	0.6047968649367312
+ASAN	128	56	0.7073018426150439

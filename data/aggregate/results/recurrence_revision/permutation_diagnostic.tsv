@@ -1,0 +1,2 @@
+test	observed_uno_c	n_permutations	n_null_ge_observed	p_value_add_one	p_value_file	status_all_complete	note
+recurrence_combined_ridge_uno_c_5y	0.61447504184258	999	131	0.132	0.132	True	observed value is the permutation diagnostic statistic from the preserved 114 permutation run

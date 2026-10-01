@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "sha256": "23fc22f1ffd8978283b8e826c3d35d42de95ca08eca7d83d38a5f0d2461db241",
+      "size_bytes": 3652282903,
+      "source_probe_rows": 609046,
+      "patient_pairs": 103,
+      "matrix_samples": 333,
+      "historical_sha256_matches": true,
+      "cohort": "CMCBSN"
+    },
+    {
+      "sha256": "756da7d1d7c0489bc141e64a2f48d6db874e6b5c60865cb983ea111db2e7fac7",
+      "size_bytes": 3299286688,
+      "source_probe_rows": 610674,
+      "patient_pairs": 128,
+      "matrix_samples": 300,
+      "historical_sha256_matches": true,
+      "cohort": "ASAN"
+    },
+    {
+      "sha256": "9fd75cbc950dbb197ee3afa74819b79d8c53d3868b8d70473f134434bf2e9faf",
+      "size_bytes": 4849869650,
+      "source_probe_rows": 616162,
+      "patient_pairs": 142,
+      "matrix_samples": 437,
+      "historical_sha256_matches": true,
+      "cohort": "SNUH"
+    }
+  ],
+  "total_streamed_bytes": 11801439241,
+  "fixed_registry_sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155",
+  "plan_sha256": "c180a1bf0f96cfae9a8856a55536e8933e38e6fe4520499da60734fd13effc9f",
+  "selection_freeze_sha256": "e292be1d60df2e464139175ecc225fb039db488c7e5c0ccf0f8697fdb8b5a361",
+  "source_annotation": "IlluminaHumanMethylation450kanno.ilmn12.hg19 0.6.1 and saved Zhou HM450 hg19 manifest",
+  "inferential_unit": "paired patient",
+  "pair_identity_scope": "source patient code and explicit tissue label linkage, not genotype verification",
+  "raw_processed_matrix_provenance_scope": "complete file SHA and structure; numeric QC on selected paired values; no raw IDAT renormalization",
+  "public_data_scope": "aggregate statistics, annotations and synthetic control-set identifiers only"
+}

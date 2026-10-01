@@ -1,0 +1,7 @@
+Cohort	Selection	Annotated probes (CpGs)	Measured probes (CpGs)	Measured, masked CpGs	Analyzed CpGs	Pairs per analyzed CpG
+CMCBSN	Selected	77 (77)	56 (56)	2	54	103
+CMCBSN	Unselected	314 (311)	226 (225)	10	215	103
+SNUH	Selected	77 (77)	56 (56)	2	54	142
+SNUH	Unselected	314 (311)	226 (225)	10	215	142
+ASAN	Selected	77 (77)	56 (56)	2	54	128
+ASAN	Unselected	314 (311)	226 (225)	10	215	128

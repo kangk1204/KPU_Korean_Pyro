@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "source_114_recurrence_dir": "PROJECT_ROOT/129_Submission_Revised_20260909/114_ML_DataDriven_20260905/results/ml/recurrence",
+  "horizon_days": 1825,
+  "bootstrap_replicates_for_new_diagnostics": 300,
+  "outputs": [
+    "elastic_net_oof_diagnostic.tsv",
+    "figure_s2_recurrence_source.tsv",
+    "horizon_support_counts.tsv",
+    "metric_retention_decisions.tsv",
+    "null_km_benchmark.tsv",
+    "optimism_diagnostic.tsv",
+    "permutation_diagnostic.tsv",
+    "regularization_boundary_diagnostic.tsv",
+    "risk_metric_diagnostics.tsv",
+    "run_manifest.json",
+    "table_s3_delta_ci.tsv",
+    "table_s3_recurrence_primary_corrected.tsv"
+  ],
+  "primary_table_rows": 3,
+  "delta_uno_c": {
+    "contrast": "combined_ridge_minus_clinical_ridge",
+    "metric": "delta_uno_c",
+    "horizon_days": 1825,
+    "estimate_from_bootstrap_draw_mean": 0.0034845639798620175,
+    "ci_low_from_bootstrap_draws": -0.17885724208078077,
+    "ci_high_from_bootstrap_draws": 0.18370357971991838,
+    "bootstrap_n": 2000,
+    "interval_scope": "paired_patient_cluster_bootstrap_conditional_on_preserved_nested_cv_oof",
+    "decision": "primary",
+    "estimate_source_primary_bootstrap_ci": 0.0087154111761351,
+    "ci_low_source_primary_bootstrap_ci": -0.178857242080781,
+    "ci_high_source_primary_bootstrap_ci": 0.183703579719918,
+    "estimate": 0.0087154111761351,
+    "ci_low": -0.178857242080781,
+    "ci_high": 0.183703579719918,
+    "max_abs_ci_diff_vs_recomputed_draw_quantiles": 3.885780586188048e-16,
+    "point_estimate_minus_bootstrap_draw_mean": 0.005230847196273083
+  },
+  "metric_contract": "Uno C primary; paired delta CI primary; Brier secondary with null-KM benchmark; pooled AUC/calibration retired from claims"
+}

@@ -1,0 +1,119 @@
+{
+  "analysis": "Retrospective descriptive common-axis and QC diagnostics",
+  "inputs_by_logical_role": {
+    "candidate_registry": {
+      "sha256": "736e00f677c17c3860d50be278b73de2894f1b7f78cad73ef17b1dc4ce1b988c",
+      "bytes": 3176
+    },
+    "control_pool_registry": {
+      "sha256": "58582d2b188c60a55ecbce5d0545b1ff8c41e492feea2ef78f556f612b7df75b",
+      "bytes": 67902
+    },
+    "frozen_set_registry": {
+      "sha256": "4a8763316d210dc6b1b8bff709e5390802b8f6369cc5d9ec035244af0e0ac793",
+      "bytes": 912795
+    },
+    "ASAN_candidate_beta": {
+      "sha256": "af40ae553749c187c41d577a99df3bff350733d1a3b190ff11dd7df6e84f8bb9",
+      "bytes": 310942
+    },
+    "ASAN_pair_metadata": {
+      "sha256": "31897ebe7e05d6cb50ceb2b4bf87022fec0e94ecfa05fa3b3a1eb5e037f75e7e",
+      "bytes": 100357
+    },
+    "ASAN_authorized_delta_cache": {
+      "sha256": "ace71e09206758887848ea71802074fa6f32ca3bfbc31b2cee51204b473f28c0",
+      "bytes": 1006192
+    },
+    "ASAN_frozen_set_statistics": {
+      "sha256": "94e54101fbdd797b182966bd3e6aea7c723a6d35054bd31980acc26d0d876d92",
+      "bytes": 229498
+    },
+    "SNUH_candidate_beta": {
+      "sha256": "83b38e675e0d753bb889ea7e2f82c06b0ce88dbfe55dca0399d3a4099ee49965",
+      "bytes": 451563
+    },
+    "SNUH_pair_metadata": {
+      "sha256": "31e2084d21e7b7eadf5b2dbc69dd9d65c61bca69c8d929ec45c3bcebd1219ea5",
+      "bytes": 146540
+    },
+    "SNUH_authorized_delta_cache": {
+      "sha256": "20a1cead3eb30c2c65fbda0001008e087d7120c487a018c3c3409c5f7609b1cb",
+      "bytes": 1113421
+    },
+    "SNUH_frozen_set_statistics": {
+      "sha256": "24d086b468402d48fa87470a571a6d8758b555b2fb6c639f69bc2427a1451d2f",
+      "bytes": 233963
+    },
+    "CMCBSN_candidate_beta": {
+      "sha256": "917c7cf42d430d630e357417b44f21a0943e2cee0e743c1c30cf60cd43c1787c",
+      "bytes": 343303
+    },
+    "CMCBSN_pair_metadata": {
+      "sha256": "66916f3a5225472e377939439a54ca254f9dcd18c41c1a9aea8749b1199c82d1",
+      "bytes": 113074
+    },
+    "authorized_local_tissue": {
+      "sha256": "28d3a5b980b79deb07d1219eef03033adad83c237f2fb655e41ca84566a831ac",
+      "bytes": 10884
+    },
+    "authorized_local_exclusions": {
+      "sha256": "43d4fb2c5353deb31c033eded7f9bd3ded656f5c7053c0b64f6ec256778badc3",
+      "bytes": 19
+    }
+  },
+  "inputs_unchanged_after_run": true,
+  "bootstrap_draws": 500,
+  "bootstrap_seeds": {
+    "ASAN": 2026091619,
+    "SNUH": 2026091633
+  },
+  "scope": "Conditional on fixed candidates, source-frozen control membership, score definition, and deposited values; no purity/CIMP diagnosis",
+  "python": "3.9.6",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "script_sha256": "a279f04cdf83c6c913b1d2573591dac4baf75cd9a581516c556e1df15439e56d",
+  "outputs": {
+    "ASAN_background_score_bootstrap.tsv": {
+      "rows": 500,
+      "sha256": "d37952a256bf25398a41195014beb816487f8c5dfc72cfb994221649ae86e6f9"
+    },
+    "ASAN_set_diagnostics.tsv": {
+      "rows": 5000,
+      "sha256": "e29c05f2909c217bf9c6e504fc2a4feab6a95e4e92f9e8e9db5c52dc10baeb47"
+    },
+    "SNUH_background_score_bootstrap.tsv": {
+      "rows": 500,
+      "sha256": "4f5971c06ceec9ae3b92f27351fca001ad00c67ebe7f7cbd2f38f8bcc2dc7ce9"
+    },
+    "SNUH_set_diagnostics.tsv": {
+      "rows": 5000,
+      "sha256": "f07ad383d90b500d6be4565b3caf1308a2b024269b83640e680a2cf946bd97dc"
+    },
+    "candidate_tissue_decomposition.tsv": {
+      "rows": 12,
+      "sha256": "e2a432286ece5a972f19b87f084d59e169dd695b374a9dddef895514867a8a07"
+    },
+    "normalized_covariance_decomposition.tsv": {
+      "rows": 15,
+      "sha256": "38e14c8483f577d98d81291445a004ed8a2047128bd44239dedb2688af6ec0ae"
+    },
+    "background_score_adjustment.tsv": {
+      "rows": 10,
+      "sha256": "f9b6cafe7baff80c017cb81e5b55799866747aced9213aa8a6340d5083aec1d2"
+    },
+    "set_effect_coordination_relationship.tsv": {
+      "rows": 2,
+      "sha256": "c020d3ce5bbc2d30f0568dace294fe2625978d39e16860f1e62b7cc5324ab494"
+    },
+    "local_qc_coordination_summary.tsv": {
+      "rows": 2,
+      "sha256": "97e64f8d7d31ee4d13307c70fd5fae9ab02c0368737cf91226614b3037a4967f"
+    },
+    "local_qc_coordination_pairs.tsv": {
+      "rows": 90,
+      "sha256": "7186f50388a55eac07321c58ada593005cbce654df7c1280513284474446fab2"
+    }
+  }
+}

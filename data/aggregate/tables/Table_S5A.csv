@@ -1,0 +1,6 @@
+Marker rule,"ASAN, 3 of 5","ASAN, 4 of 5","ASAN, 5 of 5","SNUH, 3 of 5","SNUH, 4 of 5","SNUH, 5 of 5"
+Tumor beta 0.20 or higher,72 (56.2%),8 (6.2%),0 (0.0%),82 (57.7%),6 (4.2%),1 (0.7%)
+Tumor beta 0.30 or higher,17 (13.3%),2 (1.6%),0 (0.0%),30 (21.1%),0 (0.0%),0 (0.0%)
+Tumor beta 0.40 or higher,8 (6.2%),1 (0.8%),0 (0.0%),13 (9.2%),0 (0.0%),0 (0.0%)
+Paired beta difference 0.20 or higher,7 (5.5%),2 (1.6%),0 (0.0%),12 (8.5%),0 (0.0%),0 (0.0%)
+Paired beta difference 0.30 or higher,3 (2.3%),1 (0.8%),0 (0.0%),6 (4.2%),0 (0.0%),0 (0.0%)

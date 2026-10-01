@@ -1,0 +1,17 @@
+{
+  "stage": "objective_annotation_taxonomy_correction_after_first_run",
+  "date": "2026-09-15",
+  "zhou_sha256": "88e995655e68b2867105e02924ad9f3ca6d51357e187676053bba935bf1fbc65",
+  "original_registry_manifest_sha256": "35a387b84ccb4e9a018e5d8cab9e1d88458d62284b10437b6d963ac6c6ac11bc",
+  "correction_sha256": "354529eb3d007b8b7bc30b1726eaa337d8f2367ba7d5c8b1e9e9968b2fda6881",
+  "type_registry_sha256": "5d71d8f5fe825f34eac5b0591661d3ade4bcefda576fb219961073adb5313b1d",
+  "n_original_union": 391,
+  "n_cpg": 388,
+  "n_non_cpg": 3,
+  "non_cpg_probes": [
+    "ch.10.220353F",
+    "ch.10.2480690F",
+    "ch.10.7244193R"
+  ],
+  "code_sha256": "7db79ee7f4d1f8488a2cb0934ad3b0ba0431e31f6ec1cb34a7dc6bb226611cf5"
+}

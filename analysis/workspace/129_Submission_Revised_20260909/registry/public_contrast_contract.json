@@ -1,0 +1,191 @@
+{
+  "status": "public_array_cpg_level_contract",
+  "contract_creation_timestamp": "timestamp_unrecorded",
+  "amended_utc": "2026-09-09T14:32:11.066447Z",
+  "amendment_reason": "Use portable 124 public inputs; GSE77954 T-N analysed as four source-label pairs; primary meta-analysis pool restricted to cohorts with >=20 pairs (see meta_primary_amendment)",
+  "public_root": "PROJECT_ROOT/129_Submission_Revised_20260909/work/data/public_inputs",
+  "fixed_probe_registry": "PROJECT_ROOT/129_Submission_Revised_20260909/work/registry/fixed_probes.json",
+  "fixed_probe_sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155",
+  "n_fixed_cpg": 77,
+  "genes": [
+    "EYA4",
+    "ZNF568",
+    "ZNF793",
+    "SFMBT2",
+    "ADHFE1",
+    "HOXA2",
+    "BEND5",
+    "UNC5C",
+    "RALYL",
+    "GFRA1"
+  ],
+  "cohorts": [
+    "Colonomics",
+    "GSE48684",
+    "GSE42752",
+    "GSE193535",
+    "GSE77718",
+    "GSE77954",
+    "GSE164811"
+  ],
+  "contrasts": {
+    "Colonomics": [
+      {
+        "high": "N",
+        "low": "H",
+        "family": "healthy_reference"
+      },
+      {
+        "high": "T",
+        "low": "H",
+        "family": "healthy_reference"
+      },
+      {
+        "high": "T",
+        "low": "N",
+        "family": "tissue_replication"
+      }
+    ],
+    "GSE48684": [
+      {
+        "high": "N",
+        "low": "H",
+        "family": "healthy_reference"
+      },
+      {
+        "high": "T",
+        "low": "H",
+        "family": "healthy_reference"
+      },
+      {
+        "high": "T",
+        "low": "N",
+        "family": "tissue_replication"
+      },
+      {
+        "high": "A",
+        "low": "H",
+        "family": "lesion"
+      },
+      {
+        "high": "T",
+        "low": "A",
+        "family": "lesion"
+      }
+    ],
+    "GSE42752": [
+      {
+        "high": "N",
+        "low": "H",
+        "family": "healthy_reference"
+      },
+      {
+        "high": "T",
+        "low": "H",
+        "family": "healthy_reference"
+      },
+      {
+        "high": "T",
+        "low": "N",
+        "family": "tissue_replication"
+      }
+    ],
+    "GSE193535": [
+      {
+        "high": "T",
+        "low": "N",
+        "family": "tissue_replication"
+      }
+    ],
+    "GSE77718": [
+      {
+        "high": "T",
+        "low": "N",
+        "family": "tissue_replication"
+      }
+    ],
+    "GSE77954": [
+      {
+        "high": "T",
+        "low": "N",
+        "family": "tissue_replication"
+      },
+      {
+        "high": "T",
+        "low": "A",
+        "family": "lesion"
+      }
+    ],
+    "GSE164811": []
+  },
+  "contrast_family_sizes": {
+    "healthy_reference": 462,
+    "tissue_replication": 462,
+    "lesion": 231
+  },
+  "n_boot": 5000,
+  "effect_unit": "beta percentage points",
+  "estimand": "individual CpG beta difference; no gene means, no panel means",
+  "missing_probe_handling": "retain planned row; report p as NA; use p_for_bh=1 in family and contrast BH denominators",
+  "tests": "paired T-N uses verified patient pairs with paired t and Wilcoxon; unpaired uses Welch t or patient-cluster OLS when patient overlap exists",
+  "meta_analysis": "same public contrast and CpG only; REML modified Hartung-Knapp; >=3 independent eligible public cohorts per CpG; primary T-N pool = source-defined paired cohorts with >=20 pairs (Colonomics, GSE42752, GSE193535, GSE77718); sensitivity T-N pool = all paired cohorts with >=3 pairs (adds the corrected four-pair GSE77954); no Korean pooling",
+  "meta_primary_amendment": "2026-09-09: after the GSE77954 pairing correction left that cohort with four source-defined pairs, the primary tumor-adjacent meta-analysis pool was restricted to paired cohorts with at least 20 pairs (Colonomics, GSE42752, GSE193535, GSE77718). This restriction was adopted after inspecting the five-cohort result; the five-cohort pool (all paired cohorts with >=3 pairs) is written as a sensitivity analysis. Both files are produced from the same contrast table.",
+  "source_files": {
+    "Colonomics_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/Colonomics_beta.tsv.gz",
+      "sha256": "44377c19e58f4973d93f03a6824ab12e59098d75ccf89fc26f16fa74f1dee0f3"
+    },
+    "Colonomics_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/Colonomics_samples.tsv",
+      "sha256": "1905aad1fb510d467f2cfe762e5bfb176bb38d7498afef2554a94d649d5fbe5f"
+    },
+    "GSE48684_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE48684_beta.tsv.gz",
+      "sha256": "3493dc9f1627850766d458806936e0565290c6d74dc716eb5e4349abaddca74c"
+    },
+    "GSE48684_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE48684_samples.tsv",
+      "sha256": "86b225a228c9ae6a77d38f65feeef8bc595dcfb6086fac32a06ac72b90513a3f"
+    },
+    "GSE42752_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE42752_beta.tsv.gz",
+      "sha256": "00bdad6d74904b3e9171f38dbaa426ee2639a790ba5b35e27b9d11bbf8f993ca"
+    },
+    "GSE42752_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE42752_samples.tsv",
+      "sha256": "b654518ff7780e5165072bddfb08144b01535737e0d4462c4ad6eea59522bbd5"
+    },
+    "GSE193535_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE193535_beta.tsv.gz",
+      "sha256": "ccd39e87c6bd22a421ed931ac8295716a3f8d9ed1822607c92bff281e1e69c72"
+    },
+    "GSE193535_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE193535_samples.tsv",
+      "sha256": "c5af51697526d86a325aad01316aa2b12c717869e33ccc20474640bdfdf8b87a"
+    },
+    "GSE77718_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE77718_beta.tsv.gz",
+      "sha256": "7b5945f63f8d29a7e1747e9710c8b15ccc5adccb88c7662a594130dd26229785"
+    },
+    "GSE77718_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE77718_samples.tsv",
+      "sha256": "6a681756ba51bc9700c5d6d46c24efd5bfd53ad0dd07e92e8922d47e57b5bb88"
+    },
+    "GSE77954_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE77954_beta.tsv.gz",
+      "sha256": "24d670cc935f9c6eaea4ff3e6a2d331d04091f05f677d6cf09123d7f8977c1c7"
+    },
+    "GSE77954_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE77954_samples.tsv",
+      "sha256": "3de07a44dda1eb65bc3ddc063617498b7dc1c31f6f5bf868ba6268f7989cc876"
+    },
+    "GSE164811_beta": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE164811_beta.tsv.gz",
+      "sha256": "b75939d9be913316890c9171bd4877fef7689c1daa82a8fd5f157688aa741f3c"
+    },
+    "GSE164811_samples": {
+      "path": "PROJECT_ROOT/124_Integrated_Revision_20260909/data/public_inputs/data/derived/GSE164811_samples.tsv",
+      "sha256": "6240cd6c472bd263a9aae157473d5a9e96d2ee8db6c53ed82f452afc526090c9"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "seed": 20260905,
+  "workers": 6,
+  "recurrence": {
+    "outer_folds": 4,
+    "outer_repeats": 25,
+    "inner_folds": 3,
+    "primary_metric": "uno_c_1825",
+    "horizons_days": [
+      1095,
+      1825
+    ],
+    "lambda_grid": {
+      "min": 0.0001,
+      "max": 100,
+      "n": 25
+    },
+    "clinical_features": [
+      "stage_iii",
+      "cea_log1p",
+      "lvi"
+    ],
+    "models": [
+      "ridge",
+      "elastic_net",
+      "survival_forest"
+    ],
+    "elastic_alpha": 0.5,
+    "forest_trees": 500,
+    "forest_depth": 3,
+    "forest_node_size": [
+      10,
+      20
+    ],
+    "forest_mtry": [
+      "sqrt",
+      "all"
+    ]
+  },
+  "tissue": {
+    "outer_folds": 5,
+    "outer_repeats": 20,
+    "inner_folds": 4,
+    "models": [
+      "ridge",
+      "elastic_net",
+      "random_forest",
+      "rbf_svm",
+      "best_single_gene"
+    ],
+    "logistic_C": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "elastic_l1_ratio": 0.5,
+    "forest_trees": 500,
+    "forest_depth": [
+      3,
+      null
+    ],
+    "forest_leaf": [
+      5,
+      10
+    ],
+    "svm_C": [
+      0.1,
+      1,
+      10
+    ],
+    "svm_gamma": [
+      0.01,
+      0.1,
+      1
+    ]
+  },
+  "uncertainty": {
+    "patient_bootstrap": 2000,
+    "optimism_bootstrap": 500,
+    "permutations": 999,
+    "permutation_repeats": 5,
+    "multiplicity": "Holm across two primary global-signal tests",
+    "interval_scope": "conditional on fitted cross-validation models; optimism point sensitivity separately"
+  },
+  "public_tissue": {
+    "cohorts": [
+      "colonomics",
+      "gse119526"
+    ],
+    "model": "ridge",
+    "role": "cohort-local grouped nested CV, not frozen PSQ model validation"
+  }
+}

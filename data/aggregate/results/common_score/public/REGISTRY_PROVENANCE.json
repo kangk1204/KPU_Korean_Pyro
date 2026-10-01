@@ -1,0 +1,35 @@
+{
+  "prior_public_manifest_sha256": "66f8c234883317f6f7ae2790c8c7cd53fb88671b34cff5f7117e757cab3cac41",
+  "files": [
+    {
+      "new_public_path": "public/registry/candidate_regions.tsv",
+      "prior_public_manifest_entry": "registry/candidate_regions.tsv",
+      "sha256": "736e00f677c17c3860d50be278b73de2894f1b7f78cad73ef17b1dc4ce1b988c",
+      "unchanged_public_copy": true
+    },
+    {
+      "new_public_path": "public/registry/control_region_pool.tsv",
+      "prior_public_manifest_entry": "registry/control_region_pool.tsv",
+      "sha256": "58582d2b188c60a55ecbce5d0545b1ff8c41e492feea2ef78f556f612b7df75b",
+      "unchanged_public_copy": true
+    },
+    {
+      "new_public_path": "public/registry/frozen_control_sets.tsv",
+      "prior_public_manifest_entry": "registry/frozen_control_sets.tsv",
+      "sha256": "4a8763316d210dc6b1b8bff709e5390802b8f6369cc5d9ec035244af0e0ac793",
+      "unchanged_public_copy": true
+    },
+    {
+      "new_public_path": "public/registry/ASAN_set_statistics.tsv",
+      "prior_public_manifest_entry": "results/ASAN_set_statistics.tsv",
+      "sha256": "94e54101fbdd797b182966bd3e6aea7c723a6d35054bd31980acc26d0d876d92",
+      "unchanged_public_copy": true
+    },
+    {
+      "new_public_path": "public/registry/SNUH_set_statistics.tsv",
+      "prior_public_manifest_entry": "results/SNUH_set_statistics.tsv",
+      "sha256": "24d086b468402d48fa87470a571a6d8758b555b2fb6c639f69bc2427a1451d2f",
+      "unchanged_public_copy": true
+    }
+  ]
+}

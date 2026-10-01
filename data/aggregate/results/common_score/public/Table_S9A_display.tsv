@@ -1,0 +1,4 @@
+Cohort	Pairs	Tumor-minus-adjacent rho	Tumor-only rho	Adjacent-only rho	Median Var(adjacent)/Var(difference)
+CMCBSN	103	0.661	0.659	0.461	0.076
+SNUH	142	0.567	0.581	0.393	0.047
+ASAN	128	0.671	0.654	0.346	0.056

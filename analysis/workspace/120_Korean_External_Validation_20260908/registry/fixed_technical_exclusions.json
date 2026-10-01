@@ -1,0 +1,8 @@
+{
+  "exclude": [
+    "cg20680720",
+    "cg04481096"
+  ],
+  "source": "119 registry/probe_qc.tsv technical_flag",
+  "sensitivity_denominator": "remaining predeclared targets, not observed probe count"
+}

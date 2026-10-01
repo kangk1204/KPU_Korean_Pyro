@@ -1,0 +1,992 @@
+[
+  {
+    "package_path": "results/local_pyrosequencing/assay_primers.tsv",
+    "source_path": "114_ML_DataDriven_20260905/data/derived/assay_primers.tsv",
+    "sha256": "912c95aedc1bf1f5354a6b331c41c30f65bc01d28f007515ea96bae424ddc5ef"
+  },
+  {
+    "package_path": "registry/fixed_probes.json",
+    "source_path": "115_Public_Biology_20260905/registry/fixed_probes.json",
+    "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+  },
+  {
+    "package_path": "registry/fixed_probes.json",
+    "source_path": "119_Figure1_ABC_Revision_20260908/registry/fixed_probes.json",
+    "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+  },
+  {
+    "package_path": "figure_source_data/Figure_1/selection_source.json",
+    "source_path": "119_Figure1_ABC_Revision_20260908/registry/original_gene_selection.json",
+    "sha256": "00b142837b7787c32b2edfd25becef78cf082a1253502aec950aa991466d5cf3"
+  },
+  {
+    "package_path": "reference_information/probe_context.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/registry/reviewer/probe_context.tsv",
+    "sha256": "527237c93c643dca2049680cffcac145fbb2d23d9975511f1f2f15fa83ed89e7"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/paired_effect_source_data.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/F2_paired_effect_source_data.tsv",
+    "sha256": "f55a3aff17d47177b3372d3fd7ed7a276f012b55fd62e10b6693ffd70901b93f"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/pca_loadings_source_data.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/F3_pca_loadings_source_data.tsv",
+    "sha256": "ccec31f1e4c128b16c6a0947598d7aa8a8a812665ba89ca97ac25ab841f12c0d"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/spearman_correlation_source_data.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/F3_spearman_correlation_source_data.tsv",
+    "sha256": "a9ea7bdf732ac3b8dabbde96639a089cdf0130a1dd7714838bc2c5ef3942ef61"
+  },
+  {
+    "package_path": "results/recurrence/cox_all_stage_source_data_table_S8.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/F5_cox_all_stage_source_data.tsv",
+    "sha256": "ce9cf4240932646a93496a4f0dc97df650b3bd41abfe8214cb9bd47fcf1d152c"
+  },
+  {
+    "package_path": "results/recurrence/cox_primary_source_data_table_S8.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/F5_cox_primary_source_data.tsv",
+    "sha256": "076184dbc130c7f13e1e1886022831c90e01c7e15da96cb0ba47dc802537c5e8"
+  },
+  {
+    "package_path": "reference_information/gene_prior_evidence.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/gene_prior_evidence.tsv",
+    "sha256": "95c3b13b6355f34112adc3325e4330a74c4f868eab3a987a1e44f7deea34803b"
+  },
+  {
+    "package_path": "reference_information/probe_context.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/probe_context.tsv",
+    "sha256": "527237c93c643dca2049680cffcac145fbb2d23d9975511f1f2f15fa83ed89e7"
+  },
+  {
+    "package_path": "results/recurrence_aggregate_inputs/stage_differences.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/stage_differences.tsv",
+    "sha256": "81df052e86358fe445543d971425c0c00ee8f79e7f7bfd998802b2c9cc9c6af5"
+  },
+  {
+    "package_path": "results/recurrence_aggregate_inputs/stage_metrics.tsv",
+    "source_path": "119_Figure1_ABC_Revision_20260908/submission/figure_source_data/stage_metrics.tsv",
+    "sha256": "8f568f280df577a7fde9a3be39ae649eaba9cf47f354d6ba1ea59fa85bd87add"
+  },
+  {
+    "package_path": "registry/analysis_contract.json",
+    "source_path": "120_Korean_External_Validation_20260908/registry/analysis_contract.json",
+    "sha256": "5a2aec649a873c201268e386d886cf4a82d574a59ec4653fa9c3f46e48eaf664"
+  },
+  {
+    "package_path": "registry/fixed_probes.json",
+    "source_path": "120_Korean_External_Validation_20260908/registry/fixed_probes.json",
+    "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+  },
+  {
+    "package_path": "reference_information/probe_context.tsv",
+    "source_path": "120_Korean_External_Validation_20260908/registry/probe_context_hg19.tsv",
+    "sha256": "527237c93c643dca2049680cffcac145fbb2d23d9975511f1f2f15fa83ed89e7"
+  },
+  {
+    "package_path": "registry/fixed_probes.json",
+    "source_path": "121_Korean_Beta_Validation_20260908/registry/fixed_probes.json",
+    "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a1_full_panel_C.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a1_full_panel_C.tsv",
+    "sha256": "06f6e27d07b2ff3b45722e1261ac725a0491b41160b40fb86ef7099398b91fc9"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a1_manifest.json",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a1_manifest.json",
+    "sha256": "32b1479605a4666188d2fe003cd594ce4f7080dc97706043a52f20e498d64cde"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a1_nested_selected_subsets.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a1_nested_selected_subsets.tsv",
+    "sha256": "588f4cfe9a61ef136ed9c43fbddef381463af27fdf9330e5f18e23d33afc7e4a"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a1_per_k_summary.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a1_per_k_summary.tsv",
+    "sha256": "b5df7abf0bab3e7b98da9b78df2778d8d0e5be01911fb1315df0fe0585c3eda8"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a1_subset_auc.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a1_subset_auc.tsv",
+    "sha256": "2ef93a202e5b7b5ba695084140dacc55b19096b2f9c140739ddf920a6b88b2ba"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_cohort_coverage.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_cohort_coverage.tsv",
+    "sha256": "0b5732348ebc91f92161bfff6505a678f79e0ec02b8cfe6bee85e799dfd67ef7"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_colonomics_internal_auc.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_colonomics_internal_auc.tsv",
+    "sha256": "2da29bfed6cec0bdc410fdee8a7f52b661de210e8fe994d11da60100ce8bd530"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_frozen_transfer.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_frozen_transfer.tsv",
+    "sha256": "a83cf97b268230577d311bb9c61e91a1bb9214daa3b6ab764098bfedf287ea7f"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_leave_one_cohort_out.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_leave_one_cohort_out.tsv",
+    "sha256": "3582a06a1ff8e3ec24353e3a696b98ee6cab5f5f998f3647408b7f76d3b383fb"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_loco_matrix.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_loco_matrix.tsv",
+    "sha256": "ff83319058538d534b42b243f8ec324738d975a81cb1a1a474e0b1d237b24865"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_per_k_by_target.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_per_k_by_target.tsv",
+    "sha256": "d9cc9dbf815c55f46c65976f759ea50fa15125b1234654a10b02976368743200"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_per_k_pooled.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_per_k_pooled.tsv",
+    "sha256": "4f94050c64b359052c6783d65a356eaea64f6f4b49670c429bc1c7bce4ed7154"
+  },
+  {
+    "package_path": "results/panel_size_transfer/a2_subset_transfer_auc.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_subset_transfer_auc.tsv",
+    "sha256": "46930a3ea52c8885909f1176c6f8062749b034875067af0bdd5b567aeb80ff3f"
+  },
+  {
+    "package_path": "results/shared_component/manifest.json",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/manifest.json",
+    "sha256": "e332a8fe46d807d9d20873d697056391a10ca1421982221da8266cc604e58ebe"
+  },
+  {
+    "package_path": "results/shared_component/B_axis_agreement.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_axis_agreement.tsv",
+    "sha256": "ecd91f8c6c17ddffd894f62f07afe6b73f86bb4832cebc32d28850830b020cd6"
+  },
+  {
+    "package_path": "results/shared_component/B_axis_diagnostics.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_axis_diagnostics.tsv",
+    "sha256": "6ac6d52903eb4128951a5a2b3f84bcd9d70da6ea3b8c7f49fee4cf6af1f82826"
+  },
+  {
+    "package_path": "results/shared_component/B_axis_loadings.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_axis_loadings.tsv",
+    "sha256": "37abad6dd9b0d9984d3ea28c2fb35c1923ee9326655f358302a7b728f4796ff1"
+  },
+  {
+    "package_path": "results/shared_component/B_axis_tests.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_axis_tests.tsv",
+    "sha256": "e8d3e93c101acd95d46f02e07631eaa5daf139a3d52fb8fea5c4d6badd1b2b96"
+  },
+  {
+    "package_path": "results/shared_component/B_colonomics_clinical_crosscheck.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_colonomics_clinical_crosscheck.tsv",
+    "sha256": "9040a08b46b82118d89fbab1924935ddd025712b60605d9974548726735a2e26"
+  },
+  {
+    "package_path": "results/shared_component/B_label_counts.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_label_counts.tsv",
+    "sha256": "1be4c4c4f1f870295c5a7be0811999ffb433f9647c212531bc3668eacfb0751d"
+  },
+  {
+    "package_path": "results/shared_component/B_multivariable_colonomics.tsv",
+    "source_path": "127_Exploratory_PanelSize_Coordination_20260909/B_coordination_axis/results/B_multivariable_colonomics.tsv",
+    "sha256": "3471eb7843025c8bca82245611fd9c3edfcab844f3e55064aa17c2d4e214791c"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/pca_loadings_source_data.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Delta_Patterns/F3_pca_loadings_source_data.tsv",
+    "sha256": "ccec31f1e4c128b16c6a0947598d7aa8a8a812665ba89ca97ac25ab841f12c0d"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/spearman_correlation_source_data.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Delta_Patterns/F3_spearman_correlation_source_data.tsv",
+    "sha256": "a9ea7bdf732ac3b8dabbde96639a089cdf0130a1dd7714838bc2c5ef3942ef61"
+  },
+  {
+    "package_path": "figure_source_data/Figure_3/pattern_summary.json",
+    "source_path": "129_Submission_Revised_20260909/figures/Delta_Patterns/pattern_summary.json",
+    "sha256": "027d0126121e3350a9aecb4731d1bd66922a391dbbedf4a48ac3ffd3cc92480e"
+  },
+  {
+    "package_path": "figure_source_data/Figure_S5/cpg_context_heatmap_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_Context/cpg_context_heatmap_source.tsv",
+    "sha256": "94cac152835b600eb2422e25718212876203a101d9c08476567ef0b69d6b3288"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/ASAN_correlation_matrix.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/ASAN_correlation_matrix.tsv",
+    "sha256": "9df88be5f1df7c8955514f04040b38be95a3814715d17970e384b36c6930e543"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/CMCBSN_correlation_matrix.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/CMCBSN_correlation_matrix.tsv",
+    "sha256": "e85930c3f106f58dfc305b112fd843302794f56dfa0041e64903b1709eda6d96"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/coordination_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/coordination_source.tsv",
+    "sha256": "349cd8235b816eef89064faf8d7c87680a823d934ac254947133c8d5e3632db9"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/correlations_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/correlations_source.tsv",
+    "sha256": "ced11d123ea951d8edd490e16ed37ed770b7ef89c5500eb959b7c09ca9d8630f"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/effects_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/effects_source.tsv",
+    "sha256": "a6a574b5a78bb86019197bcd1e6941d66caf8a47ea9716bbb78354a008979716"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/probe_annotation_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/probe_annotation_source.tsv",
+    "sha256": "0e4b7cf5f9089e154700688409748dfdf31d9572e4f3c9326c8dc31013a0ba47"
+  },
+  {
+    "package_path": "figure_source_data/Figure_4/SNUH_correlation_matrix.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Korean_CpG/SNUH_correlation_matrix.tsv",
+    "sha256": "c6789e6f6db15f3e6503a31022c9739e83dc8ba65191ba6956711ca0097f4798"
+  },
+  {
+    "package_path": "reference_information/probe_context.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Lesion_CpG/input_probe_context.tsv",
+    "sha256": "527237c93c643dca2049680cffcac145fbb2d23d9975511f1f2f15fa83ed89e7"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_contrasts.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Lesion_CpG/input_public_probe_contrasts.tsv",
+    "sha256": "346797c1a3836d5a0a008a55f4fc7fb0308de7ce12b497f372813bee9a4cba81"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/paired_effect_source_data.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Paired_PSQ/F2_paired_effect_source_data.tsv",
+    "sha256": "f55a3aff17d47177b3372d3fd7ed7a276f012b55fd62e10b6693ffd70901b93f"
+  },
+  {
+    "package_path": "figure_source_data/Figure_S4/Public_Context_source_data.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Public_Context/Public_Context_source_data.tsv",
+    "sha256": "1dfebae285c627de11746436548a46814f455505b3f9c2038c81fd747d902e8b"
+  },
+  {
+    "package_path": "reference_information/probe_context.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Public_CpG_contrasts/input_probe_context.tsv",
+    "sha256": "527237c93c643dca2049680cffcac145fbb2d23d9975511f1f2f15fa83ed89e7"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_contrasts.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Public_CpG_contrasts/input_public_probe_contrasts.tsv",
+    "sha256": "346797c1a3836d5a0a008a55f4fc7fb0308de7ce12b497f372813bee9a4cba81"
+  },
+  {
+    "package_path": "results/recurrence/cox_all_stage_source_data_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S2_cox_all_stage_source_data.tsv",
+    "sha256": "ce9cf4240932646a93496a4f0dc97df650b3bd41abfe8214cb9bd47fcf1d152c"
+  },
+  {
+    "package_path": "results/recurrence/cox_primary_source_data_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S2_cox_primary_source_data.tsv",
+    "sha256": "076184dbc130c7f13e1e1886022831c90e01c7e15da96cb0ba47dc802537c5e8"
+  },
+  {
+    "package_path": "results/recurrence/horizon_support_counts_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S3_horizon_support_counts.tsv",
+    "sha256": "c877df8f13332fdb0b858e8332aa9c32408a31920111df622f940875c629ce0d"
+  },
+  {
+    "package_path": "results/recurrence/null_km_benchmark_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S3_null_km_benchmark.tsv",
+    "sha256": "a5a29130b3508cdc76fab04adbc18a136b656a336cb7b14c0650f60ded3bc83c"
+  },
+  {
+    "package_path": "results/recurrence/recurrence_delta_ci_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S3_table_s3_delta_ci.tsv",
+    "sha256": "17953a94ca5c8c0a413870d43d0678b7422a0e1bb405c4ce4fb010606d143a99"
+  },
+  {
+    "package_path": "results/recurrence/recurrence_metrics_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S3_table_s3_recurrence_primary_corrected.tsv",
+    "sha256": "f2450a3f8e16bfd8450d39a9666654314e9429d60ade7435f499cfb153d1e4c6"
+  },
+  {
+    "package_path": "results/recurrence/stage_sensitivity_deltas_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S4_stage_plot_ready_deltas.tsv",
+    "sha256": "071da11ed265b0c531bb887553bd843cdc5e298567ae1cdc105d17f1d19868af"
+  },
+  {
+    "package_path": "results/recurrence/stage_sensitivity_summary_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Recurrence_Revision/source_data/S4_stage_plot_ready_summary.tsv",
+    "sha256": "100718ef562abd4f982e5eb2ef69601ef226a19de4d43f5d64e18872b6624b26"
+  },
+  {
+    "package_path": "registry/sample_flow.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Study_Flow/korean_cohort_flow_source.tsv",
+    "sha256": "1bc4ccb12d04ad98970af2d945e16b63d24a89d090dd7a60bbb318dfd4b2f31c"
+  },
+  {
+    "package_path": "figure_source_data/Figure_1/local_flow_source.json",
+    "source_path": "129_Submission_Revised_20260909/figures/Study_Flow/local_flow_source.json",
+    "sha256": "ef5ec1fb4ca4d531ca0d25fa9dd8293e41eafc38f6e04908bc560ef8c7a7f19a"
+  },
+  {
+    "package_path": "figure_source_data/Figure_1/selection_source.json",
+    "source_path": "129_Submission_Revised_20260909/figures/Study_Flow/selection_source.json",
+    "sha256": "00b142837b7787c32b2edfd25becef78cf082a1253502aec950aa991466d5cf3"
+  },
+  {
+    "package_path": "figure_source_data/Figure_S6/input_files.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Tissue_ML/input_files.tsv",
+    "sha256": "84c4f478b15414f189b2fded49278d46093eb94efe5b71491c34fb2c51a183bd"
+  },
+  {
+    "package_path": "figure_source_data/Figure_S6/tissue_ml_auc_forest_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/figures/Tissue_ML/tissue_ml_auc_forest_source.tsv",
+    "sha256": "5a03ff9a45946371473fb409d5f58cbe6e15c3033f19b65630b50eacb2e5341e"
+  },
+  {
+    "package_path": "registry/analysis_contract.json",
+    "source_path": "129_Submission_Revised_20260909/registry/analysis_contract.json",
+    "sha256": "5a2aec649a873c201268e386d886cf4a82d574a59ec4653fa9c3f46e48eaf664"
+  },
+  {
+    "package_path": "registry/cpg_analysis_contract.json",
+    "source_path": "129_Submission_Revised_20260909/registry/cpg_analysis_contract.json",
+    "sha256": "870a1ddd665a049aceac8b808670272a7361c543b3e22fa5e55a3e6bab97df4d"
+  },
+  {
+    "package_path": "registry/cpg_coverage_by_gene.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/cpg_coverage_by_gene.tsv",
+    "sha256": "49013dd9d198e5222199f01d4ef61e4232d425b6396ef0eb99f3c3892e4495d1"
+  },
+  {
+    "package_path": "registry/epic_gene_platform_coverage.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/epic_gene_platform_coverage.tsv",
+    "sha256": "f43c2aa5eda19a15256ac7258a1235300f5444d35c52f334eb6e89426ee394f5"
+  },
+  {
+    "package_path": "registry/execution_scope.json",
+    "source_path": "129_Submission_Revised_20260909/registry/execution_scope.json",
+    "sha256": "c74445d954a2c754b1718603eb85936ab3f357a6bbf2fd0ee8df74485db93a00"
+  },
+  {
+    "package_path": "registry/figure_map.json",
+    "source_path": "129_Submission_Revised_20260909/registry/figure_map.json",
+    "sha256": "6fbcae736964da70b902d055811dfafc419da25ee5c74421fcf58507d10bd48f"
+  },
+  {
+    "package_path": "registry/fixed_probes.json",
+    "source_path": "129_Submission_Revised_20260909/registry/fixed_probes.json",
+    "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+  },
+  {
+    "package_path": "registry/korean_probe_coverage_summary.json",
+    "source_path": "129_Submission_Revised_20260909/registry/korean_probe_coverage_summary.json",
+    "sha256": "4b8cb75ed30c9edf731b60c0409cd7906316c46754991dd5aecc0bbba38b045e"
+  },
+  {
+    "package_path": "registry/pairing_evidence.json",
+    "source_path": "129_Submission_Revised_20260909/registry/pairing_evidence.json",
+    "sha256": "fe7556387250b9796bfa3993235c013d835ee848d9eeeab1f14ed4644d71187a"
+  },
+  {
+    "package_path": "registry/probe_qc_fixed77.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/probe_qc_fixed77.tsv",
+    "sha256": "cd6df80cb76dcd4e3a0b082294accc7e11e95862c1875af4a6e391eca4d095bc"
+  },
+  {
+    "package_path": "registry/probe_qc_original_zhou_flagged.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/probe_qc_original_zhou_flagged.tsv",
+    "sha256": "87b1db2a66a622bac3da9b62199d6b0b4ba7f5bf1f505cdcb68fd61bc8de1f13"
+  },
+  {
+    "package_path": "registry/public_context_contract.json",
+    "source_path": "129_Submission_Revised_20260909/registry/public_context_contract.json",
+    "sha256": "a20bc281baf411847574e0fea22170fccaf09856f8641b92551c148247c976b8"
+  },
+  {
+    "package_path": "registry/public_contrast_contract.json",
+    "source_path": "129_Submission_Revised_20260909/registry/public_contrast_contract.json",
+    "sha256": "4696551a136c604002dd67e2c0023b4eefd66f4718a37af1f8f949251c7cc0df"
+  },
+  {
+    "package_path": "registry/public_cpg_ml_contract.json",
+    "source_path": "129_Submission_Revised_20260909/registry/public_cpg_ml_contract.json",
+    "sha256": "ef2e7ec208339437a468c436b02049577d44da94a3f6e716c93ec5b2e7d36084"
+  },
+  {
+    "package_path": "registry/qc_sensitivity_registry.json",
+    "source_path": "129_Submission_Revised_20260909/registry/qc_sensitivity_registry.json",
+    "sha256": "e9e20afa6d96dc84097df754ee1d65324211f4967d949a7e5952828896633b20"
+  },
+  {
+    "package_path": "registry/sample_flow.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/sample_flow.tsv",
+    "sha256": "1bc4ccb12d04ad98970af2d945e16b63d24a89d090dd7a60bbb318dfd4b2f31c"
+  },
+  {
+    "package_path": "registry/tcga_cpg_contract.json",
+    "source_path": "129_Submission_Revised_20260909/registry/tcga_cpg_contract.json",
+    "sha256": "719a0581832ff0e2cc87142abf571ef0a82f0c1ba5fb28a62e9b1c9e267de444"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/assay_primers.tsv",
+    "source_path": "129_Submission_Revised_20260909/reproducibility/aggregate_inputs/assay_primers.tsv",
+    "sha256": "912c95aedc1bf1f5354a6b331c41c30f65bc01d28f007515ea96bae424ddc5ef"
+  },
+  {
+    "package_path": "results/recurrence_aggregate_inputs/recurrence_primary_bootstrap_ci.csv",
+    "source_path": "129_Submission_Revised_20260909/reproducibility/aggregate_inputs/recurrence_primary_bootstrap_ci.csv",
+    "sha256": "261be0e9f4a9d9437c64aa6b821fb33c4973f273df5931a7a02b5d0c6f57b406"
+  },
+  {
+    "package_path": "results/recurrence_aggregate_inputs/recurrence_primary_metrics.csv",
+    "source_path": "129_Submission_Revised_20260909/reproducibility/aggregate_inputs/recurrence_primary_metrics.csv",
+    "sha256": "3f2c4b22e03635180bb2e4e16482c52e23a6ebb643ee70095f189b7e3c926eaf"
+  },
+  {
+    "package_path": "results/recurrence_aggregate_inputs/stage_differences.tsv",
+    "source_path": "129_Submission_Revised_20260909/reproducibility/aggregate_inputs/stage_differences.tsv",
+    "sha256": "81df052e86358fe445543d971425c0c00ee8f79e7f7bfd998802b2c9cc9c6af5"
+  },
+  {
+    "package_path": "results/recurrence_aggregate_inputs/stage_metrics.tsv",
+    "source_path": "129_Submission_Revised_20260909/reproducibility/aggregate_inputs/stage_metrics.tsv",
+    "sha256": "8f568f280df577a7fde9a3be39ae649eaba9cf47f354d6ba1ea59fa85bd87add"
+  },
+  {
+    "package_path": "results/context/cms_context_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/context/cms_context_summary.tsv",
+    "sha256": "a816048ad2e93803e2f5e57f33da187ac31243ea922f9c7628013353ed753534"
+  },
+  {
+    "package_path": "results/context/cms_cpg_contrasts.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/context/cms_cpg_contrasts.tsv",
+    "sha256": "75db3940d8c48e1434043fb7b27c53810297cf20ead22678aa058e66821316b7"
+  },
+  {
+    "package_path": "results/context/cpg_coverage.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/context/cpg_coverage.tsv",
+    "sha256": "19b39fbb64550866f2679f3fda78f19b13f97c60a7a92101f90c84def0688f84"
+  },
+  {
+    "package_path": "results/context/expression_cpg_associations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/context/expression_cpg_associations.tsv",
+    "sha256": "974dc553eeea78a50418d33aac3ba9d0bcd157c0ce7e648f7b9cd37e1601ab4c"
+  },
+  {
+    "package_path": "results/context/settings.json",
+    "source_path": "129_Submission_Revised_20260909/results/context/settings.json",
+    "sha256": "1f119cef7dc1a6e1218bf56947a5229e5ee5041839c8f630d319717bd4634b4e"
+  },
+  {
+    "package_path": "results/context/stromal_cpg_associations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/context/stromal_cpg_associations.tsv",
+    "sha256": "32e26231b0534c1d9c5dee938df371dd2ac5dfab54f8fde12d7e73dfb46bdb99"
+  },
+  {
+    "package_path": "results/coordination_sensitivity/colonomics_stromal_rank_coordination.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/coordination_sensitivity/colonomics_stromal_rank_coordination.tsv",
+    "sha256": "53ef083d4db6fef2019bdfbc7dc658cd428df274cc09c284e52c6b8707e875a2"
+  },
+  {
+    "package_path": "results/coordination_sensitivity/korean_delta_pc1_fraction.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/coordination_sensitivity/korean_delta_pc1_fraction.tsv",
+    "sha256": "c0846a808068d38877cfc1d360401362e47bbc52f62ea52fcd131bafb9fdeae8"
+  },
+  {
+    "package_path": "results/coordination_sensitivity/korean_exclude2_coordination54.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/coordination_sensitivity/korean_exclude2_coordination54.tsv",
+    "sha256": "4cf9b1fde4dc42ba34547301d1a3e9c142da8899d1cd8f60e802482050aa5718"
+  },
+  {
+    "package_path": "results/gse119526_support/method.json",
+    "source_path": "129_Submission_Revised_20260909/results/gse119526_support/method.json",
+    "sha256": "9bd292f7cd29d62ce51c368f02568700412ed4de207c785122c1d1940bed2d91"
+  },
+  {
+    "package_path": "results/gse119526_support/paired_cpg_effects.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/gse119526_support/paired_cpg_effects.tsv",
+    "sha256": "7fd7c8f13aa14cba2c31271a4fd2bf603fc04e3093abe2788c07820d7cd1c94b"
+  },
+  {
+    "package_path": "results/individual_cpg/ASAN/coordination_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/ASAN/coordination_summary.tsv",
+    "sha256": "5009669e03ec664804f7831533435ab381026be03b4d6db74ff7c9f1b3247dbf"
+  },
+  {
+    "package_path": "results/individual_cpg/ASAN/cpg_delta_correlations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/ASAN/cpg_delta_correlations.tsv",
+    "sha256": "5feb47875a4b3a04fd2c6b72521fa2bf13b687383948aece9dd354c3ffe962e2"
+  },
+  {
+    "package_path": "results/individual_cpg/ASAN/gene_locus_descriptive_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/ASAN/gene_locus_descriptive_summary.tsv",
+    "sha256": "7433d7e72d1056dc2b85abc2c295f84bac94b41a78b2228c29a630ca701936d1"
+  },
+  {
+    "package_path": "results/individual_cpg/ASAN/paired_cpg_effects.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/ASAN/paired_cpg_effects.tsv",
+    "sha256": "41379099b14f5abc8161e1676aaf14f64fa51faf88e506f8375b62c4d73cb91f"
+  },
+  {
+    "package_path": "results/individual_cpg/CMCBSN/coordination_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/CMCBSN/coordination_summary.tsv",
+    "sha256": "30875212ace59ea78179ea55d7bfb66cb83d426908dd25bcebf53f6b3b394e82"
+  },
+  {
+    "package_path": "results/individual_cpg/CMCBSN/cpg_delta_correlations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/CMCBSN/cpg_delta_correlations.tsv",
+    "sha256": "1bcca2b4497e3100ff5c04ee447cd60e8f9d34946d973ae194d3f26f196ecce3"
+  },
+  {
+    "package_path": "results/individual_cpg/CMCBSN/gene_locus_descriptive_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/CMCBSN/gene_locus_descriptive_summary.tsv",
+    "sha256": "257042d28b0ea8eea142c4e5afcb4c551a6e68c93fec0c2ab3898aacdf003058"
+  },
+  {
+    "package_path": "results/individual_cpg/CMCBSN/paired_cpg_effects.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/CMCBSN/paired_cpg_effects.tsv",
+    "sha256": "5772456ba515c8d9ad3e4bde841cc355103648dd86c950767a9f83c6acf5f329"
+  },
+  {
+    "package_path": "results/individual_cpg/SNUH/coordination_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/SNUH/coordination_summary.tsv",
+    "sha256": "4a68bc374c3a2c689aafc5156792376574aeacac7164648da3a7adb072c0c3ad"
+  },
+  {
+    "package_path": "results/individual_cpg/SNUH/cpg_delta_correlations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/SNUH/cpg_delta_correlations.tsv",
+    "sha256": "8e5bed0219b82bc8edd0f2945675f53f98ae164167d9212d2647956a857b8d8f"
+  },
+  {
+    "package_path": "results/individual_cpg/SNUH/gene_locus_descriptive_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/SNUH/gene_locus_descriptive_summary.tsv",
+    "sha256": "0cfeb4b0d33c83b8a9ea18dc4ee9b49699a5e2e351b1d3e64be9170b0d4462b8"
+  },
+  {
+    "package_path": "results/individual_cpg/SNUH/paired_cpg_effects.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/individual_cpg/SNUH/paired_cpg_effects.tsv",
+    "sha256": "9fe1d47ac62def48c8579a21f75eba4093ced186d3cdabbb097e3d1cd6397b53"
+  },
+  {
+    "package_path": "results/public_context/all_public_cpg_context.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_context/all_public_cpg_context.tsv",
+    "sha256": "dd9e87aabb19f83a5267a71effa5ac516b78f153314526528474c161b8445ed2"
+  },
+  {
+    "package_path": "results/public_context/colonomics_cpg_context.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_context/colonomics_cpg_context.tsv",
+    "sha256": "75d3bd45ba2a8e9e7cd769fac1440ecbe13799c10e4d948c5587cf55ad690632"
+  },
+  {
+    "package_path": "results/public_context/expression_cpg_associations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_context/expression_cpg_associations.tsv",
+    "sha256": "d81a3788abc707c31fb0085bd5170996837ca9eebb67a1a1b706ae5a21ed3b31"
+  },
+  {
+    "package_path": "results/public_context/fixed77_cpg_annotation.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_context/fixed77_cpg_annotation.tsv",
+    "sha256": "28c1fdfeda7470a850d4a9de027fb3e17ab0650194b73c111f09fde2c2a632d5"
+  },
+  {
+    "package_path": "results/public_context/match_cms_cpg_contrasts.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_context/match_cms_cpg_contrasts.tsv",
+    "sha256": "35259d542287faa2b7401171dcf45f627d8054ac5de63b8c0c521c8169474585"
+  },
+  {
+    "package_path": "results/public_context/run_summary.json",
+    "source_path": "129_Submission_Revised_20260909/results/public_context/run_summary.json",
+    "sha256": "083c819745d3c373dbbb9865bf58409177a3dc45a818dfaf6ed5d7f0b19b2784"
+  },
+  {
+    "package_path": "results/public_contrasts/korean_only_meta.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/korean_only_meta.tsv",
+    "sha256": "e135d651ea3fc80cb4e264547cfce89c9de8b72dcfbe954e95ed7cab489bdb00"
+  },
+  {
+    "package_path": "results/public_contrasts/korean_only_meta_input_with_se.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/korean_only_meta_input_with_se.tsv",
+    "sha256": "6ab0bdc7933eeaa5b6ab2982a5443ef79cc412e6f6384b7e7d39f482abb17cfe"
+  },
+  {
+    "package_path": "results/public_contrasts/public_cohort_counts.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_cohort_counts.tsv",
+    "sha256": "ca81b2958493aa00a1b9ccc8260cf76f248f680077f39d4ef0328f96725326eb"
+  },
+  {
+    "package_path": "results/public_contrasts/public_contrast_manifest.json",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_contrast_manifest.json",
+    "sha256": "d322384e88c46e9d7ce1232066573cb929df5203512225bb6d262d09a04bc32f"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_contrasts.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_probe_contrasts.tsv",
+    "sha256": "346797c1a3836d5a0a008a55f4fc7fb0308de7ce12b497f372813bee9a4cba81"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_coverage.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_probe_coverage.tsv",
+    "sha256": "f8bc742bdb504bc559b6ca9f1c4c8cbf774d04f8931c3e6800c678b69397843f"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_meta_analysis.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_probe_meta_analysis.tsv",
+    "sha256": "56dafd9c0fa7a7d11cb57c44c1715320ed7612c645e37487d3d81f4ea39cd2b9"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_meta_analysis_all_paired_cohorts_sensitivity.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_probe_meta_analysis_all_paired_cohorts_sensitivity.tsv",
+    "sha256": "47e80606f78ada17844a836cbfa62170ac6b9db672152d25e3b11a2c9a13fbfb"
+  },
+  {
+    "package_path": "results/public_ml/colonomics/bootstrap_ci.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/colonomics/bootstrap_ci.tsv",
+    "sha256": "6259fd14105f2b563dc0a6371dc14e07758d5a79320c86b81a603f9763d124cd"
+  },
+  {
+    "package_path": "results/public_ml/colonomics/feature_qc.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/colonomics/feature_qc.tsv",
+    "sha256": "407b9b5243f5b7a1ff0761810996b9fcc9898af081d23dc632b6c9509bd25008"
+  },
+  {
+    "package_path": "results/public_ml/colonomics/metrics.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/colonomics/metrics.tsv",
+    "sha256": "9aea751bca6fd6aa26c8d28311f6e1e00c959b7bc66e2db2cf412255e315d7c1"
+  },
+  {
+    "package_path": "results/public_ml/colonomics/run_manifest.json",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/colonomics/run_manifest.json",
+    "sha256": "4c03ddf17d92a106eac51211a3d68732933b4c51fb570b1ddf0a876ba3ad2d83"
+  },
+  {
+    "package_path": "results/public_ml/gse119526/bootstrap_ci.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/gse119526/bootstrap_ci.tsv",
+    "sha256": "a48580e3d0a83cb37ef1cc15d38868bffb20a2d9f951b5c2eff08660aeb6cf48"
+  },
+  {
+    "package_path": "results/public_ml/gse119526/feature_qc.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/gse119526/feature_qc.tsv",
+    "sha256": "c9a12b22ce51fc21e3941e93c3e4631cee5360947d962accf805b5884bff688e"
+  },
+  {
+    "package_path": "results/public_ml/gse119526/metrics.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/gse119526/metrics.tsv",
+    "sha256": "a8c424fdd57ea8732dfb9fb7dbcdc3e56ff0e332709068423bd95f24d2461b1f"
+  },
+  {
+    "package_path": "results/public_ml/gse119526/run_manifest.json",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/gse119526/run_manifest.json",
+    "sha256": "3320b2fd2e3ab473ac559e97c337c5fab9697ac3a150da1040b565ceefb1bd91"
+  },
+  {
+    "package_path": "results/public_ml/public_cpg_ml_manifest.json",
+    "source_path": "129_Submission_Revised_20260909/results/public_ml/public_cpg_ml_manifest.json",
+    "sha256": "0ad30118be67b7fb9be30b62926533fec0c55df884b9c89cdef2d4844c44054d"
+  },
+  {
+    "package_path": "results/qc_sensitivity/exclude2_aggregate_sensitivity.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/qc_sensitivity/exclude2_aggregate_sensitivity.tsv",
+    "sha256": "b1060a262b975417b5c92e673b2c3ae334692eef155c6751b2127ca718b7822f"
+  },
+  {
+    "package_path": "results/qc_sensitivity/korean_exclude2_effect_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/qc_sensitivity/korean_exclude2_effect_summary.tsv",
+    "sha256": "9d73648b16e09475592d963e770884a6dc89b39bad8d8a39c14045feb81af5ba"
+  },
+  {
+    "package_path": "results/qc_sensitivity/korean_exclude2_paired_cpg_effects54.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/qc_sensitivity/korean_exclude2_paired_cpg_effects54.tsv",
+    "sha256": "53c08e9a1a18ba90552f5a84645e66e2a1dad31d4f7cfbba7bbc193184a9f95f"
+  },
+  {
+    "package_path": "results/qc_sensitivity/public_ml75_before_after_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/qc_sensitivity/public_ml75_before_after_summary.tsv",
+    "sha256": "8c446f02927e0fc6183f3a0107b1891e3fcba39165abaefb586dbaae5c1ea008"
+  },
+  {
+    "package_path": "results/qc_sensitivity/public_ml75_run_manifest.json",
+    "source_path": "129_Submission_Revised_20260909/results/qc_sensitivity/public_ml75_run_manifest.json",
+    "sha256": "7425aa2c421587b5308126218c8c870a9d83d0916472e6469f63b81f97251804"
+  },
+  {
+    "package_path": "results/recurrence_revision/elastic_net_oof_diagnostic.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/elastic_net_oof_diagnostic.tsv",
+    "sha256": "386d34e7fcab01dab79d81978129185cbe28602085328287a8d95b9d80f04f4c"
+  },
+  {
+    "package_path": "results/recurrence_revision/stage_sensitivity_source.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/figure_s2_recurrence_source.tsv",
+    "sha256": "1d00aaf3c48e6a8aef07a492cc8906cb7e42ed7c5424174934d5ced191a0582c"
+  },
+  {
+    "package_path": "results/recurrence/horizon_support_counts_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/horizon_support_counts.tsv",
+    "sha256": "c877df8f13332fdb0b858e8332aa9c32408a31920111df622f940875c629ce0d"
+  },
+  {
+    "package_path": "results/recurrence/null_km_benchmark_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/null_km_benchmark.tsv",
+    "sha256": "a5a29130b3508cdc76fab04adbc18a136b656a336cb7b14c0650f60ded3bc83c"
+  },
+  {
+    "package_path": "results/recurrence_revision/optimism_diagnostic.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/optimism_diagnostic.tsv",
+    "sha256": "7f40a45e0c1cc98ac3c5c7903e507ab923cd51339e500b1cd2ffb0b099844fdc"
+  },
+  {
+    "package_path": "results/recurrence_revision/permutation_diagnostic.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/permutation_diagnostic.tsv",
+    "sha256": "88cd049e9031dd2dc79731de66e53eab10b415ef93162cfe11ecc0da2916e3dc"
+  },
+  {
+    "package_path": "results/recurrence_revision/regularization_boundary_diagnostic.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/regularization_boundary_diagnostic.tsv",
+    "sha256": "63824456e1a8077fbdad25f76e44211e207712de27647cb3091046ae407d5292"
+  },
+  {
+    "package_path": "results/recurrence_revision/risk_metric_diagnostics.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/risk_metric_diagnostics.tsv",
+    "sha256": "d4bf244eb8d97e85f539d0f92e738e79118e39d1c15ebfa582a4a28b094c65f8"
+  },
+  {
+    "package_path": "results/recurrence_revision/run_manifest.json",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/run_manifest.json",
+    "sha256": "fde9e90c9fb0c9be6a5e8ab95674d0bc49d114516dd53e514a2650aa2d5d10e4"
+  },
+  {
+    "package_path": "results/recurrence/recurrence_delta_ci_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/table_s3_delta_ci.tsv",
+    "sha256": "17953a94ca5c8c0a413870d43d0678b7422a0e1bb405c4ce4fb010606d143a99"
+  },
+  {
+    "package_path": "results/recurrence/recurrence_metrics_table_S8.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/recurrence_revision/table_s3_recurrence_primary_corrected.tsv",
+    "sha256": "f2450a3f8e16bfd8450d39a9666654314e9429d60ade7435f499cfb153d1e4c6"
+  },
+  {
+    "package_path": "results/tcga_support/tcga_cpg_expression_correlations.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/tcga_support/tcga_cpg_expression_correlations.tsv",
+    "sha256": "93233ce93d0b6e3df7361df0024392aca0f2d09e642dcc19a47df976b13c6c94"
+  },
+  {
+    "package_path": "results/tcga_support/tcga_cpg_run_summary.json",
+    "source_path": "129_Submission_Revised_20260909/results/tcga_support/tcga_cpg_run_summary.json",
+    "sha256": "0e909bd033b0ed32d7264f43e4911995034225a0b6cb412425f62fb5b040b7b6"
+  },
+  {
+    "package_path": "results/tcga_support/tcga_cpg_tumor_normal_paired.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/tcga_support/tcga_cpg_tumor_normal_paired.tsv",
+    "sha256": "ea26c09512f1a8ec5e29d7f2600da7165af109ff993cb16a798e49f5009836cf"
+  },
+  {
+    "package_path": "results/tcga_support/tcga_expression_source_candidates.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/tcga_support/tcga_expression_source_candidates.tsv",
+    "sha256": "176913481e01ed75c8cbe89a3b9a71027116eb517d8ad85b8a0b335ef2659aa1"
+  },
+  {
+    "package_path": "tables/Table_S7.csv",
+    "source_path": "129_Submission_Revised_20260909/tables/Table_5.csv",
+    "sha256": "a761dc32b644ad850ff96414b7014ff21a5e41aaa28619cf6ca27fb30333b210"
+  },
+  {
+    "package_path": "tables/Table_S1A.csv",
+    "source_path": "129_Submission_Revised_20260909/tables/Table_S1.csv",
+    "sha256": "dc86293e4325578e6cdaa94e4a51ebc253b0e3ce07adbc8765558b7ec568ca9a"
+  },
+  {
+    "package_path": "tables/Table_S8A.csv",
+    "source_path": "129_Submission_Revised_20260909/tables/Table_S3.csv",
+    "sha256": "9241ba305ccca629d9013d56ead7489b757cd303417e6d5ca3c9d6b6cf3233c6"
+  },
+  {
+    "package_path": "tables/Table_S7.csv",
+    "source_path": "131_Final_Integrated_20260915/reproducibility/retained_tables/Table_5.csv",
+    "sha256": "a761dc32b644ad850ff96414b7014ff21a5e41aaa28619cf6ca27fb30333b210"
+  },
+  {
+    "package_path": "tables/Table_S1A.csv",
+    "source_path": "131_Final_Integrated_20260915/reproducibility/retained_tables/Table_S1.csv",
+    "sha256": "dc86293e4325578e6cdaa94e4a51ebc253b0e3ce07adbc8765558b7ec568ca9a"
+  },
+  {
+    "package_path": "tables/Table_S8A.csv",
+    "source_path": "131_Final_Integrated_20260915/reproducibility/retained_tables/Table_S3.csv",
+    "sha256": "9241ba305ccca629d9013d56ead7489b757cd303417e6d5ca3c9d6b6cf3233c6"
+  },
+  {
+    "package_path": "tables/Table_S1B.csv",
+    "source_path": "131_Final_Integrated_20260915/reproducibility/retained_tables/Table_S6A.csv",
+    "sha256": "634d1d251b9453bbd21fccd04b6708c115fff979ae1f240a3d4fa525f6dacf10"
+  },
+  {
+    "package_path": "tables/Table_S7.csv",
+    "source_path": "131_Final_Integrated_20260915/tables/Table_5.csv",
+    "sha256": "a761dc32b644ad850ff96414b7014ff21a5e41aaa28619cf6ca27fb30333b210"
+  },
+  {
+    "package_path": "tables/Table_S1A.csv",
+    "source_path": "131_Final_Integrated_20260915/tables/Table_S1.csv",
+    "sha256": "dc86293e4325578e6cdaa94e4a51ebc253b0e3ce07adbc8765558b7ec568ca9a"
+  },
+  {
+    "package_path": "tables/Table_S8A.csv",
+    "source_path": "131_Final_Integrated_20260915/tables/Table_S3.csv",
+    "sha256": "9241ba305ccca629d9013d56ead7489b757cd303417e6d5ca3c9d6b6cf3233c6"
+  },
+  {
+    "package_path": "tables/Table_S1B.csv",
+    "source_path": "131_Final_Integrated_20260915/tables/Table_S6A.csv",
+    "sha256": "634d1d251b9453bbd21fccd04b6708c115fff979ae1f240a3d4fa525f6dacf10"
+  },
+  {
+    "package_path": "tables/Table_S3B.csv",
+    "source_path": "131_Final_Integrated_20260915/tables/Table_S9B.csv",
+    "sha256": "ff507ed6492edf5b3efd7a4fc2ac35aaa231a1c353f33e46fba6df3fd8616dab"
+  },
+  {
+    "package_path": "tables/Table_S7.csv",
+    "source_path": "134_Final_Submission_20260917/reproducibility/retained_tables/Table_5.csv",
+    "sha256": "a761dc32b644ad850ff96414b7014ff21a5e41aaa28619cf6ca27fb30333b210"
+  },
+  {
+    "package_path": "tables/Table_S1A.csv",
+    "source_path": "134_Final_Submission_20260917/reproducibility/retained_tables/Table_S1.csv",
+    "sha256": "dc86293e4325578e6cdaa94e4a51ebc253b0e3ce07adbc8765558b7ec568ca9a"
+  },
+  {
+    "package_path": "tables/Table_S1B.csv",
+    "source_path": "134_Final_Submission_20260917/reproducibility/retained_tables/Table_S2A.csv",
+    "sha256": "634d1d251b9453bbd21fccd04b6708c115fff979ae1f240a3d4fa525f6dacf10"
+  },
+  {
+    "package_path": "tables/Table_S3B.csv",
+    "source_path": "134_Final_Submission_20260917/reproducibility/retained_tables/Table_S5B.csv",
+    "sha256": "ff507ed6492edf5b3efd7a4fc2ac35aaa231a1c353f33e46fba6df3fd8616dab"
+  },
+  {
+    "package_path": "tables/Table_S8A.csv",
+    "source_path": "134_Final_Submission_20260917/reproducibility/retained_tables/Table_S9.csv",
+    "sha256": "9241ba305ccca629d9013d56ead7489b757cd303417e6d5ca3c9d6b6cf3233c6"
+  },
+  {
+    "package_path": "tables/Table_S7.csv",
+    "source_path": "134_Final_Submission_20260917/tables/Table_5.csv",
+    "sha256": "a761dc32b644ad850ff96414b7014ff21a5e41aaa28619cf6ca27fb30333b210"
+  },
+  {
+    "package_path": "tables/Table_S1A.csv",
+    "source_path": "134_Final_Submission_20260917/tables/Table_S1.csv",
+    "sha256": "dc86293e4325578e6cdaa94e4a51ebc253b0e3ce07adbc8765558b7ec568ca9a"
+  },
+  {
+    "package_path": "tables/Table_S1B.csv",
+    "source_path": "134_Final_Submission_20260917/tables/Table_S2A.csv",
+    "sha256": "634d1d251b9453bbd21fccd04b6708c115fff979ae1f240a3d4fa525f6dacf10"
+  },
+  {
+    "package_path": "tables/Table_S3B.csv",
+    "source_path": "134_Final_Submission_20260917/tables/Table_S5B.csv",
+    "sha256": "ff507ed6492edf5b3efd7a4fc2ac35aaa231a1c353f33e46fba6df3fd8616dab"
+  },
+  {
+    "package_path": "tables/Table_S8A.csv",
+    "source_path": "134_Final_Submission_20260917/tables/Table_S9.csv",
+    "sha256": "9241ba305ccca629d9013d56ead7489b757cd303417e6d5ca3c9d6b6cf3233c6"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/A_cimp_index_conditioning.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/A_cimp_index_conditioning.tsv",
+    "sha256": "60eebb7404b03dd2288f40e55f3cfea315ce57075c356723fd05b7ce2b691638"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/A_conditioning_comparison.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/A_conditioning_comparison.tsv",
+    "sha256": "c6921f85c9aa358a9f67197a69b09bf86f8aa893aa1b1ddbf04d5c0680bc00fd"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/A_purity_reference_per_set.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/A_purity_reference_per_set.tsv",
+    "sha256": "d7213265b088a2e524ea0352f99a651dce483d33c93234fbac556c4a825687b0"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/AB_cohort_axes_summary.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/AB_cohort_axes_summary.tsv",
+    "sha256": "a72ec25712487765b44a5f072b28a7818416c6c626afc63cb5be9e35b9980ef6"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/B_cimp_index.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/B_cimp_index.tsv",
+    "sha256": "4832588b31cdc5cf64795477138942caea549b7abe6ed5684573629476b087fe"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/B_cimp_marker_levels.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/B_cimp_marker_levels.tsv",
+    "sha256": "d98499fb6067b66d41cabe35a52940b97b7ba37e52d1c0ded548e9ce08b810ee"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/B_cimp_prevalence_grid.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/B_cimp_prevalence_grid.tsv",
+    "sha256": "10f6b2d0b121b9fa5953a5d8f880899aa6e0f8c763829badce5af10640a59df6"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/B_cimp_stratified_correlation.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/B_cimp_stratified_correlation.tsv",
+    "sha256": "e69e38565442fb61652c843590c6f1d5307466f8f985f6ad5ec64bab9f42b526"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/C_reference_residual_per_set.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/C_reference_residual_per_set.tsv",
+    "sha256": "aaeaa2bef4e788892fd2a4d4089a935502be63edc189e652f3f8ca9b6daac1ca"
+  },
+  {
+    "package_path": "results/adjustment_and_reference_conditioning/C_reference_residual_summary.tsv",
+    "source_path": "137_Specificity_Revision_20260918/analysis/specificity/results/C_reference_residual_summary.tsv",
+    "sha256": "0e3923f2392364903a8f75e614807f54e2c7489a3867dc48d21ddc074941504d"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/discordant_sample_coordination_exclusion.tsv",
+    "source_path": "151_Discordant_Sample_Sensitivity/coordination_exclusion.tsv",
+    "sha256": "d426107d61a80e1cb4478e0fb7a8f231df6fdac83db6822aceca36d7eb762334"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/discordant_sample_paired_exclusion.tsv",
+    "source_path": "151_Discordant_Sample_Sensitivity/paired_exclusion.tsv",
+    "sha256": "e647cba6581b4f8593c731c10ad48628090189f600a70cd6e9c629cf8ca648a5"
+  },
+  {
+    "package_path": "results/local_pyrosequencing/discordant_sample_tissue_ml_bootstrap_ci.tsv",
+    "source_path": "151_Discordant_Sample_Sensitivity/tissue_ml_bootstrap_ci.tsv",
+    "sha256": "155d8d8cef33f48f4aa6069a6d27deadf4c8fab70930f0ac88291ed10663e2d0"
+  },
+  {
+    "package_path": "results/public_contrasts/public_probe_contrasts_bh_within_contrast.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/public_probe_contrasts_bh_within_contrast.tsv",
+    "sha256": "0a02df08caf91c6bd7edc8f70a8d08e4a38dd671bcdc7adbe1361a46d6a625d8"
+  },
+  {
+    "package_path": "results/public_contrasts/bh_within_contrast_summary.tsv",
+    "source_path": "129_Submission_Revised_20260909/results/public_contrasts/bh_within_contrast_summary.tsv",
+    "sha256": "5fd4930021f5580fca8dfa791b4475788f63e56556f9ee26a0b3fddefd7b7723"
+  },
+  {
+    "package_path": "registry/korean_probe_coverage_provenance.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/korean_probe_coverage_provenance.tsv",
+    "sha256": "cfafed523894dab0cb51322f09f74bb649cd260f5eb54bb7af76e0fe85d299da"
+  },
+  {
+    "package_path": "registry/korean_revision_provenance.json",
+    "source_path": "129_Submission_Revised_20260909/registry/korean_revision_provenance.json",
+    "sha256": "7343d8b1dbea905e5dff1ec0ce6f7243275d7e9131089d98d3dc7503cae440e7"
+  },
+  {
+    "package_path": "registry/epic_platform_probe_audit.tsv",
+    "source_path": "129_Submission_Revised_20260909/registry/epic_platform_probe_audit.tsv",
+    "sha256": "fde64ae49793b5ad80ec34c547ab03056603e55b25a66153933fd4ddaaf336de"
+  },
+  {
+    "package_path": "registry/input_matrix_audit.json",
+    "source_path": "129_Submission_Revised_20260909/registry/input_matrix_audit.json",
+    "sha256": "ca94251d1e623a4516897e89d14cbf51091bd610884bfda3becae9a04f8a0f3f"
+  }
+]

@@ -1,0 +1,15 @@
+cohort	requested_field	purpose
+SNUH	source_tumor_sample_id	Exact one-to-one linkage to current methylation sample identifiers
+SNUH	patient_id	Verify matched tumor-normal pair without relying on sample order
+SNUH	original_five_cluster_label	Distinguish initial k-means clusters from final CIMP category
+SNUH	final_CIMP_class	Source classification for stratification or rank-residual sensitivity analysis
+SNUH	cluster_collapse_rule	Document the mapping of five clusters into three CIMP categories
+SNUH	exact_1930_CpG_IDs	Quantify actual candidate CpG overlap before interpreting adjusted correlations
+SNUH	preprocessing_and_QC_inclusion	Identify source exclusions and the exact classified sample set
+GSE77718	GSM_accession_and_source_patient_id	Explicit identifier crosswalk with tumor-normal status
+GSE77718	five_marker_MethyLight_values	Independent assay-based CIMP information
+GSE77718	marker_cutoffs_and_CIMP_classification_rule	Preserve assay and class definition
+GSE77718	MethyLight_CIMP_class	Independent assay class distinct from array clustering
+GSE77718	array_clustering_CIMP_class	Separate source-derived methylation subtype
+GSE77718	original_analysis_inclusion	Reconcile GEO sample count with the original paper and exclusions
+both	matched_stromal_score_or_pathology_tumor_fraction	Enable cellular-composition sensitivity analysis only when measured and linked

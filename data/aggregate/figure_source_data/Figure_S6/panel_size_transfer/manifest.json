@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "source": "source/Analysis_Code/workspace/127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a1_per_k_summary.tsv",
+      "target": "figures/source_data/FigureS2_panel_size/a1_per_k_summary.tsv",
+      "sha256": "b5df7abf0bab3e7b98da9b78df2778d8d0e5be01911fb1315df0fe0585c3eda8"
+    },
+    {
+      "source": "source/Analysis_Code/workspace/127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_per_k_by_target.tsv",
+      "target": "figures/source_data/FigureS2_panel_size/a2_per_k_by_target.tsv",
+      "sha256": "d9cc9dbf815c55f46c65976f759ea50fa15125b1234654a10b02976368743200"
+    },
+    {
+      "source": "source/Analysis_Code/workspace/127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_frozen_transfer.tsv",
+      "target": "figures/source_data/FigureS2_panel_size/a2_frozen_transfer.tsv",
+      "sha256": "a83cf97b268230577d311bb9c61e91a1bb9214daa3b6ab764098bfedf287ea7f"
+    },
+    {
+      "source": "source/Analysis_Code/workspace/127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_loco_matrix.tsv",
+      "target": "figures/source_data/FigureS2_panel_size/a2_loco_matrix.tsv",
+      "sha256": "ff83319058538d534b42b243f8ec324738d975a81cb1a1a474e0b1d237b24865"
+    },
+    {
+      "source": "source/Analysis_Code/workspace/127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_leave_one_cohort_out.tsv",
+      "target": "figures/source_data/FigureS2_panel_size/a2_leave_one_cohort_out.tsv",
+      "sha256": "3582a06a1ff8e3ec24353e3a696b98ee6cab5f5f998f3647408b7f76d3b383fb"
+    },
+    {
+      "source": "source/Analysis_Code/workspace/127_Exploratory_PanelSize_Coordination_20260909/A_panel_size/results/a2_cohort_coverage.tsv",
+      "target": "figures/source_data/FigureS2_panel_size/a2_cohort_coverage.tsv",
+      "sha256": "0b5732348ebc91f92161bfff6505a678f79e0ec02b8cfe6bee85e799dfd67ef7"
+    }
+  ]
+}

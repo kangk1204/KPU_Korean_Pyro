@@ -1,0 +1,54 @@
+{
+  "analysis_unit": "patient-grouped tumor/normal tissue classification",
+  "cohorts": {
+    "colonomics": {
+      "patients": 92,
+      "source": "curated 119 beta/sample files"
+    },
+    "gse119526": {
+      "patients": 48,
+      "source": "114 Table 1 signal intensities; beta=M/(M+U+100); detection_p>=0.01 masked"
+    }
+  },
+  "created_utc": "2026-09-08T00:00:00Z",
+  "feature_unit": "individual fixed CpG beta values",
+  "fixed_cpg_count": 77,
+  "forbidden_aggregation": [
+    "gene-level CpG mean",
+    "panel mean",
+    "80 percent gene coverage score"
+  ],
+  "logistic_C": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "metrics": [
+    "AUC",
+    "Brier",
+    "sensitivity_threshold_0.5",
+    "specificity_threshold_0.5"
+  ],
+  "model": "ridge logistic regression",
+  "preprocessing": "training-fold-only median imputation followed by training-fold-only StandardScaler; all-missing training columns dropped inside the fold",
+  "resampling": {
+    "bootstrap": "2000 patient-cluster draws of mean repeat metrics conditional on fitted CV models",
+    "grouping": "patient/study_id",
+    "inner_folds": 4,
+    "outer_folds": 5,
+    "outer_repeats": 20
+  },
+  "source_files": {
+    "colonomics": {
+      "beta": "PROJECT_ROOT/119_Figure1_ABC_Revision_20260908/data/derived/Colonomics_beta.tsv.gz",
+      "samples": "PROJECT_ROOT/119_Figure1_ABC_Revision_20260908/data/derived/Colonomics_samples.tsv"
+    },
+    "gse119526": {
+      "samples": "PROJECT_ROOT/114_ML_DataDriven_20260905/data/public/processed/gse119526_sample_metadata.tsv",
+      "signals": "PROJECT_ROOT/114_ML_DataDriven_20260905/data/public/processed/gse119526_table1_signal_intensities.tsv.gz"
+    }
+  },
+  "status": "public_array_individual_cpg_ml_contract"
+}

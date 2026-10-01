@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-08",
+  "source": "User-supplied processed beta matrices in 000 folders",
+  "parent_plan": "120_Korean_External_Validation_20260908/registry/approved_plan.md",
+  "output_location_amendment": "121 preserves the completed120 access-feasibility snapshot and119 manuscript",
+  "primary_contract_unchanged": false,
+  "ML": "Public cohort-specific models re-estimated using individual CpGs; no Korean cross-cohort model transfer",
+  "TBS": "not provided; defer",
+  "metadata_gate": "Header plus original public manifest/clinical concordance before paired inference",
+  "active_unit": "individual fixed CpG for every public array analysis",
+  "superseded_contract": "analysis_contract.json: historical 80-percent gene coverage rule; not current inference",
+  "scope": [
+    "Korean paired individual CpG effects and coordination",
+    "Korean CMC matched expression and source CMS",
+    "Prior public tissue and lesion contrasts and CpG meta-analysis",
+    "Public CpG expression, stromal and CMS associations",
+    "Public cohort-specific nested CV with individual CpG features",
+    "TCGA paired CpG support; expression unavailable locally",
+    "Integrated manuscript, figures and result tables"
+  ],
+  "PSQ": "87-patient supplied gene-level values retained; per-site raw PSQ values unavailable",
+  "historical_scope_record": true,
+  "active_revision": "124_Integrated_Revision_20260909",
+  "revision_date": "2026-09-09",
+  "current_scope_contract": "CURRENT_ANALYSIS.md",
+  "source_121_preserved": true
+}

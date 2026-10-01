@@ -1,0 +1,31 @@
+path	meaning	units
+PLAN.md	Original frozen analysis plan; read with additive annotation correction	method definitions
+ANNOTATION_TYPE_CORRECTION.md	Dated post-first-run cg/ch taxonomy correction preserving original plan and registry	method definitions
+public_code/build_tables.py	Rebuild Table S11A/B display specifications from aggregates	executable Python
+public_code/cpg_scope.py	Stream authorized matrices and regenerate per-probe paired effects, fixed-family tests and patient bootstrap summaries	executable Python
+public_code/freeze_registry.py	Rebuild original annotation-only 391-probe union and separate gene mapping	executable Python
+public_code/register_probe_types.py	Add source-verified 388 cg / 3 ch taxonomy without rewriting original registry	executable Python
+public_code/test_cpg_scope.py	Synthetic regression tests of annotation, pairing, missingness, masking, taxonomy, BH and resampling	executable Python
+public_code/verify_analysis.py	Independent analytic t/BH and patient-count matrix bootstrap verification	executable Python
+public_code/verify_release.py	Verify explicit public allowlist membership and current release hashes	executable Python
+public/FILE_DICTIONARY.tsv	Meaning and units for every explicitly hashed public artifact	documentation
+public/METHODS_RESULTS.md	Final manuscript-ready methods, numerical facts and limitations	scientific prose; percentage points and counts
+public/README.md	Scope, release layout and evidence boundaries	documentation
+public/RUN_INSTRUCTIONS.md	Portable public-table, annotation, full-source, cached and independent verification commands	documentation
+public/Table_S11A_display.tsv	Compact annotated/actual/masked/analyzed probe and CpG coverage	probe/CpG/patient counts
+public/Table_S11B_display.tsv	Compact location-specific selected/unselected CpG effect distributions	CpG counts and percentage points with patient-bootstrap intervals
+public/VERIFICATION_SUMMARY.json	Aggregate-only current test, independent recomputation, primary concordance and display evidence	counts, maximum absolute errors and boolean checks
+public/aggregates/coverage_and_pooled_summary.tsv	CpG-only selected/unselected coverage and pooled effect summaries for both scopes	CpG/patient counts and percentage points
+public/aggregates/coverage_by_probe_type.tsv	Original 391-probe source coverage separately by cg/ch and selected membership	probe counts
+public/aggregates/group_distributions.tsv	CpG-only selected/unselected effect distributions for all genes and promoter/body/other strata; inferential scope and descriptive scope separate	CpG counts, percentage-point distribution summaries and bootstrap intervals
+public/aggregates/pooled_group_bootstrap.tsv	2000 joint-patient-bootstrap median CpG effects per cohort and pooled location/selection group; no patient data	bootstrap draw number and percentage points
+public/aggregates/probe_effects.tsv	One row per cohort and original registered probe; typed coverage, paired effects and eligible CpG inference	beta difference percentage points, patient counts, P/Q, seed and draw counts
+public/aggregates/run_provenance.json	Final scientific-run inputs/output hashes, environments and cached-extraction lineage; scientific-run code hashes are historical	bytes, counts, seeds, version strings, SHA256 digests
+public/initial_raw_stream_provenance.json	Historical first full raw-stream audit before masked-CI and taxonomy corrections; not final effect estimates	bytes, counts, seeds, version strings, SHA256 digests
+public/registry/ANNOTATION_TYPE_MANIFEST.json	Source-verified taxonomy correction and additive registry hashes	counts, SHA256 digests
+public/registry/REGISTRY_MANIFEST.json	Original pre-additional-beta annotation freeze, counts and hashes; historical cg/ch naming preserved	counts, SHA256 digests
+public/registry/fixed_probes.json	Unchanged original selected 77-probe registry copied from prior public release	probe IDs grouped by gene
+public/registry/probe_gene_mapping.tsv	Separate probe-target-gene mapping with gene-specific location and annotation overlap flags	probe IDs, gene symbols, categorical flags
+public/registry/probe_types.tsv	Additive source probeType classification of all 391 entries as cg or ch	probe IDs, categorical cg/ch and is_cpg boolean
+public/registry/probe_universe.tsv	Frozen 391 unique array-probe ledger with selected membership, mask and annotations	probe IDs, gene symbols, hg19 bp, categorical flags
+public/table_specs.json	Manuscript-ready machine display schema for Tables S11A and S11B	formatted counts, percentage points and method footnotes

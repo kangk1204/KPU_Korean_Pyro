@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-09",
+  "excluded_in_sensitivity_only": [
+    "cg20680720",
+    "cg04481096"
+  ],
+  "fixed_family_size_retained_for_bh": 77,
+  "technical_flag_source": "registry/probe_qc_fixed77.tsv and registry/probe_qc_original_zhou_flagged.tsv",
+  "korean_qc_sensitivity_outputs": [
+    "results/qc_sensitivity/korean_exclude2_paired_cpg_effects54.tsv",
+    "results/qc_sensitivity/korean_exclude2_effect_summary.tsv",
+    "results/coordination_sensitivity/korean_exclude2_coordination54.tsv"
+  ],
+  "public_ml75_refit_outputs": [
+    "results/qc_sensitivity/public_ml75_before_after_summary.tsv",
+    "results/qc_sensitivity/public_ml75_run_manifest.json"
+  ],
+  "public_exclude2_aggregate_output": "results/qc_sensitivity/exclude2_aggregate_sensitivity.tsv",
+  "submission_caveat": "This lane did not edit package scripts or submission contents; private OOF artifacts remain outside this new submission-facing registry.",
+  "korean_effect_summary": [
+    {
+      "cohort": "ASAN",
+      "n_effect_rows": 54,
+      "n_positive_mean_delta": 54,
+      "n_paired_t_q77_lt_005": 54,
+      "mean_delta_min_pp": 14.449218226705785,
+      "mean_delta_max_pp": 34.34581724312007,
+      "max_paired_t_q77": 3.6232206476606277e-16
+    },
+    {
+      "cohort": "CMCBSN",
+      "n_effect_rows": 54,
+      "n_positive_mean_delta": 54,
+      "n_paired_t_q77_lt_005": 54,
+      "mean_delta_min_pp": 18.18680754254495,
+      "mean_delta_max_pp": 39.79518147704383,
+      "max_paired_t_q77": 1.1171427838482954e-14
+    },
+    {
+      "cohort": "SNUH",
+      "n_effect_rows": 54,
+      "n_positive_mean_delta": 54,
+      "n_paired_t_q77_lt_005": 54,
+      "mean_delta_min_pp": 20.634857336423952,
+      "mean_delta_max_pp": 43.024462008374456,
+      "max_paired_t_q77": 5.017268346009376e-22
+    }
+  ],
+  "korean_coordination_summary": [
+    {
+      "cohort": "CMCBSN",
+      "scope": "exclude cg20680720 and cg04481096; median and sign recomputed only; no full bootstrap/permutation rerun",
+      "n_complete_pairs": 103,
+      "n_available_cpgs": 54,
+      "n_genes": 10,
+      "n_between_gene_pairs": 1282,
+      "n_positive_between_gene_pairs": 1282,
+      "median_between_gene_rho_54": 0.6672615648201028,
+      "original_median_between_gene_rho_56": 0.6613912928875808,
+      "median_change_54_minus_56": 0.0058702719325219865,
+      "full_ci_or_p_recomputed": false
+    },
+    {
+      "cohort": "SNUH",
+      "scope": "exclude cg20680720 and cg04481096; median and sign recomputed only; no full bootstrap/permutation rerun",
+      "n_complete_pairs": 142,
+      "n_available_cpgs": 54,
+      "n_genes": 10,
+      "n_between_gene_pairs": 1282,
+      "n_positive_between_gene_pairs": 1282,
+      "median_between_gene_rho_54": 0.574036392136482,
+      "original_median_between_gene_rho_56": 0.5685040162115379,
+      "median_change_54_minus_56": 0.005532375924944155,
+      "full_ci_or_p_recomputed": false
+    },
+    {
+      "cohort": "ASAN",
+      "scope": "exclude cg20680720 and cg04481096; median and sign recomputed only; no full bootstrap/permutation rerun",
+      "n_complete_pairs": 128,
+      "n_available_cpgs": 54,
+      "n_genes": 10,
+      "n_between_gene_pairs": 1282,
+      "n_positive_between_gene_pairs": 1282,
+      "median_between_gene_rho_54": 0.6837346639809558,
+      "original_median_between_gene_rho_56": 0.6750766800952206,
+      "median_change_54_minus_56": 0.008657983885735243,
+      "full_ci_or_p_recomputed": false
+    }
+  ],
+  "colonomics_stromal_sensitivity": [
+    {
+      "cohort": "Colonomics",
+      "analysis": "paired CpG delta between-gene coordination with tumor stromal-score rank adjustment",
+      "n_paired_patients_with_tumor_stromal_score": 90,
+      "n_cpgs": 77,
+      "n_between_gene_pairs": 2609,
+      "median_between_gene_rho_unadjusted": 0.5993686437415201,
+      "median_between_gene_rho_stromal_rank_adjusted": 0.5570551568884964,
+      "median_change_adjusted_minus_unadjusted": -0.04231348685302372,
+      "interpretation_limit": "Stromal-rank adjustment attenuates but does not remove coordination; this is not a causal purity decomposition and CIMP labels are not treated as available for a primary CIMP analysis."
+    }
+  ],
+  "korean_pc1_fractions": [
+    {
+      "cohort": "CMCBSN",
+      "n_paired_patients": 103,
+      "n_cpgs": 56,
+      "pc1_explained_variance_fraction": 0.6972509611120057
+    },
+    {
+      "cohort": "SNUH",
+      "n_paired_patients": 142,
+      "n_cpgs": 56,
+      "pc1_explained_variance_fraction": 0.6047968649367312
+    },
+    {
+      "cohort": "ASAN",
+      "n_paired_patients": 128,
+      "n_cpgs": 56,
+      "pc1_explained_variance_fraction": 0.7073018426150439
+    }
+  ]
+}

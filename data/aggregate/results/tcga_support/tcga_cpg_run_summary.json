@@ -1,0 +1,91 @@
+{
+  "archive_members_streamed": 455,
+  "case_tissue_cpg_rows": 33726,
+  "contract_sha256": "719a0581832ff0e2cc87142abf571ef0a82f0c1ba5fb28a62e9b1c9e267de444",
+  "created_by": "scripts/analyze_tcga_cpg.py",
+  "estimated_expression_rows": 0,
+  "estimated_paired_rows": 74,
+  "expression_rows": 154,
+  "fixed_cpg_rows": 77,
+  "inputs": [
+    {
+      "bytes": 1387,
+      "path": "121_Korean_Beta_Validation_20260908/registry/fixed_probes.json",
+      "sha256": "30965dbf5c3434e184bb86dd303296325486f48743755ffc0899333a986bf155"
+    },
+    {
+      "bytes": 2554553996,
+      "path": "102_ML_revised_20260902/external/data/tcga/beta_archived.zip",
+      "sha256": "1d7b201411e0e08e31502f79d53b4e7bd5a33a5d2ce8151670b0d413a2cec803"
+    },
+    {
+      "bytes": 124487,
+      "path": "102_ML_revised_20260902/external/data/tcga/gdc_sample_map.json",
+      "sha256": "8ae21d7d6550bedc6ebf89fdb5e5aad18d82442d1af158426ff615c1ad12a5f7"
+    },
+    {
+      "bytes": 2803,
+      "path": "119_Figure1_ABC_Revision_20260908/registry/original_gene_selection.json",
+      "sha256": "00b142837b7787c32b2edfd25becef78cf082a1253502aec950aa991466d5cf3"
+    }
+  ],
+  "long_beta_rows": 35035,
+  "not_estimable_paired_rows": 3,
+  "outputs": [
+    {
+      "bytes": 1525,
+      "path": "data/derived/TCGA_fixed77_cpgs.tsv",
+      "sha256": "9dce003a20f95c000207c9b56c2a267b02d6a7ff71fce16b712222a1c35d0a34"
+    },
+    {
+      "bytes": 96802,
+      "path": "data/derived/TCGA_sample_map.tsv",
+      "sha256": "08bfa38685d9b252c9c41b44eb56131702841ca60999d2d57bee7af375f943f6"
+    },
+    {
+      "bytes": 4736492,
+      "path": "data/derived/TCGA_fixed77_beta_long.tsv",
+      "sha256": "12f29d72da5cd4bbd284c38b790e0cdef4eaee60b75fd0902a5cd7ed2c762031"
+    },
+    {
+      "bytes": 2213367,
+      "path": "data/derived/TCGA_fixed77_case_tissue_beta.tsv",
+      "sha256": "db2236f19a857f54202ef438655305f4dc1e7fbceef3facf97855991d9807fbb"
+    },
+    {
+      "bytes": 31736,
+      "path": "results/tcga_support/tcga_sample_collapse_audit.tsv",
+      "sha256": "6f49c8f62ed5215c21ed7bdb0a7287cbffc534532d45c8058ee1edf385b0c009"
+    },
+    {
+      "bytes": 19670,
+      "path": "results/tcga_support/tcga_cpg_tumor_normal_paired.tsv",
+      "sha256": "ea26c09512f1a8ec5e29d7f2600da7165af109ff993cb16a798e49f5009836cf"
+    },
+    {
+      "bytes": 33167,
+      "path": "results/tcga_support/tcga_cpg_expression_correlations.tsv",
+      "sha256": "93233ce93d0b6e3df7361df0024392aca0f2d09e642dcc19a47df976b13c6c94"
+    },
+    {
+      "bytes": 18,
+      "path": "results/tcga_support/tcga_expression_source_candidates.tsv",
+      "sha256": "176913481e01ed75c8cbe89a3b9a71027116eb517d8ad85b8a0b335ef2659aa1"
+    },
+    {
+      "bytes": 2480,
+      "path": "review/tcga_source_audit.md",
+      "sha256": "c47f4f007c9ab39e6aa68c6aaf84453490873e6972a4d706d539839816607975"
+    },
+    {
+      "bytes": 3257,
+      "path": "registry/tcga_cpg_contract.json",
+      "sha256": "719a0581832ff0e2cc87142abf571ef0a82f0c1ba5fb28a62e9b1c9e267de444"
+    }
+  ],
+  "paired_n_max": 45,
+  "paired_n_min": 0,
+  "paired_rows": 77,
+  "status": "complete_with_expression_source_gap",
+  "tcga_expression_candidates": []
+}

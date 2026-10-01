@@ -1,0 +1,18 @@
+{
+  "analysis_unit": "individual_CpG",
+  "planned_cpgs": 77,
+  "observed_cpgs": 56,
+  "missing_cpgs": 21,
+  "no_gene_or_panel_methylation_averages": true,
+  "missing_test_internal_p": 1.0,
+  "cms_family_size": 77,
+  "expression_family_size": 77,
+  "partial_spearman_model": "Pearson correlation of rank residuals after OLS adjustment for raw age plus sex/site dummy variables; p uses t distribution with df = n - rank(X) - 1",
+  "seed": 20260908,
+  "n_boot": 5000,
+  "beta_path": "PROJECT_ROOT/121_Korean_Beta_Validation_20260908/data/derived/CMCBSN_beta.tsv",
+  "methylation_metadata_path": "PROJECT_ROOT/121_Korean_Beta_Validation_20260908/data/derived/CMCBSN_samples.tsv",
+  "rna_metadata_path": "PROJECT_ROOT/120_Korean_External_Validation_20260908/data/derived/CMCBSN_rna_samples.tsv",
+  "cms_path": "PROJECT_ROOT/120_Korean_External_Validation_20260908/review/cmc_metadata/CMCBSN_cms_source_labels.tsv",
+  "expression_path": "PROJECT_ROOT/120_Korean_External_Validation_20260908/data/raw/cmc_rna/CMCBSN_log2cpm_342.txt"
+}

@@ -1,0 +1,3 @@
+cohort	patients	index_definition	top_quintile_cut	cimp_high_n	rho_index_vs_candidate_mean_delta
+ASAN	128	mean tumor-minus-adjacent beta across the five markers	0.09085100863396428	26	0.7246326222303607
+SNUH	142	mean tumor-minus-adjacent beta across the five markers	0.10106817644660573	29	0.6453747032110833

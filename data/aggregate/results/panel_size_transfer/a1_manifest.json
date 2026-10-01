@@ -1,0 +1,40 @@
+{
+  "analysis": "A1 local pyrosequencing panel-size curve",
+  "design": {
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "bootstrap_draws": 2000,
+    "inner_folds": 4,
+    "nested_C": "re-tuned inside the inner loop for every candidate subset",
+    "outer_folds": 5,
+    "outer_repeats": 20,
+    "sweep_C_shortcut": "C fixed per (repeat, fold) by inner CV on the full 10-gene panel and reused for all 1,023 subsets"
+  },
+  "generated_utc": "2026-09-17T03:51:40Z",
+  "inputs": {
+    "114_ML_DataDriven_20260905/data/ml/tissue.tsv": "28d3a5b980b79deb07d1219eef03033adad83c237f2fb655e41ca84566a831ac"
+  },
+  "n_patients": 87,
+  "n_specimens": 174,
+  "outputs": {
+    "a1_full_panel_C.tsv": "06f6e27d07b2ff3b45722e1261ac725a0491b41160b40fb86ef7099398b91fc9",
+    "a1_nested_selected_subsets.tsv": "588f4cfe9a61ef136ed9c43fbddef381463af27fdf9330e5f18e23d33afc7e4a",
+    "a1_per_k_summary.tsv": "b5df7abf0bab3e7b98da9b78df2778d8d0e5be01911fb1315df0fe0585c3eda8",
+    "a1_subset_auc.tsv": "2ef93a202e5b7b5ba695084140dacc55b19096b2f9c140739ddf920a6b88b2ba"
+  },
+  "reading": {
+    "k10_median_subset_auc": 0.9627031311930242,
+    "rule": "smallest k with nested best-k AUC lower CI bound > 0.95 AND median random-subset AUC within 0.01 of k=10",
+    "saturation_k": null
+  },
+  "runtime_seconds": 617.1,
+  "seed": 20260909,
+  "source_fingerprint": {
+    "a1_local_panel_size.py": "fceb0acce7c9a00aecb59114684dd73f7c2e0a49e4b8382a68800a93e09df654",
+    "common.py": "365636982e1cf992b158218d592db934c9b8d9df3860dc7081c5ff72e1c2ac03"
+  }
+}

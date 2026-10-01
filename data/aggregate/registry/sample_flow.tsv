@@ -1,0 +1,4 @@
+cohort	matrix_samples	tumors	normals	source_verified_pairs	unmatched_tumors	unmatched_normals	unique_patients	sample_title_exact_matches	source_manifest_sha256	source_reported_pair_count_matches	pairing_limit
+CMCBSN	333	228	105	103	125	2	230	333	77f013c4fffc32e5ff1ab084258150638209f1916dedbc6a9e32f828ba1f279e	True	source-label linkage, not genotype-based identity verification
+SNUH	437	294	143	142	152	1	295	437	443d114b7c9d0f0982fc8b24c0f95a5d0add467ac631767683b6f14f1abb8cf3	True	source-label linkage, not genotype-based identity verification
+ASAN	300	172	128	128	44	0	172	300	5c68e72175b55a4c7d67f758c64887a94d747c57c1d0cda256c8158049e124ab	True	source-label linkage, not genotype-based identity verification

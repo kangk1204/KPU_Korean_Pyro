@@ -1,0 +1,10 @@
+block	model	n_fits	n_with_lambda	lambda_min	lambda_max	n_at_grid_max_100	fraction_at_grid_max_100
+clinical	elastic_net	100	100	100.0	100.0	100	1.0
+clinical	ridge	100	100	1.77827941003892	100.0	99	0.99
+clinical	survival_forest	100	0			0	
+combined	elastic_net	100	100	0.177827941003892	100.0	98	0.98
+combined	ridge	100	100	0.562341325190349	100.0	97	0.97
+combined	survival_forest	100	0			0	
+tumor10	elastic_net	100	100	0.1	100.0	97	0.97
+tumor10	ridge	100	100	0.316227766016838	100.0	94	0.94
+tumor10	survival_forest	100	0			0	

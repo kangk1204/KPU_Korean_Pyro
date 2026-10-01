@@ -1,0 +1,11 @@
+{
+  "adapted_original_files": [
+    {
+      "path": "analysis/workspace/129_Submission_Revised_20260909/scripts/restore_aggregate_inputs.py",
+      "original_source_sha256": "e90f0bf65ebfe6cd23c21a6859b6a8edd733761b5393be7aa39266f039fca72d",
+      "public_sha256": "59c95fa1723d3efc5da58a7d329976fec001cb9ad6a19fdc53061540ebef7c87",
+      "reason": "Use actual final public RESTORE_CATALOG.json and shared validated path/checksum restore routine"
+    }
+  ],
+  "numerical_algorithms_modified": false
+}

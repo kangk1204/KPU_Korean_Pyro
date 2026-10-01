@@ -1,0 +1,18 @@
+{
+  "candidate_probes": 56,
+  "background_probes": 965,
+  "background_genes": 151,
+  "fixed77": 77,
+  "excluded_from_purity_axes": 5573,
+  "opensea": 171595,
+  "island": 143685,
+  "cimp_marker_probes": 141,
+  "cimp_genes": [
+    "CACNA1G",
+    "IGF2",
+    "NEUROG1",
+    "RUNX3",
+    "SOCS1"
+  ],
+  "note": "Purity axes exclude every probe annotated to a candidate or background gene, the 77-CpG registry and the 965 background probes."
+}

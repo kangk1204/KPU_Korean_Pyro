@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-09",
+  "scope": "124 integrated Korean correction registries",
+  "no_raw_11_8gb_reread": true,
+  "raw_processed_matrix_verification_basis": "Prior independent raw audit streamed 11,801,439,241 bytes and matched selected CpG hashes; 124 uses derived/result files unless raw re-verification is explicitly requested.",
+  "korean_accessions": [
+    {
+      "cohort": "CMCBSN",
+      "accession": "PRJKA2086326",
+      "current_accession": "KAP240422",
+      "secondary_accession": "zenodo:8333650",
+      "institution": "Uijeongbu St Mary; Seoul National University Bundang",
+      "platform": "EPIC",
+      "methylation_access": "public_inventory_confirmed; HTML5_download_HTTP401; zero_beta_bytes"
+    },
+    {
+      "cohort": "SNUH",
+      "accession": "PRJKA2086323",
+      "current_accession": "KAP240419",
+      "secondary_accession": NaN,
+      "institution": "Seoul National University Hospital",
+      "platform": "EPIC",
+      "methylation_access": "public_inventory_confirmed; beta_bytes_not_retrieved"
+    },
+    {
+      "cohort": "ASAN",
+      "accession": "PRJKA2086325",
+      "current_accession": "KAP240421",
+      "secondary_accession": NaN,
+      "institution": "Asan Medical Center",
+      "platform": "EPIC",
+      "methylation_access": "public_inventory_confirmed; beta_bytes_not_retrieved"
+    }
+  ],
+  "pairing_registry": "registry/pairing_evidence.json",
+  "coverage_registry": "registry/korean_probe_coverage_provenance.tsv",
+  "qc_registry": "registry/probe_qc_fixed77.tsv",
+  "interpretation_limits": [
+    "Pairing is exact source-label pairing, not genotype fingerprint identity confirmation.",
+    "EPIC annotation absence and processed-matrix absence are reported separately without inferring an upstream filtering cause.",
+    "Tumor-content/CIMP sensitivity is descriptive and does not establish causal purity or direct CIMP effects."
+  ]
+}

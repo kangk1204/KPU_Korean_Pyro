@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "file": "probe_effects.tsv",
+      "sha256": "87466c48d2c75e812a3d13653c391c3c05b660dccedd814e007af588eb9980a0"
+    },
+    {
+      "file": "group_distributions.tsv",
+      "sha256": "69628c9649b281f1a856f720f9f0e61fb9cc7114bc53763939aec4ddd2398acd"
+    },
+    {
+      "file": "probe_types.tsv",
+      "sha256": "5d71d8f5fe825f34eac5b0591661d3ade4bcefda576fb219961073adb5313b1d"
+    }
+  ],
+  "full_probe_rows": 1173,
+  "summary_rows": 24,
+  "effect_column_subset": [
+    "cohort",
+    "probe",
+    "probe_type",
+    "is_cpg",
+    "selected",
+    "MASK_general",
+    "pooled_location",
+    "present",
+    "n_cohort_pairs",
+    "n_complete_pairs",
+    "inferential_eligible",
+    "status",
+    "mean_delta_pp"
+  ],
+  "summary_filter": "gene == ALL and scope == annotation_unmasked; group counts and summaries are CpG-only",
+  "drawing_filter": "inferential_eligible == True (requires is_cpg); no effect-dependent selection",
+  "annotation_union": {
+    "probes": 391,
+    "cpgs": 388,
+    "non_cpgs": 3
+  },
+  "patient_records": false
+}

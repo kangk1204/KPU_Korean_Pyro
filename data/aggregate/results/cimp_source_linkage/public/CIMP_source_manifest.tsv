@@ -1,0 +1,9 @@
+source_file	source_url	retrieved_at_utc	sha256	http_status
+GSE77718_family_brief.txt	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77718&targ=all&form=text&view=brief	2026-09-14T04:11:49.178859+00:00	207355ba198e82be05b5e8614078e388198270e0af93920832c0d94c532db588	200
+McInnes2017_supplement.xlsx	https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12885-017-3226-4/MediaObjects/12885_2017_3226_MOESM1_ESM.xlsx	2026-09-14T04:11:49.179156+00:00	f35ac1690af76a232dee16a82df2437502b2f37f027a94c30891a28c4412f9ca	200
+Joe2023_live.xml	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10618077/fullTextXML	2026-09-14T04:11:49.179316+00:00	76ca629f4f75b10c37e69da07d956e2f9fe4db92e6b9bd42b50c258f6a7bc311	200
+SNUH_KBDS_project.html	https://kbds.re.kr/KAP240419	2026-09-14T04:11:50.161106+00:00	b08894fad2bd6c2bf0b84d9c22c12872cd0f4b46f682ed28a6b3ddafeb9124b8	200
+SNUH_KBDS_browse.html	https://kbds.re.kr/render/search/browse?keyword=KAP240419&database=22&site=KEA	2026-09-14T04:11:51.196305+00:00	cf6a218ee72dd246960281947eada4d41359277ae22b55dc2a792b746d94997e	200
+McInnes2017_live.xml	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5371203/fullTextXML	2026-09-14T04:13:33.760575+00:00	d7535fbaa39d949e6348d62f807b7a7a71ffe47eeb65ecec482d020d05745baa	200
+McInnes2017_figure1.gif	https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12885-017-3226-4/MediaObjects/12885_2017_3226_Fig1_HTML.gif	2026-09-14T04:13:33.760924+00:00	41af00aa20636760dc361f296bf7e3ee525e72ebb029ef581ee9fae9877ccbce	200
+Joe2023_supplementary_live.zip	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10618077/supplementaryFiles	2026-09-14T04:14:44.442563+00:00	d07ce0fb80d6e62da3fdd1ce1e4e8995eb6cdb70caa1cb5d76b1f16f3ea1d1d4	200

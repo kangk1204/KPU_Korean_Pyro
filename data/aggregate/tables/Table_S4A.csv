@@ -1,0 +1,11 @@
+Cohort,Adjustment variable,Adjusted balanced median,Change from unadjusted,Median probe–variable correlation,Variable rho with common score
+ASAN (unadjusted 0.6713),Open-sea methylation score,0.5855,−0.0859,0.481,0.492
+ASAN (unadjusted 0.6713),Methylation-derived CIMP index,0.4965,−0.1748,0.623,0.839
+ASAN (unadjusted 0.6713),Global island gain,0.4475,−0.2238,0.684,0.896
+ASAN (unadjusted 0.6713),Noncandidate common score,0.0877 (0.0276 to 0.1460),−0.5836 (−0.6639 to −0.5064),0.826 (0.783 to 0.856),1.000
+ASAN (unadjusted 0.6713),Common score and open-sea score,0.0729,−0.5984,—,—
+SNUH (unadjusted 0.5675),Open-sea methylation score,0.4714,−0.0960,0.394,0.358
+SNUH (unadjusted 0.5675),Methylation-derived CIMP index,0.4227,−0.1448,0.495,0.764
+SNUH (unadjusted 0.5675),Global island gain,0.4046,−0.1629,0.604,0.882
+SNUH (unadjusted 0.5675),Noncandidate common score,0.1239 (0.0569 to 0.1814),−0.4435 (−0.5307 to −0.3539),0.741 (0.677 to 0.789),1.000
+SNUH (unadjusted 0.5675),Common score and open-sea score,0.0953,−0.4721,—,—

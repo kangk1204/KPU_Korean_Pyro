@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-09",
+  "script": "scripts/refit_public_ml75_sensitivity.py",
+  "scope": "public paired-array ML refit after excluding cg20680720 and cg04481096; aggregate outputs only",
+  "root": "PROJECT_ROOT/124_Integrated_Revision_20260909",
+  "source_builder": "scripts/analyze_public_cpg_ml.py",
+  "source_builder_sha256": "2cd9b5691569f6a39c8124a08554df600f3243f5fb2220d53c51f24dea079497",
+  "original_public_ml_dir": "results/public_ml",
+  "cohorts": [
+    "colonomics",
+    "gse119526"
+  ],
+  "bootstrap_replicates": 2000,
+  "conditional_patient_bootstrap": true,
+  "fold_source": "original 124 results/public_ml/*/oof_predictions.tsv.gz repeat/fold study_id assignments",
+  "private_outputs_written": false,
+  "excluded_from_submission_outputs": [
+    "new sensitivity OOF predictions",
+    "model state dumps",
+    "per-fold train/test patient identifiers",
+    "draw-level bootstrap rows"
+  ],
+  "source_files": {
+    "colonomics": {
+      "beta": "PROJECT_ROOT/119_Figure1_ABC_Revision_20260908/data/derived/Colonomics_beta.tsv.gz",
+      "samples": "PROJECT_ROOT/119_Figure1_ABC_Revision_20260908/data/derived/Colonomics_samples.tsv"
+    },
+    "gse119526": {
+      "signals": "PROJECT_ROOT/114_ML_DataDriven_20260905/data/public/processed/gse119526_table1_signal_intensities.tsv.gz",
+      "samples": "PROJECT_ROOT/114_ML_DataDriven_20260905/data/public/processed/gse119526_sample_metadata.tsv"
+    }
+  },
+  "summary_sha256": "8c446f02927e0fc6183f3a0107b1891e3fcba39165abaefb586dbaae5c1ea008"
+}

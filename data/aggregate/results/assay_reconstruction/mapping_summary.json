@@ -1,0 +1,35 @@
+{
+  "assays": 10,
+  "representative_cpgs": 76,
+  "fixed_array_probes": 77,
+  "array_probes_overlapping_representative_CpGs": 10,
+  "genes_with_representative_CpG_overlap": [
+    "ADHFE1",
+    "EYA4",
+    "GFRA1",
+    "HOXA2",
+    "UNC5C",
+    "ZNF793"
+  ],
+  "overlap_by_gene": {
+    "EYA4": 2,
+    "ZNF568": 0,
+    "ZNF793": 2,
+    "SFMBT2": 0,
+    "ADHFE1": 3,
+    "HOXA2": 1,
+    "GFRA1": 1,
+    "UNC5C": 1,
+    "RALYL": 0,
+    "BEND5": 0
+  },
+  "Korean_measured_probes": 56,
+  "Korean_measured_overlap_count": 5,
+  "Korean_measured_overlap_genes": [
+    "EYA4",
+    "GFRA1",
+    "UNC5C",
+    "ZNF793"
+  ],
+  "exact_primer_pair_regions": 9
+}

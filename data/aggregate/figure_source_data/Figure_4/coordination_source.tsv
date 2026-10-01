@@ -1,0 +1,4 @@
+cohort	scope	n_complete_pairs	n_available_cpgs	n_genes	median_between_gene_rho	ci_low	ci_high	permutation_p	n_boot	n_permutation	status	n_between_gene_pairs	n_positive_between_gene_pairs	valid_bootstraps
+CMCBSN	individual CpGs, between-gene correlations; no methylation averaging	103	56	10	0.6613912928875808	0.5854659788127351	0.7362454629589386	9.999000099990002e-05	5000	10000	estimated	1381	1381	5000
+SNUH	individual CpGs, between-gene correlations; no methylation averaging	142	56	10	0.5685040162115379	0.4954800608252005	0.6326625933082926	9.999000099990002e-05	5000	10000	estimated	1381	1381	5000
+ASAN	individual CpGs, between-gene correlations; no methylation averaging	128	56	10	0.6750766800952206	0.6134970736497737	0.7354287137063162	9.999000099990002e-05	5000	10000	estimated	1381	1381	5000

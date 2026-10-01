@@ -1,0 +1,11 @@
+cohort	gene	n_target_cpgs	n_measured_cpgs	n_positive_delta	n_positive_q77_lt_005	n_negative_q77_lt_005	min_delta_pp	max_delta_pp	summary_type
+CMCBSN	EYA4	17	12	12	12	0	21.768208315892114	29.806245219633322	descriptive counts, not a gene-level hypothesis test
+CMCBSN	ZNF568	8	6	6	6	0	20.677522385111498	30.741671299322636	descriptive counts, not a gene-level hypothesis test
+CMCBSN	ZNF793	8	5	5	5	0	18.85479968373723	26.665741681873556	descriptive counts, not a gene-level hypothesis test
+CMCBSN	SFMBT2	8	6	6	6	0	20.913035636298957	32.27644536918699	descriptive counts, not a gene-level hypothesis test
+CMCBSN	ADHFE1	8	5	5	5	0	27.32173530876455	39.79518147704383	descriptive counts, not a gene-level hypothesis test
+CMCBSN	HOXA2	8	6	6	6	0	24.68092067462199	31.85883827323735	descriptive counts, not a gene-level hypothesis test
+CMCBSN	GFRA1	6	6	6	6	0	19.849652652032677	30.35793947600917	descriptive counts, not a gene-level hypothesis test
+CMCBSN	UNC5C	5	4	4	4	0	20.61078882582122	27.067799139644688	descriptive counts, not a gene-level hypothesis test
+CMCBSN	RALYL	5	2	2	2	0	18.186807542544955	23.54871747939173	descriptive counts, not a gene-level hypothesis test
+CMCBSN	BEND5	4	4	4	4	0	25.9843926951486	37.81941316103235	descriptive counts, not a gene-level hypothesis test

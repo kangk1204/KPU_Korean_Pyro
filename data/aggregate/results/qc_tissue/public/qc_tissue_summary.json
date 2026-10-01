@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "analysis_type": "post hoc complete-patient exclusion robustness",
+  "primary_model": "ridge logistic regression",
+  "features": "same ten genes as primary analysis",
+  "outer_folds": 5,
+  "outer_repeats": 20,
+  "inner_folds": 4,
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "seed": 20260905,
+  "auc_estimator": "mean of repeat-specific specimen-level outer out-of-fold AUCs",
+  "ci_method": "95% percentile interval from 2000 complete-patient cluster resamples, conditional on fitted cross-validation models",
+  "original": {
+    "analysis": "original_primary",
+    "model": "ridge",
+    "patients": 87,
+    "specimens": 174,
+    "tumour_specimens": 87,
+    "normal_specimens": 87,
+    "auc": 0.9680737217598097,
+    "ci_low": 0.9319751618443652,
+    "ci_high": 0.9981117056414324,
+    "bootstrap_replicates": 2000
+  },
+  "sensitivity": {
+    "analysis": "posthoc_exclusion_two_flagged_patient_pairs",
+    "model": "ridge",
+    "patients": 85,
+    "specimens": 170,
+    "tumour_specimens": 85,
+    "normal_specimens": 85,
+    "auc": 0.9672179930795849,
+    "ci_low": 0.930193079584775,
+    "ci_high": 0.9984301038062282,
+    "bootstrap_replicates": 2000
+  },
+  "auc_difference_descriptive_only": -0.0008557286802247654,
+  "contrast_limit": "The cohorts differ. No confidence interval or significance test was calculated for their AUC difference.",
+  "qc_limit": "This sensitivity analysis does not reconstruct historical assay QC or establish assay acceptance.",
+  "models_changed": false,
+  "original_files_unchanged": true,
+  "patient_outputs": "retained privately; public output contains only aggregate results and methods"
+}

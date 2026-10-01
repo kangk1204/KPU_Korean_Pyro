@@ -1,0 +1,31 @@
+path	meaning	units
+public/METHODS_RESULTS.md	Manuscript-ready source-derived methods, results and interpretation boundaries	Correlations dimensionless; effects pp; variance fraction or percent as stated
+public/README.md	Release scope, input access boundary and analysis interpretation	Prose
+public/REGISTRY_PROVENANCE.json	Verifies unchanged copies from the prior public matched-background allowlist	SHA-256 hashes and relative public registry names
+public/RUN_INSTRUCTIONS.md	Explicit input schemas and portable reproduction commands	Schemas and commands; placeholder paths only
+public/Table_S10_display.tsv	Manuscript display cells generated from aggregate source values	See table identity: S8rho; S9A rho/ratios; S9B pp; S10rho/PC1percent
+public/Table_S8_display.tsv	Manuscript display cells generated from aggregate source values	See table identity: S8rho; S9A rho/ratios; S9B pp; S10rho/PC1percent
+public/Table_S9A_display.tsv	Manuscript display cells generated from aggregate source values	See table identity: S8rho; S9A rho/ratios; S9B pp; S10rho/PC1percent
+public/Table_S9B_display.tsv	Manuscript display cells generated from aggregate source values	See table identity: S8rho; S9A rho/ratios; S9B pp; S10rho/PC1percent
+public/aggregates/ASAN_background_score_bootstrap.tsv	500 aggregate bootstrap statistic draws; each row resamples complete patients jointly	Correlations and differences dimensionless; no patient vectors
+public/aggregates/ASAN_set_diagnostics.tsv	Existing5000 synthetic reference-set statistics and equal-region source/target mean effect	Mean delta beta units; correlations dimensionless
+public/aggregates/SNUH_background_score_bootstrap.tsv	500 aggregate bootstrap statistic draws; each row resamples complete patients jointly	Correlations and differences dimensionless; no patient vectors
+public/aggregates/SNUH_set_diagnostics.tsv	Existing5000 synthetic reference-set statistics and equal-region source/target mean effect	Mean delta beta units; correlations dimensionless
+public/aggregates/background_score_adjustment.tsv	Raw, common-score-conditioned, difference and score-association summaries with 500-draw CIs	Rho and rho differences dimensionless; bootstrap/gene/probe counts integer
+public/aggregates/candidate_tissue_decomposition.tsv	Candidate correlations in differences, tumors and adjacent tissues; adjacent/difference variance ratio	Rho and variance ratio dimensionless; pairs integer
+public/aggregates/local_qc_coordination_pairs.tsv	45 gene-pair correlations in each of the two localQC scenarios	Rho, rawP and BHq dimensionless; no patient rows
+public/aggregates/local_qc_coordination_summary.tsv	87-pair and authorized85-pair local correlation and PC1 summaries	Rho dimensionless; PC1 fraction0-1; counts integer
+public/aggregates/normalized_covariance_decomposition.tsv	Raw Pearson covariance components scaled by paired-difference SD products	Dimensionless normalized covariance terms; medians need not add
+public/aggregates/run_provenance.json	Run input/output hashes by logical role and numerical environment; no source paths	SHA-256, bytes, row counts, seed integers
+public/aggregates/set_effect_coordination_relationship.tsv	Candidate and 5000-set mean-effect support; descriptive effect/correlation relationships	Mean effects beta units, multiply by100 for pp; rho dimensionless
+public/registry/ASAN_set_statistics.tsv	Prior public ASAN primary point-statistic verification target	Spearman rho dimensionless
+public/registry/SNUH_set_statistics.tsv	Prior public SNUH primary point-statistic verification target	Spearman rho dimensionless
+public/registry/candidate_regions.tsv	Fixed ten-region candidate registry used in source selection	hg19 positions bp; marginal means beta [0,1]; log descriptors as labeled
+public/registry/control_region_pool.tsv	Frozen 200 slot-specific source-selected noncandidate control regions	hg19 positions bp; marginal means beta [0,1]; distance dimensionless
+public/registry/frozen_control_sets.tsv	Existing 5000 ten-region reference-set memberships	Public region/set identifiers, no patient identifiers
+public/table_specs.json	Display schema with titles, column labels, rows and full table notes	S8 rho; S9A rho/variance ratios; S9B pp; S10 rho/PC1percent
+public_code/build_tables.py	Aggregate-only manuscript display-specification builder	Rho dimensionless; S9B effects percentage points; S10 PC1 percent
+public_code/common_axis.py	Portable explicit-input scientific runner; ranks, common score, paired covariance, reference support and local QC	Beta values [0,1]; local percentages; output correlations and variance fractions dimensionless
+public_code/test_common_axis.py	Synthetic scientific tests; no real patient data	Synthetic dimensionless values
+public_code/verify_outputs.py	Compares ten aggregate TSV outputs to retained reference results	Absolute numeric tolerance 1e-12; byte identity separately
+public_code/verify_release.py	Verifies portable release file hashes and allowed relative paths	SHA-256 and byte counts

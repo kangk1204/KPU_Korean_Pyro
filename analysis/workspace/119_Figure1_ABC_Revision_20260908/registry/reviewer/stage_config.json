@@ -1,0 +1,21 @@
+{
+  "seed": 20260905,
+  "quick": false,
+  "outer_folds": 4,
+  "outer_repeats": 25,
+  "inner_folds": 3,
+  "lambda_grid": {
+    "min": 0.0001,
+    "max": 100,
+    "n": 25
+  },
+  "bootstrap_B": 2000,
+  "blocks": {
+    "provider_clinical": ["cea_log1p", "lvi", "provider_stage_iii"],
+    "provider_combined": ["cea_log1p", "lvi", "provider_stage_iii", "T_EYA4", "T_ZNF568", "T_ZNF793", "T_SFMBT2", "T_ADHFE1", "T_HOXA2", "T_BEND5", "T_UNC5C", "T_RALYL", "T_GFRA1"],
+    "tnm_clinical": ["cea_log1p", "lvi", "tnm_stage_iii"],
+    "tnm_combined": ["cea_log1p", "lvi", "tnm_stage_iii", "T_EYA4", "T_ZNF568", "T_ZNF793", "T_SFMBT2", "T_ADHFE1", "T_HOXA2", "T_BEND5", "T_UNC5C", "T_RALYL", "T_GFRA1"],
+    "nostage_clinical": ["cea_log1p", "lvi"],
+    "nostage_combined": ["cea_log1p", "lvi", "T_EYA4", "T_ZNF568", "T_ZNF793", "T_SFMBT2", "T_ADHFE1", "T_HOXA2", "T_BEND5", "T_UNC5C", "T_RALYL", "T_GFRA1"]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "combined_rows": 539,
+  "context_rows": 154,
+  "contract_sha256": "a20bc281baf411847574e0fea22170fccaf09856f8641b92551c148247c976b8",
+  "contract_status": "execution_complete",
+  "estimated_by_output": {
+    "ColoCare_GSE101764_GSE106582|unadjusted|methylation_expression_spearman": 77,
+    "Colonomics|rank_residual_age_sex_site_stroma|methylation_expression_spearman": 77,
+    "Colonomics|source_cms_labels|CMS_global_Kruskal": 77,
+    "Colonomics|unadjusted|methylation_expression_spearman": 77,
+    "Colonomics|unadjusted|stromal_spearman": 77,
+    "GSE164811_MATCH|Welch_CMS3_minus_CMS2|CMS3-CMS2": 75,
+    "GSE164811_MATCH|sex_site_adjusted_OLS_CMS3_minus_CMS2|CMS3-CMS2_adjusted": 75
+  },
+  "expression_rows": 231,
+  "fixed_cpg_rows": 77,
+  "match_rows": 154,
+  "metadata_cleanup": {
+    "corrected_contract_status": true,
+    "numeric_result_hashes_unchanged": true,
+    "numeric_results_rerun": false
+  },
+  "minimum_q_by_output": {
+    "ColoCare_GSE101764_GSE106582|unadjusted|methylation_expression_spearman": 7.977061698862382e-05,
+    "Colonomics|rank_residual_age_sex_site_stroma|methylation_expression_spearman": 0.006220388228302352,
+    "Colonomics|source_cms_labels|CMS_global_Kruskal": 0.0019945847292111864,
+    "Colonomics|unadjusted|methylation_expression_spearman": 0.0018662787907587303,
+    "Colonomics|unadjusted|stromal_spearman": 6.870476009947934e-06,
+    "GSE164811_MATCH|Welch_CMS3_minus_CMS2|CMS3-CMS2": 9.10342984562671e-11,
+    "GSE164811_MATCH|sex_site_adjusted_OLS_CMS3_minus_CMS2|CMS3-CMS2_adjusted": 3.452470299388933e-10
+  },
+  "n_bootstrap_requested": 5000,
+  "outputs": [
+    {
+      "bytes": 2346,
+      "path": "results/public_context/fixed77_cpg_annotation.tsv",
+      "sha256": "28c1fdfeda7470a850d4a9de027fb3e17ab0650194b73c111f09fde2c2a632d5"
+    },
+    {
+      "bytes": 52172,
+      "path": "results/public_context/expression_cpg_associations.tsv",
+      "sha256": "d81a3788abc707c31fb0085bd5170996837ca9eebb67a1a1b706ae5a21ed3b31"
+    },
+    {
+      "bytes": 9404,
+      "path": "results/public_context/GSE101764_same_cpg_technical_replicate_audit.tsv",
+      "sha256": "98eee91ccb8fd8cecc546af82cab9dfb6ea3aef7097202c4b4444a098b02acd2"
+    },
+    {
+      "bytes": 28176,
+      "path": "results/public_context/colonomics_cpg_context.tsv",
+      "sha256": "75d3bd45ba2a8e9e7cd769fac1440ecbe13799c10e4d948c5587cf55ad690632"
+    },
+    {
+      "bytes": 36569,
+      "path": "results/public_context/match_cms_cpg_contrasts.tsv",
+      "sha256": "35259d542287faa2b7401171dcf45f627d8054ac5de63b8c0c521c8169474585"
+    },
+    {
+      "bytes": 118257,
+      "path": "results/public_context/all_public_cpg_context.tsv",
+      "sha256": "dd9e87aabb19f83a5267a71effa5ac516b78f153314526528474c161b8445ed2"
+    }
+  ],
+  "promoter_cpg_rows": 44,
+  "top_cpg_by_output": [
+    {
+      "analysis": "methylation_expression_spearman",
+      "cohort": "ColoCare_GSE101764_GSE106582",
+      "cpg": "cg20912169",
+      "effect": -0.5166675429833324,
+      "gene": "ADHFE1",
+      "model": "unadjusted",
+      "p": 1.5067198942520368e-06,
+      "q_BH77": 7.977061698862382e-05
+    },
+    {
+      "analysis": "methylation_expression_spearman",
+      "cohort": "Colonomics",
+      "cpg": "cg14732998",
+      "effect": -0.4033686770297407,
+      "gene": "ZNF793",
+      "model": "rank_residual_age_sex_site_stroma",
+      "p": 8.078426270522535e-05,
+      "q_BH77": 0.006220388228302352
+    },
+    {
+      "analysis": "CMS_global_Kruskal",
+      "cohort": "Colonomics",
+      "cpg": "cg02803819",
+      "effect": 21.37186819056666,
+      "gene": "HOXA2",
+      "model": "source_cms_labels",
+      "p": 8.811999531118014e-05,
+      "q_BH77": 0.0019945847292111864
+    },
+    {
+      "analysis": "methylation_expression_spearman",
+      "cohort": "Colonomics",
+      "cpg": "cg24675448",
+      "effect": -0.40838781923924433,
+      "gene": "EYA4",
+      "model": "unadjusted",
+      "p": 4.3860224024188716e-05,
+      "q_BH77": 0.0018662787907587303
+    },
+    {
+      "analysis": "stromal_spearman",
+      "cohort": "Colonomics",
+      "cpg": "cg13265789",
+      "effect": -0.5135300131161386,
+      "gene": "UNC5C",
+      "model": "unadjusted",
+      "p": 1.2033472106830605e-07,
+      "q_BH77": 6.870476009947934e-06
+    },
+    {
+      "analysis": "CMS3-CMS2",
+      "cohort": "GSE164811_MATCH",
+      "cpg": "cg21761844",
+      "effect": 0.16750807184017608,
+      "gene": "ZNF568",
+      "model": "Welch_CMS3_minus_CMS2",
+      "p": 1.984337290438083e-12,
+      "q_BH77": 9.10342984562671e-11
+    },
+    {
+      "analysis": "CMS3-CMS2_adjusted",
+      "cohort": "GSE164811_MATCH",
+      "cpg": "cg21761844",
+      "effect": 0.1609743359137954,
+      "gene": "ZNF568",
+      "model": "sex_site_adjusted_OLS_CMS3_minus_CMS2",
+      "p": 4.533692523258672e-12,
+      "q_BH77": 3.452470299388933e-10
+    }
+  ]
+}

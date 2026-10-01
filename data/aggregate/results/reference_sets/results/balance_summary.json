@@ -1,0 +1,34 @@
+{
+  "n_regions": 200,
+  "n_unique_genes": 151,
+  "n_unique_control_probes": 965,
+  "tier1_slots": [
+    "EYA4",
+    "ZNF793",
+    "SFMBT2",
+    "ADHFE1",
+    "GFRA1",
+    "UNC5C",
+    "BEND5"
+  ],
+  "tier2_slots": [
+    "ZNF568",
+    "HOXA2",
+    "RALYL"
+  ],
+  "tier3_slots": [],
+  "source_delta_gap_pp_range": [
+    -14.27976313717123,
+    -3.856176421206403
+  ],
+  "source_normal_gap_pp_range": [
+    -4.465087468746392,
+    11.868140575199321
+  ],
+  "source_set_mean_delta_gap_pp_median": -9.03843693955003,
+  "source_set_mean_delta_gap_pp_q025_q975": [
+    -10.99086098760447,
+    -6.757610278871267
+  ],
+  "interpretability": "limited: systematic lower control hypermethylation remains, despite source-frozen annotation/geometry/distribution matching; higher target correlations cannot distinguish panel specificity from residual methylation-magnitude/distribution differences"
+}
